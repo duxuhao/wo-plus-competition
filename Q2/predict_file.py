@@ -1,29 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr 09 13:53:39 2016
+Created on Thu Apr 14 21:44:26 2016
 
 @author: 21644336
 """
-# -*- coding: utf-8 -*-
+
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
 from sklearn.cross_validation import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-#this code is commented if you got the output file
-'''
-Month = ["01","02","03","04","05","06","07","08","09","10","11","12"]
-df = pd.DataFrame()
-for month in Month:
-    filename = "Q2" + "2015" + month + ".csv"
-    test = pd.read_csv(filename,encoding="GBK")
-    df =pd.concat([df, test], axis = 0)
-
-df.columns = ['Month', 'IMSI','Network','Gender','Age','APRU','Brand','Model','Data','Call','SMS']
-df = df.sort_values(['IMSI','Month'])
-'''
 
 df=pd.read_csv('Q2.csv',encoding='GBK')
+label=pd.read_csv('label_3_months.csv',header=None)
+label.columns = ['Index','label']
+Brand=pd.read_csv('Price_Brand.csv')
 
 #change the gender to number
 df.loc[df.Gender == u'\u7537','Gender']=0
@@ -69,15 +60,12 @@ df.loc[df.Flow == u'5000\u4ee5\u4e0a','Flow']=5500
 df.loc[df.Flow == u'4500-4999','Flow']=4750
 df.loc[pd.isnull(df.Flow),'Flow'] = 0
 
+new = pd.merge(df, Brand,on='Brand', left_index=True,how='left')
+T =  ~pd.isnull(new.Price)
+y=label.label[T.values][(df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512)]
+X = new[T][(new[T].Month != 201510) & (new[T].Month != 201511) & (new[T].Month != 201512)]
+X_train, X_test, y_train, y_test=train_test_split(X[['Month','APRU','Flow','Call','SMS','Gender','Age','Network','Price']], y, test_size = 0.3)
 
-#df.Model = map(str.lower,df.Model)
-#df.Brand = map(str.lower,df.Brand)
-label = pd.Series(np.zeros(len(df)))
-for i, model in enumerate(df.Model):
-    #if (i+1) % 10 & (i+1) % 11 & (i+1) % 12:
-    if 1-int(model == df[i+3:i+4].Model):
-        label[i]= 1
-        print i
-
-
-#brand_label = pd.concat([df, label.label],axis=1)
+clf =DecisionTreeClassifier()
+clf.fit(X_train, y_train)
+clf.score(X_test, y_test)

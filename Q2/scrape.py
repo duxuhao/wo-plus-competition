@@ -9,15 +9,15 @@ import numpy as np
 import requests
 from bs4 import BeautifulSoup
 
-T = np.load("Phone_Name.npy")
-Price_file = open('Price.csv','a')
-'''
-Price_file.write('Model')
+T = np.load("Brand.npy")
+Price_file = open('Price_Brand.csv','a')
+
+Price_file.write('Brand')
 Price_file.write(',')
 Price_file.write('Price')
-'''
-n=0.3
-for i in range(469,len(T)):
+
+n=0
+for i in range(len(T)):
     Price_file.write('\n')
     try:
         Price_file.write(str(T[i]))
@@ -27,10 +27,11 @@ for i in range(469,len(T)):
             req = requests.get(website)
             a = req.text
             soup = BeautifulSoup(a,'html.parser')
-            price = soup.em.string[1:]
+            #price = soup.em.string[1:]
             Price_file.write(',')
-            Price_file.write(price)
-            print str(T[i]) + "      " + price
+            price = len(str(soup))
+            Price_file.write(str(price))
+            print str(T[i]) + "      " + str(price)
         except:
             n += 0.01
             Price_file.write(',')

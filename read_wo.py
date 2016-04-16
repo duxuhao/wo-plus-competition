@@ -35,11 +35,12 @@ df.rename(columns={u'访问其他类网站的次数': 'browseOtherSites'}, inpla
 df.rename(columns={u'访问网游类网站的次数': 'browseOnlineGamingSites'}, inplace=True)
 
 #df["CrossProvinceExp"][df["CrossProvinceExp"] == u'\u662f'] = 1 # replace Yes with 1
+#df.loc[df["CrossProvinceExp"] == u'\u662f','CrossProvinceExp'] = 1 # replace Yes with 1
 df.loc[df["CrossProvinceExp"] == u'\u662f','CrossProvinceExp'] = 1 # replace Yes with 1
-df["CrossProvinceExp"][df["CrossProvinceExp"] == u'\u5426'] = 0 # replace No with 0
+df.loc[df["CrossProvinceExp"] == u'\u5426',"CrossProvinceExp"] = 0 # replace No with 0
 
-df["OverseaExp"][df["OverseaExp"] == u'\u662f'] = 1 # replace Yes with 1
-df["OverseaExp"][df["OverseaExp"] == u'\u5426'] = 0 # replace No with 0
+df.loc[df["OverseaExp"] == u'\u662f',"OverseaExp"] = 1 # replace Yes with 1
+df.loc[df["OverseaExp"] == u'\u5426',"OverseaExp"] = 0 # replace No with 0
 
 
 
@@ -50,6 +51,6 @@ check1 = len(df["CrossProvinceExp"][mask1])
 mask2 = (df["OverseaExp"] != 0) & (df["OverseaExp"] != 1)
 check2 = len(df["OverseaExp"][mask2])
 
-df.to_csv('wo2.csv', index=False)
-print('Done')
+#df.to_csv('wo2.csv', index=False)
+#print('Done')
 #df1 = df[1:10]

@@ -7,9 +7,6 @@ Created on Sat Apr 09 13:53:39 2016
 # -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
-from sklearn.cross_validation import train_test_split
-from sklearn.tree import DecisionTreeClassifier
 #this code is commented if you got the output file
 '''
 Month = ["01","02","03","04","05","06","07","08","09","10","11","12"]
@@ -72,12 +69,18 @@ df.loc[pd.isnull(df.Flow),'Flow'] = 0
 
 #df.Model = map(str.lower,df.Model)
 #df.Brand = map(str.lower,df.Brand)
-label = pd.Series(np.zeros(len(df)))
+label = pd.Series(np.ones(len(df)))
 for i, model in enumerate(df.Model):
-    #if (i+1) % 10 & (i+1) % 11 & (i+1) % 12:
-    if 1-int(model == df[i+3:i+4].Model):
-        label[i]= 1
-        print i
+    try:
+        a = str(model.lower().replace(" ","").replace("(","").replace(")",""))
+        b = str(df[i+3:i+4].Model).lower().replace(" ","").replace("(","").replace(")","")
+        if bool(a.find(b)+1) | bool(b.find(a)+1):
+            label[i]= 0
+            print i
+    except:
+        label[i]= 0
+                
+label.to_csv('Change_Phone.csv')
 
 
 #brand_label = pd.concat([df, label.label],axis=1)

@@ -7,12 +7,14 @@ Created on Thu Apr 14 21:44:26 2016
 
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
+from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier, GradientBoostingClassifier, BaggingClassifier
 from sklearn.cross_validation import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-
+from sklearn.tree import DecisionTreeClassifier, ExtraTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from multiprocessing import Pool
+pool = Pool(8)
 df=pd.read_csv('Q2.csv',encoding='GBK')
-label=pd.read_csv('label_3_months.csv',header=None)
+label=pd.read_csv('Change_Phone.csv',header=None)
 label.columns = ['Index','label']
 Brand=pd.read_csv('Price_Brand.csv')
 
@@ -64,8 +66,9 @@ new = pd.merge(df, Brand,on='Brand', left_index=True,how='left')
 T =  ~pd.isnull(new.Price)
 y=label.label[T.values][(df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512)]
 X = new[T][(new[T].Month != 201510) & (new[T].Month != 201511) & (new[T].Month != 201512)]
+
 X_train, X_test, y_train, y_test=train_test_split(X[['Month','APRU','Flow','Call','SMS','Gender','Age','Network','Price']], y, test_size = 0.3)
 
-clf =DecisionTreeClassifier()
+clf =GradientBoostingClassifier()
 clf.fit(X_train, y_train)
-clf.score(X_test, y_test)
+print(clf.score(X_test, y_test))

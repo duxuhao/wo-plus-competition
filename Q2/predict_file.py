@@ -13,14 +13,19 @@ from sklearn.tree import DecisionTreeClassifier, ExtraTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from multiprocessing import Pool
 from sklearn.metrics import roc_auc_score
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
 pool = Pool(8)
-df=pd.read_csv('Q2.csv',encoding='GBK')
+#df=pd.read_csv('Q2.csv',encoding='GBK')
+df=pd.read_csv('Q2_DIgit.csv',encoding='utf-8')
 label=pd.read_csv('Change_Phone.csv',header=None)
 label.columns = ['Index','label']
-Brand=pd.read_csv('Price_Brand.csv')
-Model=pd.read_csv('Price_Brand_Model2.csv')
-
+Brand=pd.read_csv('Price_Brand_baidu.csv',encoding='utf-8')
+Model=pd.read_csv('Price_Model.csv')
+'''#data in Q2_Digit has already transfer the str to number
 #change the gender to number
 df.loc[df.Gender == u'\u7537','Gender']=0
 df.loc[df.Gender == u'\u5973','Gender']=1
@@ -64,28 +69,46 @@ df.loc[df.Flow == u'4000-4499','Flow']=4250
 df.loc[df.Flow == u'5000\u4ee5\u4e0a','Flow']=5500
 df.loc[df.Flow == u'4500-4999','Flow']=4750
 df.loc[pd.isnull(df.Flow),'Flow'] = 0
+'''
 
 #add previouse data
-add = 'call'
+frame = []
+add = 'label' #this one must be added as it take 30% importance
 name = add + '2015.csv'
 previous=pd.read_csv(name)
 variable_name = add + '_ave'
 for i in range(12):
-    frame.append(pd.DataFrame({'Month':np.ones(len(Call))*i + 201501,'IMSI':IMSI, variable_name:np.mean(Call.ix[:,1:i+2],axis=1)}))
+    frame.append(pd.DataFrame({'Month':np.ones(len(previous))*i + 201501,'IMSI':previous.IMSI, variable_name:np.sum(previous.ix[:,1:i+1],axis=1)}))
     
 previous_change = pd.concat(frame) 
-new = pd.merge(df, previous_change, on=['Month','IMSI'], left_index=True,how='left')
+previous_change.loc[pd.isnull(previous_change.label_ave),'label_ave'] = 0
+df = pd.merge(df, previous_change, on=['Month','IMSI'], left_index=True,how='left')
 
-new = pd.merge(new, Brand,on='Brand', left_index=True,how='left')
-T =  ~pd.isnull(new.Price)
-y=label.label[T.values][(df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512)]
-X = new[T][(new[T].Month != 201510) & (new[T].Month != 201511) & (new[T].Month != 201512)]
 
-X_train, X_test, y_train, y_test=train_test_split(X[['Month','APRU','Flow','Call','SMS','Gender','Age','Network','Price']], y, test_size = 0.3)
+'''
+Model.Model = Model.Model.str.replace("\"","")
+Model.Model = Model.Model.str.replace("\n","")
+Model = Model.drop_duplicates(cols = 'Model')
+'''   
+new = pd.merge(df, Brand,on='Brand', left_index=True,how='left')
+#new = pd.merge(new, Model,on='Model', left_index=True,how='left')
+#T =  ~pd.isnull(new.Price)
+new.loc[pd.isnull(new.Result_Quantity),'Result_Quantity'] = 0
+#new.loc[pd.isnull(new.Price),'Price'] = 0
+#y=label.label[T.values][(df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512)]
+#X = new[T][(new[T].Month != 201510) & (new[T].Month != 201511) & (new[T].Month != 201512)]
+T = (df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512)
+T = T.reset_index()
+y=label.label[T.Month]
+X = new[(new.Month != 201510) & (new.Month != 201511) & (new.Month != 201512)]
+
+train = X.ix[:,(X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'Unnamed: 0')]
+X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = 0.3)
 
 clf =GradientBoostingClassifier()
 clf.fit(X_train, y_train)
-#print(clf.score(X_test, y_test))
-pro = clf.predict_proba(X_test)
+print(clf.score(X_test, y_test))
+#pro = clf.predict_proba(X_test)
 
-auc = roc_auc_score(y_test,pro[:,1])
+auc = roc_auc_score(y_test,clf.predict_proba(X_test)[:,1])
+print(auc)

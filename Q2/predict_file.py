@@ -20,12 +20,13 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
 pool = Pool(8)
 #df=pd.read_csv('Q2.csv',encoding='GBK')
-df=pd.read_csv('Q2_DIgit.csv',encoding='utf-8')
+df=pd.read_csv('Q2_DIgit_Less_Chinese.csv',encoding='utf-8')
 label=pd.read_csv('Change_Phone.csv',header=None)
 label.columns = ['Index','label']
 Brand=pd.read_csv('Price_Brand_baidu.csv',encoding='utf-8')
 Model=pd.read_csv('Price_Model.csv')
-'''#data in Q2_Digit has already transfer the str to number
+#data in Q2_Digit has already transfer the str to number
+'''
 #change the gender to number
 df.loc[df.Gender == u'\u7537','Gender']=0
 df.loc[df.Gender == u'\u5973','Gender']=1
@@ -78,7 +79,7 @@ name = add + '2015.csv'
 previous=pd.read_csv(name)
 variable_name = add + '_ave'
 for i in range(12):
-    frame.append(pd.DataFrame({'Month':np.ones(len(previous))*i + 201501,'IMSI':previous.IMSI, variable_name:np.sum(previous.ix[:,1:i+1],axis=1)}))
+    frame.append(pd.DataFrame({'Month':np.ones(len(previous))*i + 201501,'IMSI':previous.IMSI, variable_name:np.mean(previous.ix[:,1:i+2],axis=1)}))
     
 previous_change = pd.concat(frame) 
 previous_change.loc[pd.isnull(previous_change.label_ave),'label_ave'] = 0
@@ -102,7 +103,7 @@ T = T.reset_index()
 y=label.label[T.Month]
 X = new[(new.Month != 201510) & (new.Month != 201511) & (new.Month != 201512)]
 
-train = X.ix[:,(X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'Unnamed: 0')]
+train = X.ix[:,(X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'Unnamed: 0')& (X.columns != 'Unnamed: 0.1')]
 X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = 0.3)
 
 clf =GradientBoostingClassifier()

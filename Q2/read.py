@@ -19,8 +19,14 @@ for month in Month:
 df.columns = ['Month', 'IMSI','Network','Gender','Age','APRU','Brand','Model','Data','Call','SMS']
 df = df.sort_values(['IMSI','Month'])
 '''
-
+#range to digit
 df=pd.read_csv('Q2.csv',encoding='GBK')
+Brand=pd.read_csv('Price_Brand_baidu.csv',encoding='utf-8') # the search result quantity of the coresponding brand
+Model=pd.read_csv('Model_Price_u.csv') # the price of the model
+Trend = pd.read_csv('Brand_Trend_Scale.csv',encoding = 'utf-8')
+previous2=pd.read_csv('BrandSR.csv')
+Dic=pd.read_csv('Dic.csv',encoding = 'utf-8')
+
 
 #change the gender to number
 df.loc[df.Gender == u'\u7537','Gender']=0
@@ -66,21 +72,50 @@ df.loc[df.Flow == u'5000\u4ee5\u4e0a','Flow']=5500
 df.loc[df.Flow == u'4500-4999','Flow']=4750
 df.loc[pd.isnull(df.Flow),'Flow'] = 0
 
+df.to_csv('Temp.csv',index=None,encoding = 'utf-8')
+df = pd.read_csv('Temp.csv',index=None,encoding = 'utf-8')
 
-#df.Model = map(str.lower,df.Model)
-#df.Brand = map(str.lower,df.Brand)
-label = pd.Series(np.ones(len(df)))
-for i, model in enumerate(df.Model):
-    try:
-        a = str(model.lower().replace(" ","").replace("(","").replace(")",""))
-        b = str(df[i+3:i+4].Model).lower().replace(" ","").replace("(","").replace(")","")
-        if bool(a.find(b)+1) | bool(b.find(a)+1):
-            label[i]= 0
-            print i
-    except:
-        label[i]= 0
-                
-label.to_csv('Change_Phone.csv')
+#brand chinese to english
+Dic.columns = ['Brand', 'Chi']
+for i in range(len(Dic)):
+    a = df.Brand.replace(Dic.Chi[i],Dic.Brand[i],inplace = True)
 
+df = pd.merge(df, Brand,on='Brand', left_index=True,how='left')
+df.loc[pd.isnull(df.Result_Quantity),'Result_Quantity'] = 0
+df = pd.merge(df, Model,on='Model', left_index=True,how='left')
+df.loc[pd.isnull(df.Price),'Price'] = 0
 
-#brand_label = pd.concat([df, label.label],axis=1)
+label_range =np.array([0, 1e3, 1e4, 1e5, 1e6, 5e6, 1e7])
+# the data for previous information
+frame1 = []
+frame2 = []
+frame3 = []
+frame4 = []
+add = 'labelcompare1' #compare the the last month, phone change or not.
+name = add + '2015.csv'
+previous=pd.read_csv(name)
+variable_name = add + '_ave'
+for i in range(12):
+    frame1.append(pd.DataFrame({'Month':np.ones(len(previous))*i + 201501,'IMSI':previous.IMSI, variable_name:np.mean(previous.ix[:,1:i+2],axis=1)}))
+    frame2.append(pd.DataFrame({'Month':np.ones(len(previous))*i + 201501,'IMSI':previous.IMSI, 'previous_label':np.mean(previous.ix[:,i+1:i+2],axis=1)}))
+    frame3.append(pd.DataFrame({'Month':np.ones(len(previous))*i + 201501,'IMSI':previous.IMSI, 'previous_label2':np.mean(previous.ix[:,i+0:i+1],axis=1)}))
+    t = np.mean(previous2.ix[:,1:i+2],axis=1)
+    tt = np.array([t,t,t,t,t,t,t]).T
+    a = np.argmin(np.abs(tt - label_range),axis=1) +1
+    frame4.append(pd.DataFrame({'Month':np.ones(len(previous2))*i + 201501,'IMSI':previous2.IMSI, 'Label':a}))
+
+previous_change = pd.concat(frame1) 
+previous_change.loc[pd.isnull(previous_change[variable_name]),variable_name] = 0
+df = pd.merge(df, previous_change, on=['Month','IMSI'], left_index=True,how='left')
+previous_label = pd.concat(frame2)
+previous_label.loc[pd.isnull(previous_label['previous_label']),'previous_label'] = 0
+df = pd.merge(df, previous_label, on=['Month','IMSI'], left_index=True,how='left')
+previous_label2 = pd.concat(frame3) 
+previous_label2.loc[pd.isnull(previous_label2['previous_label2']),'previous_label2'] = 0
+df = pd.merge(df, previous_label2, on=['Month','IMSI'], left_index=True,how='left')
+previous_brand = pd.concat(frame4)
+previous_brand.loc[pd.isnull(previous_brand['Label']),'Label'] = 1
+df = pd.merge(df, previous_brand, on=['Month','IMSI'], left_index=True,how='left')
+df = pd.merge(df, Trend,on=['Month','Label'], left_index=True,how='left')
+
+df.to_csv('Q2_used.csv',encoding = 'utf-8',index = None)

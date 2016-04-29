@@ -12,6 +12,8 @@ Created on Thu Apr 21 20:34:10 2016
 @author: 21644336
 """
 
+# use for the 602CADV20160427.csv answer with LoopNumber = 2, N = 2
+
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import GradientBoostingClassifier , RandomForestClassifier # this method give the best, haven't try ANN
@@ -22,70 +24,144 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 pool = Pool(8)
-df=pd.read_csv('Q2_merge_all.csv',encoding='utf-8') # this used dataset with the basic privided parameter
+origin=pd.read_csv('Q2_merge_all.csv',encoding='utf-8') # this used dataset with the basic privided parameter
+df = origin.copy()
 test = pd.read_csv('Test_IMSI_all_used.csv',encoding = 'utf-8',header = None)
-label=pd.read_csv('Change_Phone.csv',header=None) #the label for customer change cellphone or not
-#The following is the clean and merge data process, the used one is saved as the Q2_merge_all.csv file
 Test_Percentage = 0.3
-test.columns = ['IMSI']
-label.columns = ['Index','label'] #label the label
-
+test.columns = ['IMSI','No']
+Trend = pd.read_csv('Trend_new.csv',encoding = 'utf-8')
+label=pd.read_csv('label3.csv',encoding='utf-8')
+df = pd.merge(df, label,on=['IMSI','Month'], left_index=False,how='left')
+df = df.ix[:, df.columns != 'Trend']
+df = pd.merge(df, Trend,on=['Month','Label'], left_index=False,how='left')
 df= pd.merge(df, test, on='IMSI', right_index=True,how='inner')
-label = label.iloc[df.index]
 
-#zero round
-T = (df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512) # only the 12 months data provided, so label for 201510 to 201512
-X = df[T]
-#T = T.reset_index()
-y=label.label[T]
-#delete features that cannot be used
-Unused_Feature = (df.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI')
-train = X.ix[:,Unused_Feature]
-X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = Test_Percentage, random_state = np.random.randint(100000))
-clf =RandomForestClassifier()
-clf.fit(X_train, y_train)
-auc = roc_auc_score(y_test,clf.predict_proba(X_test)[:,1])
-print '0 Loop: ' + str(auc)
+new_set =df[['IMSI','Month','previous_label','previous_label2', 'Trend','label','Result_Quantity','labelcompare1_ave','No']]
+LoopNumber =2 #loop times
+N = 2 #use previous N months predict
 
-LoopNumber =7 #loop times
-N = 3 #N months predict
-for ite in range(LoopNumber):
-    train = df.ix[:,Unused_Feature]
-    prob = clf.predict_proba(train)
-    T = (df.Month != 201510) & (df.Month != 201511) & (df.Month != 201512)
-    for i in range(N):
-        dfname1 = 'L' + str(ite * N + i + 1) + 'N'
-        dfname2 = 'L' + str(ite * N + i + 1) + 'P'
-        t1 = np.vstack((prob[-i-1:],prob[:-i-1]))
-        #df[dfname1] = pd.Series(t1[:,0], index=df.index)
-        df[dfname2] = pd.Series(t1[:,1], index=df.index)
-        T = (df.Month != (201500 + i + 1)) & T  
-    X = df[T]  
-    #T = T.reset_index()
-    y=label.label[T]
-    Unused_Feature = (X.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI')
+print '\n'
+print '-' * 100
+print 'In this training, we use ' + str(N+1) + "months' data to predict the next 3 months' condiction"
+print 'Each training of the dataset  will be repeted for ' + str(LoopNumber + 1) + ' times'
+print '\n'
+
+for next in range(N+1):
+    print ' ---- Start the training for the next ' + str(next+1) + " months' label prediction----"
+    name='label'+str(next+1) +'.csv'
+    label=pd.read_csv(name,encoding='utf-8')
+    df = origin.copy()
+    df = pd.merge(df, label,on=['IMSI','Month'], left_index=False,how='left')
+    df = df.ix[:, df.columns != 'Trend']
+    df = pd.merge(df, Trend,on=['Month','Label'], left_index=False,how='left')
+    df= pd.merge(df, test, on='IMSI', right_index=True,how='inner')    
+    #zero round
+    h = (df.Month != 201512)
+    for lo in range(next+1):
+        h = h & (df.Month != 201512-lo)
+    X = df[h]
+    y = X.label
+    #delete features that cannot be used
+    Unused_Feature = (df.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
     train = X.ix[:,Unused_Feature]
     X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = Test_Percentage, random_state = np.random.randint(100000))
-    clf =RandomForestClassifier()    
-    if (ite == LoopNumber-1):
-           clf = GradientBoostingClassifier()
+    clf =RandomForestClassifier()
     clf.fit(X_train, y_train)
     auc = roc_auc_score(y_test,clf.predict_proba(X_test)[:,1])
-    print str(ite+1) + ' Loop: ' + str(auc)
+    print '0 Loop AUC:           ' + str(auc)
     
+    for ite in range(LoopNumber):
+        train = df.ix[:,Unused_Feature]
+        prob = clf.predict_proba(train)
+        T = h
+        for i in range(N):
+            dfname2 = 'L' + str(ite * N + i + 1)
+            t1 = np.vstack((prob[-i-1:],prob[:-i-1]))
+            df[dfname2] = pd.Series(t1[:,1], index=df.index)
+            T = (df.Month != (201500 + i + 1)) & T  
+         
+        X = df[T]  
+        y = X.label
+        Unused_Feature = (X.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
+        train = X.ix[:,Unused_Feature]
+        X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = Test_Percentage, random_state = np.random.randint(100000))
+        clf =RandomForestClassifier()    
+        if (ite == LoopNumber-1):
+               clf = GradientBoostingClassifier()
+        clf.fit(X_train, y_train)
+        auc = roc_auc_score(y_test,clf.predict_proba(X_test)[:,1])
+        print str(ite+1) + ' Loop AUC:           ' + str(auc)
+    
+    X = df
+    Unused_Feature = (X.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
+    train = X.ix[:,Unused_Feature]
+    prob= clf.predict_proba(train+1)
+    for lo in range(next+1):
+        t1 = np.vstack((prob[-lo:],prob[:-lo]))
+        name = str(next+1) + str(lo+1)
+        new_set[name] = pd.Series(t1[:,1], index=new_set.index)
+    print '                 -- complete next ' + str(next+1) + " months' prediction --  "
+print '\n'
+print ' ---- Finish the prepared loop ----'
+print '\n'
+Unused_Feature = (new_set.columns != 'Month') & (new_set.columns != 'IMSI') & (new_set.columns != 'label')
+T =(new_set.Month != 201512)
 
+for mm in range(1, 1 + N):
+    T = T & (new_set.Month != 201500 + mm) & (new_set.Month != 201512 - mm + 1)
+    
+X = new_set[T]
+train = X.ix[:, Unused_Feature]
+y = X.label
+X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = Test_Percentage, random_state = np.random.randint(100000))
+clf = GradientBoostingClassifier()
+clf.fit(X_train, y_train)
+auc = roc_auc_score(y_test,clf.predict_proba(X_test)[:,1])
+print 'Final test set AUC: ' + str(auc)
+print '\n'
+print ' ---- Verification Set ----'
+print '\n'
+T = (new_set.Month == 201509)
+auc2 = roc_auc_score(new_set[T].label,clf.predict_proba(new_set[T].ix[:, Unused_Feature])[:,1])
+print '\n'
+print 'The AUC for unkonwn next three months is: ' + str(auc2)
+
+
+print '  ---- Write to the file ---- '
+Unused_Feature = (new_set.columns != 'Month') & (new_set.columns != 'Brand') & (new_set.columns != 'Model') & (new_set.columns != 'IMSI') & (new_set.columns != 'label')
+train = new_set.ix[:,Unused_Feature]
+new_set['score'] = pd.Series(np.round(clf.predict_proba(train)[:,1],5), index=train.index)
+pre = new_set[new_set.Month == 201512]
+pre = pre[['IMSI','score']]
+pre.columns = ['Idx','score']
+test.columns = ['Idx','No']
+new = pd.merge(test.Idx, pre,on='Idx', left_index=True,how='left' )
+#new.to_csv('woplus_submit_sample.csv',encoding = 'utf-8', index = None)
+print '  ---- Done ---- '
+
+'''
 sns.set_style('darkgrid')
 plt.bar(range(len(X_test.columns)),clf.feature_importances_)
 plt.xticks(np.arange(len(X_test.columns))+0.5,X_test.columns)
 print 'Prediction Accuracy: ' + str(clf.score(X_test, y_test))
-Unused_Feature = (X.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI')
-train = X.ix[:,Unused_Feature]
+Unused_Feature = (df.columns != 'Month') & (df.columns != 'Brand') & (df.columns != 'Model') & (df.columns != 'IMSI')
+train = df.ix[:,Unused_Feature]
 
-train['score'] = pd.Series(predict_proba(train)[:,1], index=train.index)
-pre = train[train.Month == 201512]
+T = (df.Month == 2015011)
+X = df[T]
+y = X.label
+Unused_Feature = (X.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
+train = X.ix[:,Unused_Feature]
+print(roc_auc_score(y,clf.predict_proba(train)[:,1]))
+
+df['score'] = pd.Series(clf.predict_proba(train)[:,1], index=train.index)
+pre = df[df.Month == 201512]
 pre = pre[['IMSI','score']]
 pre.columns = ['Idx','score']
-pre.to_csv('Test_IMSI_all.csv',encoding = 'utf-8', index = None)
+test.columns = ['Idx']
+new = pd.merge(test, pre,on='Idx', left_index=True,how='left' )
+new.to_csv('Test_IMSI_all.csv',encoding = 'utf-8', index = None)
+'''
 '''
 Brand=pd.read_csv('Price_Brand_baidu.csv',encoding='utf-8') # the search result quantity of the coresponding brand
 Model=pd.read_csv('Model_Price_u.csv') # the price of the model
@@ -213,7 +289,4 @@ clf =GradientBoostingClassifier()
 clf.fit(X_train, y_train)
 auc = roc_auc_score(y_test,clf.predict_proba(X_test)[:,1])
 print 'Sixth Loop: ' + str(auc)
-'''
-'''
-
 '''

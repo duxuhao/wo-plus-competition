@@ -73,7 +73,7 @@ df.loc[df.Flow == u'4500-4999','Flow']=4750
 df.loc[pd.isnull(df.Flow),'Flow'] = 0
 
 df.to_csv('Temp.csv',index=None,encoding = 'utf-8')
-df = pd.read_csv('Temp.csv',index=None,encoding = 'utf-8')
+df = pd.read_csv('Temp.csv',encoding = 'utf-8')
 
 #brand chinese to english
 Dic.columns = ['Brand', 'Chi']
@@ -104,7 +104,7 @@ for i in range(12):
     a = np.argmin(np.abs(tt - label_range),axis=1) +1
     frame4.append(pd.DataFrame({'Month':np.ones(len(previous2))*i + 201501,'IMSI':previous2.IMSI, 'Label':a}))
 
-previous_change = pd.concat(frame1) 
+previous_change = pd.concat(frame1)
 previous_change.loc[pd.isnull(previous_change[variable_name]),variable_name] = 0
 df = pd.merge(df, previous_change, on=['Month','IMSI'], left_index=True,how='left')
 previous_label = pd.concat(frame2)

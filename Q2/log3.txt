@@ -1,0 +1,1607 @@
+----------------------------------------
+Features 	 imortance: 
+Age  		0.13962
+APRU  		0.07622
+Flow  		0.02432
+SMS  		0.15771
+Price  		0.32285
+system  	0.08201
+last_change  	0.14233
+compare2  	0.05495
+----------------------------------------
+Testing AUC: 	0.634106989391
+September AUC: 	0.582501734529
+----------------------------------------
+Features 	 imortance: 
+Age  		0.11118
+SMS  		0.13995
+ave  		0.06188
+system  	0.04168
+Brand_Counts  	0.51879
+last_change  	0.10686
+compare1  	0.0055
+compare2  	0.01417
+----------------------------------------
+Testing AUC: 	0.665543078102
+September AUC: 	0.62608216967
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03206
+APRU  		0.05043
+SMS  		0.07348
+Price  		0.12929
+Trend_x  	0.16522
+Brand_Counts  	0.42537
+last_change  	0.09772
+compare1  	0.02641
+----------------------------------------
+Testing AUC: 	0.665534868409
+September AUC: 	0.607251458739
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03726
+APRU  		0.0168
+Call  		0.12416
+SMS  		0.07918
+Result_Quantity 0.3742
+Price  		0.14957
+system  	0.00971
+Brand_Counts  	0.20912
+----------------------------------------
+Testing AUC: 	0.649070218413
+September AUC: 	0.620344834966
+----------------------------------------
+Features 	 imortance: 
+Age  		0.09621
+APRU  		0.04737
+SMS  		0.08423
+Result_Quantity 0.34893
+Label  		0.02958
+ave  		0.06181
+Brand_Counts  	0.22869
+last_change  	0.10318
+----------------------------------------
+Testing AUC: 	0.668059630266
+September AUC: 	0.630504891496
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01535
+APRU  		0.04855
+Flow  		0.03519
+SMS  		0.09858
+ave  		0.06448
+Brand_Counts  	0.61989
+last_change  	0.10243
+compare1  	0.01553
+----------------------------------------
+Testing AUC: 	0.664990800789
+September AUC: 	0.62734267657
+----------------------------------------
+Features 	 imortance: 
+Network  	0.0481
+Gender  	0.01829
+Age  		0.09998
+Call  		0.10914
+SMS  		0.05668
+Result_Quantity 0.38325
+Price  		0.12298
+Brand_Counts  	0.16159
+----------------------------------------
+Testing AUC: 	0.650797135714
+September AUC: 	0.621331180106
+----------------------------------------
+Features 	 imortance: 
+Network  	0.06436
+Flow  		0.01391
+Result_Quantity 0.38894
+Trend_x  	0.19888
+ave  		0.07155
+Brand_Counts  	0.23762
+compare1  	0.00764
+compare2  	0.01709
+----------------------------------------
+Testing AUC: 	0.656648516189
+September AUC: 	0.619112052324
+----------------------------------------
+Features 	 imortance: 
+Age  		0.17775
+APRU  		0.087
+Flow  		0.04147
+SMS  		0.19221
+Trend_x  	0.1247
+Trend_y  	0.22042
+system  	0.09871
+compare1  	0.01987
+compare2  	0.03788
+----------------------------------------
+Testing AUC: 	0.632304055602
+September AUC: 	0.584451867125
+----------------------------------------
+Features 	 imortance: 
+Age  		0.16687
+APRU  		0.07037
+Flow  		0.03156
+SMS  		0.16699
+Label  		0.12043
+Trend_y  	0.26486
+ave  		0.08123
+system  	0.07979
+compare2  	0.01788
+----------------------------------------
+Testing AUC: 	0.645472331391
+September AUC: 	0.604262724468
+----------------------------------------
+Features 	 imortance: 
+Network  	0.04558
+Age  		0.08993
+Call  		0.11078
+Price  		0.14431
+Label  		0.05434
+Trend_y  	0.06519
+ave  		0.06783
+Brand_Counts  	0.33957
+last_change  	0.08247
+----------------------------------------
+Testing AUC: 	0.674488818241
+September AUC: 	0.627529681163
+----------------------------------------
+Features 	 imortance: 
+Network  	0.05771
+Age  		0.09916
+Flow  		0.03215
+Label  		0.06443
+Trend_y  	0.19194
+system  	0.04011
+Brand_Counts  	0.40597
+last_change  	0.08114
+compare1  	0.02738
+----------------------------------------
+Testing AUC: 	0.660667480499
+September AUC: 	0.616621936322
+----------------------------------------
+Features 	 imortance: 
+Age  		0.10994
+APRU  		0.04736
+Flow  		0.01353
+Result_Quantity 0.32871
+Label  		0.03573
+Trend_x  	0.13115
+Brand_Counts  	0.20174
+last_change  	0.10343
+compare2  	0.02843
+----------------------------------------
+Testing AUC: 	0.663749367171
+September AUC: 	0.615385887892
+----------------------------------------
+Features 	 imortance: 
+Network  	0.05578
+Gender  	0.02446
+Age  		0.14048
+APRU  		0.06948
+Flow  		0.04419
+Result_Quantity 0.58685
+system  	0.03103
+compare1  	0.0188
+compare2  	0.02893
+----------------------------------------
+Testing AUC: 	0.644034914679
+September AUC: 	0.62000879965
+----------------------------------------
+Features 	 imortance: 
+Network  	0.04684
+Flow  		0.02485
+Price  		0.17905
+Label  		0.02321
+Trend_x  	0.04852
+Trend_y  	0.14442
+Brand_Counts  	0.49008
+compare1  	0.01715
+compare2  	0.02588
+----------------------------------------
+Testing AUC: 	0.650566166245
+September AUC: 	0.610175419085
+----------------------------------------
+Features 	 imortance: 
+Network  	0.01931
+Age  		0.09255
+APRU  		0.04806
+SMS  		0.08909
+Label  		0.0716
+Trend_x  	0.16754
+system  	0.03769
+Brand_Counts  	0.36315
+last_change  	0.11101
+----------------------------------------
+Testing AUC: 	0.665116525868
+September AUC: 	0.59990025545
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01565
+Flow  		0.02884
+Call  		0.13434
+Result_Quantity 0.45117
+Price  		0.13483
+Label  		0.01908
+ave  		0.07052
+last_change  	0.11607
+compare1  	0.00585
+compare2  	0.02363
+----------------------------------------
+Testing AUC: 	0.67192256576
+September AUC: 	0.635164216709
+----------------------------------------
+Features 	 imortance: 
+APRU  		0.03973
+Flow  		0.02472
+Result_Quantity 0.36818
+Trend_x  	0.04937
+Trend_y  	0.07378
+ave  		0.05837
+Brand_Counts  	0.26638
+last_change  	0.09089
+compare1  	0.00151
+compare2  	0.02707
+----------------------------------------
+Testing AUC: 	0.663895054782
+September AUC: 	0.627924278985
+----------------------------------------
+Features 	 imortance: 
+Network  	0.01322
+Gender  	0.01004
+APRU  		0.04517
+SMS  		0.06629
+Result_Quantity 0.30002
+Trend_x  	0.09285
+Trend_y  	0.12573
+system  	0.02085
+Brand_Counts  	0.20575
+last_change  	0.12009
+----------------------------------------
+Testing AUC: 	0.665513029896
+September AUC: 	0.619985986879
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03534
+Gender  	0.00848
+APRU  		0.07277
+Price  		0.14555
+Label  		0.02868
+Trend_x  	0.18058
+ave  		0.06369
+system  	0.05039
+Brand_Counts  	0.40156
+compare2  	0.01296
+----------------------------------------
+Testing AUC: 	0.659063458831
+September AUC: 	0.618942737114
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01232
+APRU  		0.02391
+Call  		0.10845
+SMS  		0.05351
+Result_Quantity 0.33181
+Label  		0.02904
+Trend_x  	0.16582
+system  	0.031
+Brand_Counts  	0.21138
+compare1  	0.03276
+----------------------------------------
+Testing AUC: 	0.65982885932
+September AUC: 	0.622597789205
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03108
+Flow  		0.02158
+Call  		0.09499
+SMS  		0.06012
+Result_Quantity 0.44708
+Label  		0.0373
+Trend_x  	0.15979
+last_change  	0.11552
+compare1  	0.00347
+compare2  	0.02907
+----------------------------------------
+Testing AUC: 	0.670409383596
+September AUC: 	0.622913614477
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02926
+Age  		0.10048
+APRU  		0.0103
+Flow  		0.00788
+Call  		0.09684
+Result_Quantity 0.44656
+Price  		0.09679
+Label  		0.04537
+Trend_x  	0.12833
+compare2  	0.03818
+----------------------------------------
+Testing AUC: 	0.662397825533
+September AUC: 	0.626668553937
+----------------------------------------
+Features 	 imortance: 
+APRU  		0.03011
+Flow  		0.03707
+Call  		0.1216
+SMS  		0.07194
+Result_Quantity 0.35472
+Label  		0.04974
+system  	0.02938
+Brand_Counts  	0.25531
+compare1  	0.01687
+compare2  	0.03325
+----------------------------------------
+Testing AUC: 	0.653785309957
+September AUC: 	0.628069424045
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03202
+APRU  		0.00933
+Call  		0.10405
+Result_Quantity 0.40288
+Price  		0.15156
+Label  		0.03031
+Trend_x  	0.07095
+ave  		0.05928
+system  	0.01916
+last_change  	0.10628
+compare1  	0.01418
+----------------------------------------
+Testing AUC: 	0.673098835442
+September AUC: 	0.633031989891
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01053
+Age  		0.094
+APRU  		0.03784
+SMS  		0.07362
+Result_Quantity 0.41703
+Price  		0.10741
+Trend_y  	0.16904
+ave  		0.05825
+system  	0.01061
+compare1  	0.00685
+compare2  	0.01481
+----------------------------------------
+Testing AUC: 	0.666012589269
+September AUC: 	0.626150274857
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02206
+APRU  		0.04855
+Flow  		0.01618
+SMS  		0.08577
+Price  		0.15585
+Trend_x  	0.08067
+ave  		0.04591
+Brand_Counts  	0.45081
+last_change  	0.07738
+compare1  	0.00246
+compare2  	0.01435
+----------------------------------------
+Testing AUC: 	0.668434660819
+September AUC: 	0.624717168952
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03926
+Gender  	0.01461
+Age  		0.08531
+APRU  		0.01367
+Flow  		0.01597
+Call  		0.11895
+Label  		0.04406
+Trend_x  	0.13522
+ave  		0.05193
+Brand_Counts  	0.47361
+compare1  	0.00741
+----------------------------------------
+Testing AUC: 	0.667327388873
+September AUC: 	0.627961535614
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02656
+Gender  	0.01173
+Age  		0.09161
+APRU  		0.04925
+Flow  		0.02603
+SMS  		0.06881
+Result_Quantity 0.48041
+Label  		0.03718
+Trend_x  	0.06034
+ave  		0.05125
+last_change  	0.09682
+----------------------------------------
+Testing AUC: 	0.66811371415
+September AUC: 	0.628743572639
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01237
+Flow  		0.03903
+Result_Quantity 0.30983
+Price  		0.12508
+Trend_y  	0.10722
+ave  		0.0616
+system  	0.0136
+Brand_Counts  	0.21583
+last_change  	0.0889
+compare1  	0.00102
+compare2  	0.02554
+----------------------------------------
+Testing AUC: 	0.660987621438
+September AUC: 	0.621881737841
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02848
+Age  		0.09024
+APRU  		0.00987
+Flow  		0.01944
+Call  		0.10039
+Result_Quantity 0.38469
+Price  		0.11272
+Trend_y  	0.06481
+ave  		0.0674
+last_change  	0.09611
+compare2  	0.02584
+----------------------------------------
+Testing AUC: 	0.674626768838
+September AUC: 	0.633908393588
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02878
+Age  		0.07377
+Flow  		0.01172
+Call  		0.10269
+Result_Quantity 0.30138
+Price  		0.06356
+Trend_y  	0.14605
+system  	0.0121
+Brand_Counts  	0.1397
+last_change  	0.09564
+compare1  	0.0246
+----------------------------------------
+Testing AUC: 	0.672818207537
+September AUC: 	0.630647441226
+----------------------------------------
+Features 	 imortance: 
+Age  		0.08038
+APRU  		0.01383
+Call  		0.10233
+Result_Quantity 0.27929
+Price  		0.10118
+Label  		0.01991
+Trend_x  	0.04989
+Trend_y  	0.05605
+ave  		0.05151
+Brand_Counts  	0.16438
+last_change  	0.0694
+compare1  	0.01185
+----------------------------------------
+Testing AUC: 	0.675796820618
+September AUC: 	0.631952319555
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.02038
+Flow  		0.0229
+Call  		0.18514
+SMS  		0.09191
+Price  		0.23988
+Trend_x  	0.06182
+Trend_y  	0.14845
+ave  		0.07869
+system  	0.04973
+last_change  	0.07698
+compare1  	0.00172
+compare2  	0.02239
+----------------------------------------
+Testing AUC: 	0.659577884078
+September AUC: 	0.611596259903
+----------------------------------------
+Features 	 imortance: 
+Network  	0.06453
+Age  		0.09297
+Price  		0.13545
+Label  		0.04177
+Trend_x  	0.03092
+Trend_y  	0.09794
+ave  		0.05428
+system  	0.02916
+Brand_Counts  	0.36081
+last_change  	0.07435
+compare1  	0.00364
+compare2  	0.01419
+----------------------------------------
+Testing AUC: 	0.664079593537
+September AUC: 	0.618984798493
+----------------------------------------
+Features 	 imortance: 
+Network  	0.01607
+Gender  	0.02456
+Age  		0.11643
+APRU  		0.0692
+SMS  		0.10707
+Price  		0.24261
+Trend_x  	0.11332
+Trend_y  	0.15904
+ave  		0.07786
+system  	0.05472
+compare1  	0.0082
+compare2  	0.01093
+----------------------------------------
+Testing AUC: 	0.652719920104
+September AUC: 	0.598962759899
+----------------------------------------
+Features 	 imortance: 
+Network  	0.01784
+Gender  	0.01493
+Age  		0.06788
+Call  		0.09629
+SMS  		0.03957
+Result_Quantity 0.30244
+Price  		0.0861
+Trend_x  	0.12347
+system  	0.00833
+Brand_Counts  	0.12656
+last_change  	0.08151
+compare2  	0.03509
+----------------------------------------
+Testing AUC: 	0.674385218599
+September AUC: 	0.622224594345
+----------------------------------------
+Features 	 imortance: 
+Age  		0.08895
+APRU  		0.04186
+Flow  		0.01906
+Result_Quantity 0.29787
+Price  		0.10402
+Trend_x  	0.04383
+Trend_y  	0.06879
+ave  		0.05208
+system  	0.01182
+Brand_Counts  	0.18572
+last_change  	0.06506
+compare2  	0.02093
+----------------------------------------
+Testing AUC: 	0.666906904173
+September AUC: 	0.625308068687
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02159
+APRU  		0.00181
+Flow  		0.007
+Call  		0.09554
+SMS  		0.06078
+Result_Quantity 0.42466
+Price  		0.10732
+Label  		0.03361
+Trend_x  	0.17002
+ave  		0.05761
+system  	0.01475
+compare1  	0.00532
+----------------------------------------
+Testing AUC: 	0.66840403467
+September AUC: 	0.632125699656
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03756
+Gender  	0.02034
+APRU  		0.01275
+Call  		0.10057
+Result_Quantity 0.28578
+Price  		0.10179
+Label  		0.02722
+Trend_x  	0.16476
+system  	0.01052
+Brand_Counts  	0.1939
+compare1  	0.01389
+compare2  	0.03092
+----------------------------------------
+Testing AUC: 	0.661838526057
+September AUC: 	0.624915202681
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02412
+Age  		0.08788
+APRU  		0.03376
+Flow  		0.01141
+SMS  		0.08551
+Price  		0.09603
+Label  		0.06451
+Trend_x  	0.13903
+system  	0.02358
+Brand_Counts  	0.32171
+last_change  	0.08471
+compare1  	0.0033
+compare2  	0.02445
+----------------------------------------
+Testing AUC: 	0.667023921802
+September AUC: 	0.611370600447
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.0225
+Age  		0.06833
+Flow  		0.00685
+Call  		0.09005
+SMS  		0.04581
+Result_Quantity 0.31086
+Price  		0.0972
+Label  		0.02051
+Trend_x  	0.12904
+system  	0.00668
+Brand_Counts  	0.16145
+compare1  	0.01572
+compare2  	0.025
+----------------------------------------
+Testing AUC: 	0.664185765557
+September AUC: 	0.624815090162
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02017
+Gender  	0.01193
+Age  		0.08373
+APRU  		0.04402
+Flow  		0.00843
+SMS  		0.08099
+Price  		0.09898
+Label  		0.03352
+Trend_x  	0.05144
+Trend_y  	0.10197
+ave  		0.05466
+system  	0.03196
+Brand_Counts  	0.3782
+----------------------------------------
+Testing AUC: 	0.666280929453
+September AUC: 	0.621607232013
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01615
+Age  		0.06978
+APRU  		0.02099
+Flow  		0.01023
+Call  		0.1127
+SMS  		0.07501
+Price  		0.11113
+Label  		0.03531
+ave  		0.06325
+system  	0.02815
+Brand_Counts  	0.34801
+last_change  	0.09359
+compare2  	0.0157
+----------------------------------------
+Testing AUC: 	0.673927466336
+September AUC: 	0.63342600649
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02223
+Gender  	0.00912
+APRU  		0.05089
+Flow  		0.02053
+SMS  		0.09151
+Price  		0.11229
+Label  		0.0077
+Trend_y  	0.07968
+ave  		0.05458
+system  	0.03182
+Brand_Counts  	0.41094
+last_change  	0.08806
+compare2  	0.02065
+----------------------------------------
+Testing AUC: 	0.668203438636
+September AUC: 	0.627001051281
+----------------------------------------
+Features 	 imortance: 
+Network  	0.04447
+Gender  	0.01509
+APRU  		0.01962
+Flow  		0.01071
+Call  		0.11653
+Price  		0.14885
+Label  		0.01032
+Trend_x  	0.0432
+Trend_y  	0.12496
+system  	0.02271
+Brand_Counts  	0.39777
+compare1  	0.01834
+compare2  	0.02744
+----------------------------------------
+Testing AUC: 	0.661718189413
+September AUC: 	0.621350770021
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03231
+Age  		0.06995
+Flow  		0.0105
+Call  		0.08648
+SMS  		0.05006
+Result_Quantity 0.28072
+Price  		0.09993
+Label  		0.02001
+Trend_x  	0.12004
+ave  		0.05651
+system  	0.0093
+Brand_Counts  	0.16146
+compare1  	0.00273
+----------------------------------------
+Testing AUC: 	0.67129276946
+September AUC: 	0.630947552316
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02159
+Gender  	0.0078
+APRU  		0.00978
+Flow  		0.0117
+Call  		0.09856
+SMS  		0.0467
+Result_Quantity 0.37918
+Price  		0.09317
+Label  		0.01039
+Trend_y  	0.16159
+system  	0.01432
+last_change  	0.11992
+compare1  	0.02529
+----------------------------------------
+Testing AUC: 	0.670651507366
+September AUC: 	0.629150009566
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01234
+Age  		0.08191
+APRU  		0.00911
+Flow  		0.0162
+Call  		0.08737
+SMS  		0.06514
+Result_Quantity 0.31352
+Trend_x  	0.06849
+ave  		0.05602
+system  	0.02929
+Brand_Counts  	0.16884
+last_change  	0.07261
+compare1  	0.00097
+compare2  	0.01819
+----------------------------------------
+Testing AUC: 	0.675140421071
+September AUC: 	0.634761516764
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02242
+Gender  	0.01012
+Call  		0.09545
+SMS  		0.03861
+Result_Quantity 0.27561
+Price  		0.08468
+Label  		0.00234
+Trend_x  	0.09809
+Trend_y  	0.07656
+system  	0.00834
+Brand_Counts  	0.16275
+last_change  	0.08883
+compare1  	0.00262
+compare2  	0.03357
+----------------------------------------
+Testing AUC: 	0.674013657442
+September AUC: 	0.631374536974
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02597
+Gender  	0.00741
+Flow  		0.01178
+Call  		0.09567
+SMS  		0.04519
+Result_Quantity 0.28535
+Price  		0.08238
+Label  		0.00867
+Trend_y  	0.1357
+system  	0.00821
+Brand_Counts  	0.15728
+last_change  	0.10308
+compare1  	0.00631
+compare2  	0.02701
+----------------------------------------
+Testing AUC: 	0.672966332714
+September AUC: 	0.633347881348
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03066
+Gender  	0.01189
+APRU  		0.02333
+Flow  		0.01668
+SMS  		0.06186
+Result_Quantity 0.33388
+Label  		0.01254
+Trend_y  	0.08164
+ave  		0.05068
+system  	0.03312
+Brand_Counts  	0.23692
+last_change  	0.08126
+compare1  	0.00322
+compare2  	0.02233
+----------------------------------------
+Testing AUC: 	0.668240238362
+September AUC: 	0.631821297537
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02845
+Gender  	0.00733
+Flow  		0.0217
+SMS  		0.07421
+Result_Quantity 0.30342
+Price  		0.10434
+Label  		0.01161
+Trend_x  	0.04582
+Trend_y  	0.04917
+ave  		0.04424
+Brand_Counts  	0.20275
+last_change  	0.08422
+compare1  	0.00138
+compare2  	0.02135
+----------------------------------------
+Testing AUC: 	0.668162719052
+September AUC: 	0.627912585242
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03007
+Gender  	0.00787
+APRU  		0.00584
+Call  		0.08887
+SMS  		0.05435
+Result_Quantity 0.2639
+Price  		0.09892
+Label  		0.00657
+Trend_y  	0.0786
+ave  		0.05991
+system  	0.00948
+Brand_Counts  	0.19053
+last_change  	0.09282
+compare1  	0.01226
+----------------------------------------
+Testing AUC: 	0.675604850106
+September AUC: 	0.632839990582
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02708
+Gender  	0.01111
+Age  		0.09455
+APRU  		0.03253
+Flow  		0.01449
+SMS  		0.08538
+Price  		0.10847
+Label  		0.03962
+Trend_x  	0.05168
+Trend_y  	0.05752
+ave  		0.04973
+system  	0.02783
+Brand_Counts  	0.34154
+last_change  	0.05848
+----------------------------------------
+Testing AUC: 	0.670438347707
+September AUC: 	0.626283034517
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02333
+Gender  	0.02041
+Age  		0.08837
+APRU  		0.04185
+Flow  		0.00959
+SMS  		0.08459
+Price  		0.10423
+Trend_x  	0.0554
+Trend_y  	0.11589
+ave  		0.05404
+system  	0.02953
+Brand_Counts  	0.36537
+compare1  	0.00186
+compare2  	0.00555
+----------------------------------------
+Testing AUC: 	0.665538048693
+September AUC: 	0.620465432019
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02373
+Gender  	0.00862
+Age  		0.06325
+Call  		0.08915
+SMS  		0.0478
+Result_Quantity 0.26183
+Price  		0.08474
+Label  		0.00392
+Trend_x  	0.09192
+Trend_y  	0.08039
+system  	0.0077
+Brand_Counts  	0.13411
+last_change  	0.07523
+compare1  	0.00287
+compare2  	0.02474
+----------------------------------------
+Testing AUC: 	0.675110273818
+September AUC: 	0.630076476437
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03678
+Gender  	0.00989
+Age  		0.07618
+APRU  		0.0132
+Flow  		0.0125
+Call  		0.09486
+SMS  		0.03886
+Result_Quantity 0.30639
+Label  		0.00492
+Trend_x  	0.03701
+Trend_y  	0.11286
+system  	0.02594
+Brand_Counts  	0.1884
+compare1  	0.01471
+compare2  	0.02751
+----------------------------------------
+Testing AUC: 	0.66492624853
+September AUC: 	0.623931930247
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02052
+Gender  	0.01837
+Age  		0.06615
+APRU  		0.0049
+Flow  		0.01532
+Call  		0.09328
+Result_Quantity 0.38359
+Price  		0.12076
+Label  		0.0099
+Trend_x  	0.02789
+Trend_y  	0.05307
+ave  		0.05548
+system  	0.01605
+last_change  	0.09369
+compare2  	0.02102
+----------------------------------------
+Testing AUC: 	0.674897261785
+September AUC: 	0.631685161807
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03016
+Gender  	0.00763
+Age  		0.07892
+Flow  		0.00831
+Call  		0.09621
+SMS  		0.05139
+Price  		0.10555
+Label  		0.03126
+Trend_x  	0.04571
+Trend_y  	0.06257
+ave  		0.0517
+system  	0.02736
+Brand_Counts  	0.33014
+last_change  	0.062
+compare1  	0.01107
+----------------------------------------
+Testing AUC: 	0.675254092423
+September AUC: 	0.630966682942
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02853
+Gender  	0.0116
+Age  		0.07474
+APRU  		0.03448
+Flow  		0.01798
+SMS  		0.07104
+Result_Quantity 0.28665
+Price  		0.08412
+Label  		0.01897
+Trend_y  	0.05414
+ave  		0.04625
+Brand_Counts  	0.17064
+last_change  	0.0766
+compare1  	0.00101
+compare2  	0.02326
+----------------------------------------
+Testing AUC: 	0.671028283458
+September AUC: 	0.631199748229
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03677
+Gender  	0.00914
+Age  		0.07486
+APRU  		0.01065
+Call  		0.09077
+SMS  		0.05254
+Result_Quantity 0.25892
+Label  		0.01012
+Trend_x  	0.0369
+Trend_y  	0.04891
+ave  		0.0563
+system  	0.02817
+Brand_Counts  	0.18983
+last_change  	0.07502
+compare2  	0.02109
+----------------------------------------
+Testing AUC: 	0.675485306362
+September AUC: 	0.6351968196
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03493
+Gender  	0.00896
+APRU  		0.01019
+Flow  		0.0114
+Call  		0.1018
+SMS  		0.06394
+Price  		0.12358
+Label  		0.01062
+Trend_x  	0.05173
+Trend_y  	0.0602
+ave  		0.05743
+system  	0.02679
+Brand_Counts  	0.35452
+last_change  	0.07289
+compare1  	0.01103
+----------------------------------------
+Testing AUC: 	0.673406525657
+September AUC: 	0.627634013611
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02507
+Gender  	0.01046
+Flow  		0.01176
+Call  		0.10157
+SMS  		0.05557
+Result_Quantity 0.24278
+Price  		0.08445
+Trend_x  	0.04011
+Trend_y  	0.05658
+ave  		0.05927
+system  	0.01018
+Brand_Counts  	0.19647
+last_change  	0.08304
+compare1  	0.00183
+compare2  	0.02088
+----------------------------------------
+Testing AUC: 	0.67561111356
+September AUC: 	0.633226752437
+----------------------------------------
+Features 	 imortance: 
+Network  	0.04108
+Gender  	0.02085
+Age  		0.07007
+APRU  		0.0172
+Flow  		0.008
+Call  		0.10176
+Price  		0.12209
+Label  		0.02896
+Trend_x  	0.04278
+Trend_y  	0.05099
+ave  		0.05507
+system  	0.02612
+Brand_Counts  	0.33029
+last_change  	0.0685
+compare1  	0.00476
+compare2  	0.01148
+----------------------------------------
+Testing AUC: 	0.675038522259
+September AUC: 	0.62936899867
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03116
+Gender  	0.0093
+Age  		0.08106
+APRU  		0.00773
+Flow  		0.00426
+Call  		0.0914
+SMS  		0.04605
+Result_Quantity 0.27485
+Label  		0.00749
+Trend_x  	0.04319
+Trend_y  	0.05411
+ave  		0.05485
+system  	0.02956
+Brand_Counts  	0.17544
+last_change  	0.06944
+compare2  	0.02011
+----------------------------------------
+Testing AUC: 	0.675304971148
+September AUC: 	0.634643563926
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02409
+Gender  	0.00864
+Age  		0.07707
+APRU  		0.00452
+Flow  		0.01129
+Call  		0.09156
+SMS  		0.04927
+Result_Quantity 0.28274
+Trend_x  	0.03331
+Trend_y  	0.06065
+ave  		0.05383
+system  	0.03238
+Brand_Counts  	0.18306
+last_change  	0.06839
+compare1  	0.00228
+compare2  	0.01694
+----------------------------------------
+Testing AUC: 	0.675325405171
+September AUC: 	0.634131724934
+----------------------------------------
+Features 	 imortance: 
+Network  	0.04108
+Gender  	0.02085
+Age  		0.07007
+APRU  		0.0172
+Flow  		0.008
+Call  		0.1017
+Price  		0.12209
+Label  		0.02896
+Trend_x  	0.04357
+Trend_y  	0.05105
+ave  		0.05428
+system  	0.02612
+Brand_Counts  	0.33029
+last_change  	0.0685
+compare1  	0.00476
+compare2  	0.01148
+----------------------------------------
+Testing AUC: 	0.675038799983
+September AUC: 	0.629368182976
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02684
+Gender  	0.01231
+Age  		0.06143
+APRU  		0.01298
+Flow  		0.00894
+Call  		0.08284
+SMS  		0.04331
+Result_Quantity 0.28542
+Price  		0.08639
+Label  		0.01401
+Trend_x  	0.05748
+ave  		0.05072
+system  	0.0126
+Brand_Counts  	0.14953
+last_change  	0.07437
+compare2  	0.02084
+----------------------------------------
+Testing AUC: 	0.676593972508
+September AUC: 	0.636858572664
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02989
+Gender  	0.01002
+Age  		0.07434
+Flow  		0.01062
+Call  		0.09386
+SMS  		0.05263
+Result_Quantity 0.25253
+Price  		0.08524
+Trend_x  	0.03718
+Trend_y  	0.04367
+ave  		0.05098
+system  	0.00967
+Brand_Counts  	0.15059
+last_change  	0.07462
+compare1  	0.0047
+compare2  	0.01944
+----------------------------------------
+Testing AUC: 	0.675915187266
+September AUC: 	0.632643721698
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02646
+Gender  	0.0095
+Age  		0.07216
+APRU  		0.00929
+Flow  		0.01145
+Call  		0.07762
+SMS  		0.046
+Result_Quantity 0.2811
+Price  		0.08664
+Label  		0.00876
+Trend_x  	0.04379
+Trend_y  	0.1045
+ave  		0.05625
+system  	0.00968
+Brand_Counts  	0.1436
+compare2  	0.01319
+----------------------------------------
+Testing AUC: 	0.67245462385
+September AUC: 	0.629247365054
+----------------------------------------
+Features 	 imortance: 
+Network  	0.01942
+Gender  	0.00968
+Age  		0.08507
+APRU  		0.02871
+Flow  		0.01235
+SMS  		0.06407
+Result_Quantity 0.24772
+Price  		0.09264
+Label  		0.00758
+Trend_x  	0.09377
+Trend_y  	0.08007
+system  	0.00745
+Brand_Counts  	0.15061
+last_change  	0.06785
+compare1  	0.00444
+compare2  	0.02859
+----------------------------------------
+Testing AUC: 	0.669630514267
+September AUC: 	0.626908228459
+----------------------------------------
+Features 	 imortance: 
+Network  	0.01739
+Gender  	0.0
+APRU  		0.00405
+Flow  		0.01684
+Call  		0.08477
+SMS  		0.01655
+Result_Quantity 0.23428
+Price  		0.07932
+Label  		0.01471
+Trend_x  	0.03799
+Trend_y  	0.06406
+ave  		0.04806
+system  	0.01377
+Brand_Counts  	0.21843
+last_change  	0.12653
+compare1  	0.00561
+compare2  	0.01766
+----------------------------------------
+Testing AUC: 	0.685659560015
+September AUC: 	0.654028921572
+----------------------------------------
+Fea----------------------------------------
+Features 	 imortance: 
+Network  	0.03246
+Gender  	0.01938
+Age  		0.07503
+APRU  		0.00823
+Flow  		0.0056
+Call  		0.09747
+Result_Quantity 0.26427
+Price  		0.08924
+Label  		0.01518
+Trend_x  	0.03396
+Trend_y  	0.04804
+ave  		0.05307
+system  	0.00848
+Brand_Counts  	0.16334
+last_change  	0.06508
+compare1  	0.00541
+compare2  	0.01576
+----------------------------------------
+Testing AUC: 	0.675858733902
+September AUC: 	0.631992733818
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02554
+Gender  	0.00636
+Age  		0.06831
+Flow  		0.00969
+Call  		0.09112
+SMS  		0.05246
+Result_Quantity 0.25164
+Price  		0.08896
+Label  		0.01136
+Trend_x  	0.04263
+Trend_y  	0.0419
+ave  		0.04659
+system  	0.00972
+Brand_Counts  	0.15934
+last_change  	0.07112
+compare1  	0.0047
+compare2  	0.01856
+----------------------------------------
+Testing AUC: 	0.676104163338
+September AUC: 	0.633041993585
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02881
+Gender  	0.01073
+Age  		0.07375
+APRU  		0.00839
+Flow  		0.01235
+Call  		0.08653
+SMS  		0.05095
+Result_Quantity 0.25867
+Label  		0.01168
+Trend_x  	0.0351
+Trend_y  	0.05527
+ave  		0.051
+system  	0.03326
+Brand_Counts  	0.18778
+last_change  	0.0777
+compare1  	0.00228
+compare2  	0.01578
+----------------------------------------
+Testing AUC: 	0.675335799624
+September AUC: 	0.633695851792
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02512
+Gender  	0.0099
+Age  		0.06318
+APRU  		0.00327
+Flow  		0.0072
+Call  		0.08721
+SMS  		0.04849
+Result_Quantity 0.27447
+Price  		0.08592
+Label  		0.00937
+Trend_x  	0.04265
+Trend_y  	0.04282
+ave  		0.05415
+Brand_Counts  	0.15304
+last_change  	0.07285
+compare1  	0.00352
+compare2  	0.01685
+----------------------------------------
+Testing AUC: 	0.676280606413
+September AUC: 	0.632822618469
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02443
+Gender  	0.00702
+Age  		0.06341
+APRU  		0.00484
+Flow  		0.0127
+Call  		0.08908
+SMS  		0.04378
+Result_Quantity 0.25631
+Price  		0.08561
+Label  		0.0118
+Trend_y  	0.06396
+ave  		0.05788
+system  	0.00848
+Brand_Counts  	0.16077
+last_change  	0.08605
+compare1  	0.00151
+compare2  	0.02237
+----------------------------------------
+Testing AUC: 	0.676694979598
+September AUC: 	0.63584767088
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02985
+Gender  	0.00906
+Age  		0.06937
+APRU  		0.00827
+Flow  		0.01127
+Call  		0.08755
+SMS  		0.04923
+Result_Quantity 0.26078
+Price  		0.08364
+Trend_x  	0.0388
+Trend_y  	0.04468
+ave  		0.04807
+system  	0.00967
+Brand_Counts  	0.15317
+last_change  	0.07458
+compare1  	0.0047
+compare2  	0.01731
+----------------------------------------
+Testing AUC: 	0.6759788514
+September AUC: 	0.632568303486
+----------------------------------------
+Features 	 imortance: 
+Gender  	0.01091
+Age  		0.06617
+APRU  		0.00117
+Flow  		0.01781
+Call  		0.08743
+SMS  		0.05797
+Result_Quantity 0.25962
+Price  		0.08816
+Label  		0.00705
+Trend_x  	0.04562
+Trend_y  	0.04382
+ave  		0.05655
+system  	0.00899
+Brand_Counts  	0.1601
+last_change  	0.0662
+compare1  	0.00543
+compare2  	0.017
+----------------------------------------
+Testing AUC: 	0.676006705345
+September AUC: 	0.634406208904
+----------------------------------------
+Features 	 imortance: 
+Network  	0.03246
+Gender  	0.01938
+Age  		0.07503
+APRU  		0.00823
+Flow  		0.0056
+Call  		0.09747
+Result_Quantity 0.26427
+Price  		0.08924
+Label  		0.01518
+Trend_x  	0.03396
+Trend_y  	0.04804
+ave  		0.05309
+system  	0.00848
+Brand_Counts  	0.16334
+last_change  	0.06508
+compare1  	0.00541
+compare2  	0.01573
+----------------------------------------
+Testing AUC: 	0.675858733899
+September AUC: 	0.631992733818
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02297
+Gender  	0.00849
+Age  		0.06545
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09173
+SMS  		0.04964
+Result_Quantity 0.23977
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04028
+Trend_y  	0.04436
+ave  		0.05011
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676171385076
+September AUC: 	0.632844771471
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02305
+Gender  	0.00849
+Age  		0.06549
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09151
+SMS  		0.04964
+Result_Quantity 0.23974
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04028
+Trend_y  	0.04436
+ave  		0.05025
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676172895261
+September AUC: 	0.632845951598
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02297
+Gender  	0.00849
+Age  		0.06545
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09159
+SMS  		0.04964
+Result_Quantity 0.23974
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04031
+Trend_y  	0.04436
+ave  		0.05025
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676172872887
+September AUC: 	0.632845408748
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02297
+Gender  	0.00849
+Age  		0.06545
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09159
+SMS  		0.04964
+Result_Quantity 0.23974
+Price  		0.09647
+Label  		0.0133
+Trend_x  	0.04028
+Trend_y  	0.04436
+ave  		0.05011
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01639
+----------------------------------------
+Testing AUC: 	0.6761714694
+September AUC: 	0.632844909616
+----------------------------------------
+Features 	 imortance: 
+Network  	0.0231
+Gender  	0.00849
+Age  		0.06545
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09159
+SMS  		0.04964
+Result_Quantity 0.23974
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04031
+Trend_y  	0.04436
+ave  		0.05011
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676172674392
+September AUC: 	0.632845396995
+----------------------------------------
+Features 	 imortance: 
+Network  	0.0231
+Gender  	0.00849
+Age  		0.06545
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09159
+SMS  		0.04964
+Result_Quantity 0.23974
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04028
+Trend_y  	0.04436
+ave  		0.05011
+system  	0.00972
+Brand_Counts  	0.1581
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676172071152
+September AUC: 	0.632845317209
+----------------------------------------
+Features 	 imortance: 
+Network  	0.0231
+Gender  	0.00849
+Age  		0.06545
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09159
+SMS  		0.04964
+Result_Quantity 0.23977
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04028
+Trend_y  	0.04436
+ave  		0.05011
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676171186764
+September AUC: 	0.632844759972
+----------------------------------------
+Features 	 imortance: 
+Network  	0.02297
+Gender  	0.00849
+Age  		0.06549
+APRU  		0.00694
+Flow  		0.00938
+Call  		0.09173
+SMS  		0.04964
+Result_Quantity 0.23974
+Price  		0.09644
+Label  		0.0133
+Trend_x  	0.04028
+Trend_y  	0.04436
+ave  		0.05011
+system  	0.00972
+Brand_Counts  	0.15806
+last_change  	0.0724
+compare1  	0.0047
+compare2  	0.01625
+----------------------------------------
+Testing AUC: 	0.676173034044
+September AUC: 	0.632845933361

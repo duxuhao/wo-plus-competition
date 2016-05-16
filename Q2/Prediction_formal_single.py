@@ -23,12 +23,11 @@ from sklearn.metrics import roc_auc_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-pool = Pool(8)
+#pool = Pool(4)
 origin=pd.read_csv('Q2_merge_all.csv',encoding='utf-8') # this used dataset with the basic privided parameter
 df = origin.copy()
 test = pd.read_csv('Test_IMSI_all_used.csv',encoding = 'utf-8',header = None)
 Test_Percentage = 0.3
-test.columns = ['IMSI','No']
 Trend = pd.read_csv('Trend_new.csv',encoding = 'utf-8')
 label=pd.read_csv('label3.csv',encoding='utf-8')
 df = pd.merge(df, label,on=['IMSI','Month'], left_index=False,how='left')
@@ -36,7 +35,7 @@ df = df.ix[:, df.columns != 'Trend']
 df = pd.merge(df, Trend,on=['Month','Label'], left_index=False,how='left')
 df= pd.merge(df, test, on='IMSI', right_index=True,how='inner')
 
-new_set =df[['IMSI','Month','previous_label','previous_label2', 'Trend','label','Result_Quantity','labelcompare1_ave','No']]
+new_set =df[['IMSI','Month','previous_label','previous_label2', 'Trend','label','Result_Quantity','labelcompare1_ave']]
 LoopNumber =2 #loop times
 N = 2 #use previous N months predict
 
@@ -95,8 +94,8 @@ for next in range(N+1):
     X = df
     Unused_Feature = (X.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
     train = X.ix[:,Unused_Feature]
-    prob= clf.predict_proba(train+1)
-    for lo in range(next+1):
+    prob= clf.predict_proba(train)
+    for lo in range(1,2):
         t1 = np.vstack((prob[-lo:],prob[:-lo]))
         name = str(next+1) + str(lo+1)
         new_set[name] = pd.Series(t1[:,1], index=new_set.index)
@@ -134,7 +133,6 @@ new_set['score'] = pd.Series(np.round(clf.predict_proba(train)[:,1],5), index=tr
 pre = new_set[new_set.Month == 201512]
 pre = pre[['IMSI','score']]
 pre.columns = ['Idx','score']
-test.columns = ['Idx','No']
 new = pd.merge(test.Idx, pre,on='Idx', left_index=True,how='left' )
 #new.to_csv('woplus_submit_sample.csv',encoding = 'utf-8', index = None)
 print '  ---- Done ---- '

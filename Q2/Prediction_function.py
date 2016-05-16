@@ -22,7 +22,7 @@ from sklearn.metrics import roc_auc_score
 
 
 def read_label(n):
-    name = 'label' + str(n) + '.csv'
+    name = 'change_phone_' + str(n) + '_month.csv'
     label=pd.read_csv(name,encoding='utf-8')
     return label
 '''
@@ -36,9 +36,9 @@ def loop_train(df, Tmon, Test_Percentage, clf_index = 0):
     print ' ----- New loop ----- '
     X = df[Tmon]
     y = X.label
-    Unused_Feature = (df.columns != 'Month') & (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
+    Unused_Feature = (X.columns != 'Month') &  (X.columns != 'Brand') & (X.columns != 'Model') & (X.columns != 'IMSI') & (X.columns != 'label')
     train = X.ix[:,Unused_Feature]
-    X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = Test_Percentage, random_state = np.random.randint(100000))
+    X_train, X_test, y_train, y_test=train_test_split(train, y, test_size = Test_Percentage, random_state = 1)
     clf =RandomForestClassifier()
     if clf_index == 1:   
         clf =GradientBoostingClassifier()
@@ -53,7 +53,7 @@ clf is the classifier method
 -------------------------------------------------------------------------------------
 '''
 def predict_prob(clf, df):
-    Unused_Feature = (df.columns != 'Month') & (df.columns != 'Brand') & (df.columns != 'Model') & (df.columns != 'IMSI') & (df.columns != 'label')
+    Unused_Feature = (df.columns != 'Month') &  (df.columns != 'Brand') & (df.columns != 'Model') & (df.columns != 'IMSI') & (df.columns != 'label')
     train = df.ix[:,Unused_Feature]
     prob = clf.predict_proba(train)
     return prob
@@ -70,7 +70,7 @@ def add_feature(prob, n, df, name):
     
 def predict_add_feature(clf, df, fearange, add_name = 0, begin = 0):
     prob = predict_prob(clf = clf, df = df)
-    for i in range(begin,fearange-begin):
+    for i in range(begin,fearange):
         df = add_feature(prob = prob, n = i, df = df, name = ('L' + str(fearange+1) + str(i+1) + str(add_name)))
     return df
 '''
@@ -94,11 +94,8 @@ def get_clf_with_selected_month(df, select_range, Test_Percentage, clf_index = 0
 this fuction is for merging the data 
 -------------------------------------------------------------------------------------
 ''' 
-def data_merge(df, label, Trend, test):
+def data_merge(df, label):
     df = pd.merge(df, label,on=['IMSI','Month'], left_index=False,how='left')
-    df = df.ix[:, df.columns != 'Trend']
-    df = pd.merge(df, Trend,on=['Month','Label'], left_index=False,how='left')
-    df= pd.merge(df, test, on='IMSI', right_index=True,how='inner')  
     return df
 '''
 -------------------------------------------------------------------------------------
@@ -116,14 +113,14 @@ this fuction is for writting the corresponding data to file
 -------------------------------------------------------------------------------------
 '''  
 def writetofile(df, clf, month, test, name = 'woplus_submit_sample.csv'):
-    Unused_Feature = (df.columns != 'Month') & (df.columns != 'Brand') & (df.columns != 'Model') & (df.columns != 'IMSI') & (df.columns != 'label')
+    Unused_Feature = (df.columns != 'Month') &  (df.columns != 'Brand') & (df.columns != 'Model') & (df.columns != 'IMSI') & (df.columns != 'label')
     train = df.ix[:,Unused_Feature]
     df['score'] = pd.Series(np.round(clf.predict_proba(train)[:,1],5), index=train.index)
     pre = df[df.Month == month]
     pre = pre[['IMSI','score']]
     pre.columns = ['Idx','score']
-    test.columns = ['Idx','No']
-    new = pd.merge(test['Idx'], pre,on='Idx', left_index=True,how='left')
+    test.columns = ['Idx']
+    new = pd.merge(test, pre,on='Idx', left_index=True,how='left')
     new.to_csv(name,encoding = 'utf-8', index = None)
 '''
 -------------------------------------------------------------------------------------
@@ -131,13 +128,18 @@ The main function, step_switch = 0, step equal to the Mynext gap, step = 1, step
 to 1
 -------------------------------------------------------------------------------------
 '''
-def main(step_switch, Next_N_month, LoopNumber, used_previous_months, Test_Percentage,predict_month, origin, test, Trend):
+def main(step_switch, Next_N_month, LoopNumber, used_previous_months, Test_Percentage,predict_month, origin, test, total):
     if used_previous_months > (Next_N_month - 1):
-        print 'Not label to be used for the Mynext' + str(used_previous_months + 1) + ' month prediction'
-
+        print 'Not label to be used for the Mynext' + str(used_previous_months) + ' month prediction'
+    origin = origin.ix[:, origin.columns != 'Total']
+    #total.Total[total.Total == 0] = 1
+    origin = pd.merge(origin, total, on='IMSI', left_index = True, how = 'left')
+    origin = origin[origin.Total ==1]
+    print 'Frequency: '
+    print(origin.Total.unique())
     label = read_label(Next_N_month)
-    df = data_merge(df = origin.copy(), label = label, Trend = Trend, test = test)
-    new_set =df[['IMSI','Month','previous_label','previous_label2', 'Trend','label','Result_Quantity','labelcompare1_ave','No']]
+    df = data_merge(df = origin.copy(), label = label)
+    new_set =df[['IMSI','Month','last_change', 'Call','SMS','Trend_x','label','Result_Quantity','compare1','compare2','ave']]
     
     print '-' * 100
     print 'In this training, we use ' + str(used_previous_months+1) + " months' data to predict the Mynext 3 months' condiction"
@@ -146,7 +148,7 @@ def main(step_switch, Next_N_month, LoopNumber, used_previous_months, Test_Perce
     for Mynext in range(Next_N_month):
         print ' ---- Start the training for the Mynext ' + str(Mynext+1) + " months' label prediction----"
         label = read_label(Mynext+1)
-        df = data_merge(df = origin.copy(), label = label, Trend = Trend, test = test)
+        df = data_merge(df = origin.copy(), label = label)
         step = Mynext + 1
         add = np.random.randint(3)
         if step_switch:
@@ -154,11 +156,11 @@ def main(step_switch, Next_N_month, LoopNumber, used_previous_months, Test_Perce
             add = 0
         clf = get_clf_with_selected_month(df = df, select_range = np.arange(201501,predict_month-Mynext,step+1), Test_Percentage=Test_Percentage)  
         for ite in range(LoopNumber):
-            df = predict_add_feature(clf = clf, df=df, fearange = used_previous_months + 1, add_name = ite, begin =1)
+            df = predict_add_feature(clf = clf, df=df, fearange = used_previous_months + 1, add_name = ite, begin = 1)
             clf = get_clf_with_selected_month(df = df, select_range = np.arange(201501 + used_previous_months + add,predict_month-Mynext,step+1), Test_Percentage=Test_Percentage, clf_index = (ite == LoopNumber-1))
         
         prob = predict_prob(clf = clf, df = df)
-        for lo in range(Mynext+1):
+        for lo in range(1, Mynext+1):
             new_set = add_feature(prob = prob, n = lo, df = new_set, name =  ('L' + str(Mynext+1) + str(lo+1)))
             
         print '                 -- complete Mynext ' + str(Mynext+1) + " months' prediction --  "
@@ -175,17 +177,20 @@ def main(step_switch, Next_N_month, LoopNumber, used_previous_months, Test_Perce
     clf2 = get_clf_with_selected_month(df = new_set, select_range = np.arange(201501 + used_previous_months + add ,predict_month + 1 -Next_N_month, step + 1), Test_Percentage=Test_Percentage)  
     verified(df = new_set, clf=clf2, month = 201509)
     new_set = predict_add_feature(clf = clf2, df = new_set, fearange = used_previous_months + 1, begin = 1)    
+    '''
     clf2 = get_clf_with_selected_month(df = new_set, select_range = np.arange(201501 + used_previous_months + add ,predict_month + 1 -Next_N_month, step + 1), Test_Percentage=Test_Percentage)  
     verified(df = new_set, clf=clf2, month = 201509)
     new_set = predict_add_feature(clf = clf2, df = new_set, fearange = used_previous_months + 1, begin = 1)    
-    '''
+    
     clf3 = get_clf_with_selected_month(df = new_set, select_range = np.arange(201501 + used_previous_months + add ,predict_month + 1 -Next_N_month, step + 1), Test_Percentage=Test_Percentage, clf_index = 1)
-    verified(df = new_set, clf=clf3, month = 201509)  
-    writetofile(df = new_set, clf = clf3, test = test, month = predict_month)
+    verified(df = new_set, clf=clf3, month = 201509)
+    print(new_set.columns)
+    print(clf3.feature_importances_)
+    #writetofile(df = new_set, clf = clf3, test = test, month = predict_month)
     return clf, clf3, new_set
       
-pool = Pool(8)
-origin=pd.read_csv('Q2_merge_all.csv',encoding='utf-8') # this used dataset with the basic privided parameter
+pool = Pool(4)
+origin=pd.read_csv('Q2Used.csv',encoding='utf-8') # this used dataset with the basic privided parameter
 test = pd.read_csv('Test_IMSI_all_used.csv',encoding = 'utf-8')
-Trend = pd.read_csv('Trend_new.csv',encoding = 'utf-8')
-final_clf1, final_clf3, dataset= main(step_switch = 1, Next_N_month = 3, LoopNumber = 2, used_previous_months = 2, Test_Percentage = 0.5, predict_month = 201509, origin = origin, test = test, Trend = Trend)
+total = pd.read_csv('Total_change9.csv',encoding = 'utf-8')
+final_clf1, final_clf3, dataset= main(step_switch = 1, Next_N_month = 3, LoopNumber = 1, used_previous_months = 2, Test_Percentage = 0.7, predict_month = 201509, origin = origin, test = test, total = total)

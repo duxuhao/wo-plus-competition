@@ -1,0 +1,4875 @@
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02022
+Call_x  	0.07363
+Result_Quantity_x 0.416
+Label_x  	0.00966
+compare1  	0.01417
+compare2  	0.05718
+system_x  	0.00082
+last_change_y_x 0.03664
+Network_y  	0.01768
+Call_y  	0.06742
+Price_y  	0.09093
+Trend_x_y  	0.09896
+last_change_y_y 0.08398
+Label_y  	0.01271
+----------------------------------------
+Testing AUC: 	0.684281028467
+September AUC: 	0.630083126805
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01274
+SMS_x  		0.03908
+Price_x  	0.10544
+compare1  	0.01572
+compare2  	0.04167
+system_x  	0.00449
+last_change_y_x 0.06831
+Brand_Counts_x  	0.2125
+Network_y  	0.00431
+SMS_y  		0.0619
+Result_Quantity_y 0.25609
+Trend_x_y  	0.10291
+last_change_y_y 0.05518
+Label_y  	0.01965
+----------------------------------------
+Testing AUC: 	0.678883682163
+September AUC: 	0.619699885432
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02299
+Age  		0.09466
+Call_x  	0.09643
+SMS_x  		0.03269
+Price_x  	0.15018
+Label_x  	0.09983
+Trend_x_x  	0.06337
+compare1  	0.02825
+ave  		0.07817
+system_x  	0.06019
+Call_y  	0.09333
+SMS_y  		0.06264
+Price_y  	0.06063
+last_change_y_y 0.05663
+----------------------------------------
+Testing AUC: 	0.672911408907
+September AUC: 	0.618840396086
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.0
+SMS_x  		0.04683
+Result_Quantity_x 0.32352
+Label_x  	0.00603
+Trend_x_x  	0.06417
+compare2  	0.03799
+ave  		0.05714
+system_x  	0.00072
+Flow_y  	0.00818
+Call_y  	0.09677
+SMS_y  		0.0357
+Price_y  	0.08376
+Brand_Counts_y  	0.1533
+last_change_y_y 0.0859
+----------------------------------------
+Testing AUC: 	0.686024772543
+September AUC: 	0.629405765958
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.00729
+SMS_x  		0.05846
+Result_Quantity_x 0.26623
+Price_x  	0.11485
+Label_x  	0.02035
+Trend_x_x  	0.01468
+compare1  	0.01624
+ave  		0.04865
+last_change_y_x 0.04092
+Brand_Counts_x  	0.23222
+SMS_y  		0.06517
+system_y  	0.0098
+Trend_x_y  	0.07787
+last_change_y_y 0.02727
+----------------------------------------
+Testing AUC: 	0.68008195243
+September AUC: 	0.627395742728
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0289
+Call_x  	0.08383
+Result_Quantity_x 0.27538
+Price_x  	0.11122
+compare1  	0.01228
+compare2  	0.06092
+last_change_y_x 0.02874
+Brand_Counts_x  	0.13511
+Flow_y  	0.0105
+Call_y  	0.09007
+Price_y  	0.0255
+Brand_Counts_y  	0.05898
+system_y  	0.01598
+last_change_y_y 0.06259
+----------------------------------------
+Testing AUC: 	0.682614963464
+September AUC: 	0.628717447276
+----------------------------------------
+Features 	 imortance: 
+Age  		0.0817
+SMS_x  		0.06952
+Result_Quantity_x 0.23232
+Label_x  	0.00269
+compare1  	0.02696
+ave  		0.05756
+Brand_Counts_x  	0.12078
+Flow_y  	0.00898
+SMS_y  		0.06466
+Result_Quantity_y 0.10061
+Brand_Counts_y  	0.06232
+Trend_x_y  	0.06508
+last_change_y_y 0.0855
+Label_y  	0.02134
+----------------------------------------
+Testing AUC: 	0.679697099835
+September AUC: 	0.629132212813
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02085
+Age  		0.07161
+Call_x  	0.08911
+SMS_x  		0.0332
+Result_Quantity_x 0.23921
+system_x  	0.0007
+last_change_y_x 0.08383
+SMS_y  		0.0461
+Result_Quantity_y 0.05657
+Price_y  	0.06998
+Brand_Counts_y  	0.11208
+Trend_x_y  	0.10221
+last_change_y_y 0.05055
+Label_y  	0.02399
+----------------------------------------
+Testing AUC: 	0.684259206893
+September AUC: 	0.626639916753
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0152
+Age  		0.06892
+compare1  	0.07583
+Brand_Counts_x  	0.18401
+Network_y  	0.0
+Flow_y  	0.00069
+Call_y  	0.09777
+SMS_y  		0.04237
+Result_Quantity_y 0.23274
+Price_y  	0.05971
+Brand_Counts_y  	0.06147
+system_y  	0.00163
+Trend_x_y  	0.13122
+Label_y  	0.02844
+----------------------------------------
+Testing AUC: 	0.681399404533
+September AUC: 	0.629884617363
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02841
+Age  		0.07006
+Flow_x  	0.00421
+Call_x  	0.11796
+Result_Quantity_x 0.27286
+compare2  	0.03356
+ave  		0.04893
+last_change_y_x 0.04594
+Brand_Counts_x  	0.17682
+Flow_y  	0.00529
+Price_y  	0.06473
+Trend_x_y  	0.07678
+last_change_y_y 0.03538
+Label_y  	0.01906
+----------------------------------------
+Testing AUC: 	0.686771078091
+September AUC: 	0.635611778474
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02556
+Flow_x  	0.00792
+Result_Quantity_x 0.31284
+Price_x  	0.10559
+Trend_x_x  	0.05154
+compare2  	0.05387
+ave  		0.03649
+system_x  	0.00275
+Brand_Counts_x  	0.1749
+Network_y  	0.01601
+Flow_y  	0.00874
+Brand_Counts_y  	0.08494
+system_y  	0.01452
+Trend_x_y  	0.10433
+----------------------------------------
+Testing AUC: 	0.673759022772
+September AUC: 	0.62435823359
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.03166
+Flow_x  	0.00346
+SMS_x  		0.0503
+Result_Quantity_x 0.38596
+Label_x  	0.01352
+Trend_x_x  	0.01295
+compare1  	0.03403
+ave  		0.04485
+system_x  	0.00147
+Call_y  	0.11654
+Result_Quantity_y 0.13924
+system_y  	0.0059
+Trend_x_y  	0.06824
+last_change_y_y 0.09187
+----------------------------------------
+Testing AUC: 	0.6839684287
+September AUC: 	0.632070730414
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02596
+Call_x  	0.07725
+Result_Quantity_x 0.25189
+Price_x  	0.10043
+Trend_x_x  	0.04614
+compare1  	0.03237
+compare2  	0.0608
+system_x  	0.00124
+Flow_y  	0.00235
+Call_y  	0.07865
+Result_Quantity_y 0.08442
+Brand_Counts_y  	0.13196
+system_y  	0.00106
+Trend_x_y  	0.10549
+----------------------------------------
+Testing AUC: 	0.684665858975
+September AUC: 	0.635099049991
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.03464
+Flow_x  	0.00427
+Call_x  	0.07393
+Label_x  	0.02225
+compare1  	0.02541
+ave  		0.07446
+Brand_Counts_x  	0.34534
+Flow_y  	0.01127
+Call_y  	0.08685
+Price_y  	0.1138
+Brand_Counts_y  	0.09808
+system_y  	0.01852
+last_change_y_y 0.06402
+Label_y  	0.02716
+----------------------------------------
+Testing AUC: 	0.684394715605
+September AUC: 	0.628794973476
+----------------------------------------
+Features 	 imortance: 
+SMS_x  		0.05828
+Price_x  	0.11796
+Label_x  	0.01769
+Trend_x_x  	0.06103
+compare1  	0.02439
+compare2  	0.01636
+ave  		0.0682
+last_change_y_x 0.05154
+Network_y  	0.02335
+Flow_y  	0.00479
+Call_y  	0.11742
+Result_Quantity_y 0.40095
+system_y  	0.0
+last_change_y_y 0.03805
+----------------------------------------
+Testing AUC: 	0.684851773938
+September AUC: 	0.626505220373
+----------------------------------------
+Features 	 imortance: 
+Age  		0.07663
+Flow_x  	0.005
+Call_x  	0.09483
+Result_Quantity_x 0.40743
+Label_x  	0.02337
+Trend_x_x  	0.01452
+compare1  	0.01792
+ave  		0.04836
+system_x  	0.01082
+last_change_y_x 0.04354
+Flow_y  	0.00056
+Call_y  	0.07431
+SMS_y  		0.05532
+Trend_x_y  	0.06739
+last_change_y_y 0.06
+----------------------------------------
+Testing AUC: 	0.685498514591
+September AUC: 	0.633490065788
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06169
+Flow_x  	0.00166
+SMS_x  		0.04944
+Result_Quantity_x 0.25714
+Price_x  	0.06928
+Label_x  	0.00239
+compare2  	0.08367
+Brand_Counts_x  	0.14244
+Network_y  	0.02441
+Call_y  	0.09182
+Price_y  	0.02305
+system_y  	0.0122
+Trend_x_y  	0.08248
+last_change_y_y 0.08276
+Label_y  	0.01556
+----------------------------------------
+Testing AUC: 	0.686170755339
+September AUC: 	0.631731367316
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.00628
+SMS_x  		0.07126
+Price_x  	0.20687
+Label_x  	0.06281
+Trend_x_x  	0.07232
+compare2  	0.03182
+ave  		0.05312
+system_x  	0.03887
+last_change_y_x 0.08614
+Network_y  	0.02476
+Call_y  	0.16642
+Price_y  	0.05951
+system_y  	0.01504
+Trend_x_y  	0.08282
+Label_y  	0.02196
+----------------------------------------
+Testing AUC: 	0.670333524539
+September AUC: 	0.615944507854
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.03075
+Age  		0.07354
+Flow_x  	0.00504
+Call_x  	0.09982
+SMS_x  		0.03829
+Result_Quantity_x 0.35869
+Price_x  	0.09665
+Trend_x_x  	0.01902
+compare1  	0.01276
+ave  		0.05554
+last_change_y_x 0.04176
+Network_y  	0.00756
+Trend_x_y  	0.05474
+last_change_y_y 0.06135
+Label_y  	0.0445
+----------------------------------------
+Testing AUC: 	0.686224462778
+September AUC: 	0.632771745058
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01243
+Call_x  	0.0929
+SMS_x  		0.0255
+Result_Quantity_x 0.29894
+Price_x  	0.11875
+Label_x  	0.011
+compare2  	0.01935
+ave  		0.04228
+system_x  	0.00249
+last_change_y_x 0.08962
+Network_y  	0.00989
+SMS_y  		0.03903
+Brand_Counts_y  	0.16453
+system_y  	0.01022
+Trend_x_y  	0.06309
+----------------------------------------
+Testing AUC: 	0.686968907684
+September AUC: 	0.634127060884
+----------------------------------------
+Features 	 imortance: 
+Age  		0.07154
+Flow_x  	0.00131
+Call_x  	0.06834
+Result_Quantity_x 0.21065
+Price_x  	0.09193
+Label_x  	0.01159
+compare2  	0.06912
+last_change_y_x 0.04135
+Brand_Counts_x  	0.12573
+Network_y  	0.03367
+Flow_y  	0.00463
+Call_y  	0.10342
+Result_Quantity_y 0.08572
+Price_y  	0.0237
+last_change_y_y 0.0573
+----------------------------------------
+Testing AUC: 	0.683390971393
+September AUC: 	0.628520898293
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0211
+Flow_x  	0.0052
+Call_x  	0.1067
+SMS_x  		0.03069
+Result_Quantity_x 0.24033
+Label_x  	0.0036
+compare2  	0.06894
+Brand_Counts_x  	0.21679
+Network_y  	0.00364
+Flow_y  	0.00444
+SMS_y  		0.05349
+Result_Quantity_y 0.09859
+system_y  	0.00471
+Trend_x_y  	0.12628
+Label_y  	0.0155
+----------------------------------------
+Testing AUC: 	0.682058149018
+September AUC: 	0.633480549362
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06815
+Flow_x  	0.0
+Call_x  	0.07381
+Trend_x_x  	0.06088
+ave  		0.05923
+system_x  	0.02832
+last_change_y_x 0.05889
+Network_y  	0.01909
+Call_y  	0.0817
+SMS_y  		0.04265
+Result_Quantity_y 0.24789
+Price_y  	0.07577
+Brand_Counts_y  	0.14239
+system_y  	0.0
+last_change_y_y 0.04123
+----------------------------------------
+Testing AUC: 	0.687177318646
+September AUC: 	0.629355905115
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02128
+Age  		0.06535
+Flow_x  	0.00409
+Call_x  	0.0992
+Result_Quantity_x 0.25107
+Price_x  	0.08271
+compare1  	0.02162
+compare2  	0.03962
+ave  		0.04209
+Brand_Counts_x  	0.14721
+Network_y  	0.00209
+SMS_y  		0.04908
+Price_y  	0.02168
+Brand_Counts_y  	0.03042
+Trend_x_y  	0.12248
+----------------------------------------
+Testing AUC: 	0.686273257476
+September AUC: 	0.637868760699
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01306
+Flow_x  	0.00076
+Call_x  	0.06565
+SMS_x  		0.03286
+Price_x  	0.10657
+Label_x  	0.0103
+compare2  	0.05148
+last_change_y_x 0.13947
+Network_y  	0.02343
+Flow_y  	0.00064
+Call_y  	0.07974
+Result_Quantity_y 0.3596
+Price_y  	0.02055
+Trend_x_y  	0.0807
+Label_y  	0.01518
+----------------------------------------
+Testing AUC: 	0.683784751912
+September AUC: 	0.623336449187
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0213
+Call_x  	0.09062
+SMS_x  		0.03005
+Result_Quantity_x 0.33774
+Price_x  	0.09601
+Label_x  	0.00254
+Trend_x_x  	0.08655
+compare1  	0.02081
+compare2  	0.04971
+Network_y  	0.01022
+Result_Quantity_y 0.10484
+Price_y  	0.02637
+system_y  	0.00273
+last_change_y_y 0.10065
+Label_y  	0.01985
+----------------------------------------
+Testing AUC: 	0.68383212278
+September AUC: 	0.624963394492
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02117
+Age  		0.07375
+Result_Quantity_x 0.23621
+Trend_x_x  	0.02294
+compare1  	0.02699
+compare2  	0.0554
+system_x  	0.00318
+Brand_Counts_x  	0.18838
+Network_y  	0.00834
+Call_y  	0.09726
+SMS_y  		0.04565
+Result_Quantity_y 0.08762
+system_y  	0.00107
+Trend_x_y  	0.11413
+Label_y  	0.01791
+----------------------------------------
+Testing AUC: 	0.683650041235
+September AUC: 	0.634403084107
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0195
+Flow_x  	0.00099
+Call_x  	0.10486
+SMS_x  		0.04726
+Result_Quantity_x 0.261
+Label_x  	0.00242
+compare1  	0.01433
+ave  		0.06294
+last_change_y_x 0.08065
+Brand_Counts_x  	0.21185
+Network_y  	0.00471
+Flow_y  	0.00801
+Result_Quantity_y 0.08336
+Price_y  	0.08906
+Label_y  	0.00906
+----------------------------------------
+Testing AUC: 	0.685663427354
+September AUC: 	0.635540780137
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02977
+Age  		0.09017
+Call_x  	0.12477
+Price_x  	0.1217
+Label_x  	0.0166
+compare1  	0.02096
+compare2  	0.02976
+ave  		0.04763
+last_change_y_x 0.06858
+Result_Quantity_y 0.30998
+Price_y  	0.02952
+system_y  	0.0
+Trend_x_y  	0.06976
+last_change_y_y 0.0207
+Label_y  	0.0201
+----------------------------------------
+Testing AUC: 	0.684025274271
+September AUC: 	0.626498869442
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01603
+Age  		0.08631
+Result_Quantity_x 0.30403
+Price_x  	0.11028
+Trend_x_x  	0.02033
+compare1  	0.02881
+ave  		0.05618
+system_x  	0.00535
+Network_y  	0.01044
+Flow_y  	0.00949
+SMS_y  		0.06622
+Result_Quantity_y 0.12185
+Trend_x_y  	0.05378
+last_change_y_y 0.07464
+Label_y  	0.03627
+----------------------------------------
+Testing AUC: 	0.679571620658
+September AUC: 	0.626621131537
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02077
+Call_x  	0.0889
+SMS_x  		0.04041
+Result_Quantity_x 0.27007
+Price_x  	0.09774
+Label_x  	0.00603
+Trend_x_x  	0.03579
+compare2  	0.02629
+ave  		0.04168
+last_change_y_x 0.06354
+Brand_Counts_x  	0.19188
+Network_y  	0.00298
+Flow_y  	0.00691
+Price_y  	0.01892
+system_y  	0.01507
+Trend_x_y  	0.07302
+----------------------------------------
+Testing AUC: 	0.686739814774
+September AUC: 	0.633634680512
+----------------------------------------
+Features 	 imortance: 
+Age  		0.09733
+Flow_x  	0.00754
+SMS_x  		0.0458
+Result_Quantity_x 0.43644
+Label_x  	0.00351
+Trend_x_x  	0.04814
+compare1  	0.01541
+compare2  	0.02814
+ave  		0.06841
+system_x  	0.00364
+last_change_y_x 0.02137
+Call_y  	0.11697
+SMS_y  		0.03608
+system_y  	0.01515
+last_change_y_y 0.03551
+Label_y  	0.02056
+----------------------------------------
+Testing AUC: 	0.685422089715
+September AUC: 	0.632527156789
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02263
+Flow_x  	0.00104
+Call_x  	0.07443
+SMS_x  		0.03296
+compare1  	0.04257
+compare2  	0.04719
+system_x  	0.0206
+Brand_Counts_x  	0.20757
+Network_y  	0.00714
+Flow_y  	0.00203
+SMS_y  		0.04976
+Result_Quantity_y 0.20295
+Price_y  	0.06625
+Brand_Counts_y  	0.06711
+Trend_x_y  	0.13716
+Label_y  	0.01862
+----------------------------------------
+Testing AUC: 	0.682466516256
+September AUC: 	0.633152106764
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02493
+Age  		0.09045
+Flow_x  	0.00395
+SMS_x  		0.05765
+Label_x  	0.02619
+compare2  	0.02738
+ave  		0.03972
+system_x  	0.02229
+last_change_y_x 0.12331
+Flow_y  	0.00709
+SMS_y  		0.07399
+Result_Quantity_y 0.31345
+Price_y  	0.0782
+system_y  	0.0
+Trend_x_y  	0.08693
+Label_y  	0.02448
+----------------------------------------
+Testing AUC: 	0.677775763418
+September AUC: 	0.625177805996
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.00048
+Call_x  	0.06872
+SMS_x  		0.02498
+Price_x  	0.11538
+compare1  	0.01026
+ave  		0.05193
+system_x  	0.00955
+last_change_y_x 0.06414
+Brand_Counts_x  	0.22058
+Network_y  	0.01749
+Call_y  	0.06531
+SMS_y  		0.04694
+Result_Quantity_y 0.19089
+Trend_x_y  	0.05814
+last_change_y_y 0.03308
+Label_y  	0.02211
+----------------------------------------
+Testing AUC: 	0.687869684778
+September AUC: 	0.634382605235
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02548
+Age  		0.08667
+Flow_x  	0.00419
+SMS_x  		0.07194
+Label_x  	0.00503
+compare1  	0.01335
+compare2  	0.02936
+ave  		0.04807
+system_x  	0.02317
+last_change_y_x 0.06589
+Brand_Counts_x  	0.23225
+SMS_y  		0.07242
+Result_Quantity_y 0.21941
+Trend_x_y  	0.05967
+last_change_y_y 0.01604
+Label_y  	0.02704
+----------------------------------------
+Testing AUC: 	0.679160247733
+September AUC: 	0.628895564212
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0188
+Age  		0.07185
+Call_x  	0.07228
+SMS_x  		0.03177
+Result_Quantity_x 0.35456
+compare1  	0.01071
+compare2  	0.0598
+system_x  	0.00308
+last_change_y_x 0.02999
+Network_y  	0.00334
+Call_y  	0.08154
+SMS_y  		0.03506
+Result_Quantity_y 0.11254
+Price_y  	0.07961
+system_y  	0.0
+last_change_y_y 0.03507
+----------------------------------------
+Testing AUC: 	0.682513706996
+September AUC: 	0.627296545066
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01694
+SMS_x  		0.02802
+Result_Quantity_x 0.27785
+Price_x  	0.09252
+compare1  	0.00769
+compare2  	0.04881
+last_change_y_x 0.04145
+Brand_Counts_x  	0.13668
+Network_y  	0.00463
+Flow_y  	0.00327
+Call_y  	0.07919
+SMS_y  		0.03761
+Price_y  	0.04135
+Brand_Counts_y  	0.03504
+Trend_x_y  	0.08662
+last_change_y_y 0.0623
+----------------------------------------
+Testing AUC: 	0.686422837454
+September AUC: 	0.628945128698
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02146
+Flow_x  	0.00061
+Call_x  	0.06186
+SMS_x  		0.03539
+Price_x  	0.09076
+compare1  	0.01118
+compare2  	0.01182
+ave  		0.05326
+last_change_y_x 0.11326
+Brand_Counts_x  	0.21085
+Flow_y  	0.00165
+Call_y  	0.08364
+SMS_y  		0.04594
+Result_Quantity_y 0.23685
+Price_y  	0.01677
+system_y  	0.0047
+----------------------------------------
+Testing AUC: 	0.686624104739
+September AUC: 	0.634954008922
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.00864
+Call_x  	0.11427
+Result_Quantity_x 0.41281
+Price_x  	0.13645
+Label_x  	0.01295
+Trend_x_x  	0.01671
+compare1  	0.0097
+compare2  	0.02157
+ave  		0.03792
+system_x  	0.00351
+last_change_y_x 0.07479
+Network_y  	0.01381
+Flow_y  	0.00249
+SMS_y  		0.04094
+system_y  	0.01402
+Trend_x_y  	0.07941
+----------------------------------------
+Testing AUC: 	0.685430534563
+September AUC: 	0.631660118511
+----------------------------------------
+Features 	 imortance: 
+Age  		0.07138
+Call_x  	0.09546
+SMS_x  		0.04669
+Result_Quantity_x 0.20086
+Price_x  	0.08949
+Label_x  	0.00318
+Trend_x_x  	0.01619
+system_x  	0.00166
+last_change_y_x 0.12071
+Brand_Counts_x  	0.11673
+Flow_y  	0.00638
+Result_Quantity_y 0.06444
+Brand_Counts_y  	0.06299
+system_y  	0.00176
+Trend_x_y  	0.08339
+Label_y  	0.0187
+----------------------------------------
+Testing AUC: 	0.683689846676
+September AUC: 	0.622969975569
+----------------------------------------
+Features 	 imortance: 
+Age  		0.07978
+Flow_x  	0.00373
+SMS_x  		0.06662
+Result_Quantity_x 0.2626
+Trend_x_x  	0.02445
+compare1  	0.01359
+ave  		0.06137
+last_change_y_x 0.06131
+Network_y  	0.03382
+SMS_y  		0.05697
+Result_Quantity_y 0.09189
+Brand_Counts_y  	0.14788
+system_y  	0.00174
+Trend_x_y  	0.05383
+last_change_y_y 0.01575
+Label_y  	0.02466
+----------------------------------------
+Testing AUC: 	0.680051677922
+September AUC: 	0.628567507146
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.019
+Age  		0.06475
+Flow_x  	0.00054
+Call_x  	0.08472
+SMS_x  		0.03076
+Price_x  	0.06731
+Trend_x_x  	0.02361
+system_x  	0.01846
+Brand_Counts_x  	0.201
+Network_y  	0.00115
+Flow_y  	0.00275
+SMS_y  		0.0421
+Result_Quantity_y 0.21222
+Price_y  	0.03315
+Brand_Counts_y  	0.10196
+Trend_x_y  	0.09651
+----------------------------------------
+Testing AUC: 	0.67609347303
+September AUC: 	0.613877961756
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01395
+Age  		0.06743
+Result_Quantity_x 0.21183
+Price_x  	0.08444
+Label_x  	0.00547
+compare1  	0.03961
+ave  		0.04159
+Brand_Counts_x  	0.20465
+Network_y  	0.0033
+Flow_y  	0.00554
+SMS_y  		0.07665
+Result_Quantity_y 0.09035
+Price_y  	0.01524
+system_y  	0.00487
+Trend_x_y  	0.10359
+Label_y  	0.0315
+----------------------------------------
+Testing AUC: 	0.680210623765
+September AUC: 	0.629049031612
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06843
+Call_x  	0.10022
+SMS_x  		0.03429
+Result_Quantity_x 0.25557
+Price_x  	0.0711
+Label_x  	0.00116
+compare1  	0.01208
+compare2  	0.03078
+ave  		0.04251
+system_x  	0.00192
+last_change_y_x 0.07131
+Brand_Counts_x  	0.1469
+SMS_y  		0.04987
+Price_y  	0.03058
+Trend_x_y  	0.07427
+Label_y  	0.00904
+----------------------------------------
+Testing AUC: 	0.68778185196
+September AUC: 	0.634538354856
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.03096
+Flow_x  	0.00316
+Result_Quantity_x 0.26824
+Label_x  	0.0191
+Trend_x_x  	0.07541
+compare1  	0.00694
+compare2  	0.01759
+ave  		0.06015
+system_x  	0.0
+last_change_y_x 0.0381
+Brand_Counts_x  	0.14754
+Flow_y  	0.0071
+SMS_y  		0.07075
+Result_Quantity_y 0.08223
+Price_y  	0.081
+Brand_Counts_y  	0.05212
+last_change_y_y 0.0396
+----------------------------------------
+Testing AUC: 	0.679356981038
+September AUC: 	0.62546906055
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01995
+Age  		0.06528
+Call_x  	0.05956
+SMS_x  		0.02396
+Price_x  	0.07677
+Label_x  	0.01145
+compare1  	0.02139
+last_change_y_x 0.07834
+Brand_Counts_x  	0.1263
+Flow_y  	0.00162
+Call_y  	0.05843
+SMS_y  		0.03662
+Result_Quantity_y 0.21166
+Price_y  	0.01842
+Brand_Counts_y  	0.04381
+Trend_x_y  	0.10054
+last_change_y_y 0.04588
+----------------------------------------
+Testing AUC: 	0.685811175194
+September AUC: 	0.624297475565
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02667
+Age  		0.07485
+Flow_x  	0.00396
+Call_x  	0.06455
+SMS_x  		0.04282
+Label_x  	0.03972
+Trend_x_x  	0.07246
+compare1  	0.01069
+compare2  	0.05873
+system_x  	0.03848
+last_change_y_x 0.08835
+Flow_y  	0.00095
+Call_y  	0.08208
+SMS_y  		0.03248
+Brand_Counts_y  	0.33427
+system_y  	0.00434
+Label_y  	0.02461
+----------------------------------------
+Testing AUC: 	0.681191032839
+September AUC: 	0.618236964756
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.03229
+Age  		0.07346
+Flow_x  	0.0
+SMS_x  		0.05729
+Result_Quantity_x 0.19893
+Price_x  	0.08764
+compare1  	0.00867
+compare2  	0.02563
+ave  		0.03894
+last_change_y_x 0.07483
+Flow_y  	0.00668
+SMS_y  		0.04968
+Result_Quantity_y 0.10457
+Brand_Counts_y  	0.1462
+system_y  	0.0
+Trend_x_y  	0.068
+Label_y  	0.02719
+----------------------------------------
+Testing AUC: 	0.681444732981
+September AUC: 	0.62899374158
+----------------------------------------
+Features 	 imortance: 
+Call_x  	0.06193
+SMS_x  		0.03766
+Result_Quantity_x 0.19603
+Price_x  	0.08879
+Trend_x_x  	0.02943
+compare1  	0.00396
+compare2  	0.02216
+ave  		0.0428
+system_x  	0.00118
+last_change_y_x 0.06546
+Brand_Counts_x  	0.15631
+Network_y  	0.02011
+Call_y  	0.0603
+Result_Quantity_y 0.08845
+Brand_Counts_y  	0.05544
+Trend_x_y  	0.05502
+Label_y  	0.01497
+----------------------------------------
+Testing AUC: 	0.688277189799
+September AUC: 	0.635658095299
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02161
+Age  		0.06121
+Call_x  	0.08857
+SMS_x  		0.03463
+Result_Quantity_x 0.24118
+Label_x  	0.01137
+Trend_x_x  	0.0774
+compare2  	0.06321
+system_x  	0.00159
+last_change_y_x 0.09504
+Brand_Counts_x  	0.14614
+Network_y  	0.00089
+Flow_y  	0.00094
+SMS_y  		0.04409
+Price_y  	0.07423
+Brand_Counts_y  	0.02641
+system_y  	0.01148
+----------------------------------------
+Testing AUC: 	0.685533123467
+September AUC: 	0.6293491181
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02336
+SMS_x  		0.05023
+Result_Quantity_x 0.20513
+Price_x  	0.0995
+Label_x  	0.00462
+compare2  	0.02026
+ave  		0.04031
+last_change_y_x 0.05276
+Brand_Counts_x  	0.14669
+Network_y  	0.00393
+Flow_y  	0.00358
+Call_y  	0.08377
+Result_Quantity_y 0.07951
+Brand_Counts_y  	0.06691
+Trend_x_y  	0.05972
+last_change_y_y 0.04937
+Label_y  	0.01034
+----------------------------------------
+Testing AUC: 	0.68780942068
+September AUC: 	0.636517720791
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.03774
+Flow_x  	0.00578
+SMS_x  		0.08653
+Result_Quantity_x 0.30525
+Label_x  	0.00352
+Trend_x_x  	0.06974
+compare1  	0.01644
+compare2  	0.02084
+ave  		0.06198
+system_x  	0.00066
+last_change_y_x 0.04764
+Network_y  	0.00908
+Result_Quantity_y 0.09377
+Brand_Counts_y  	0.17522
+system_y  	0.00162
+last_change_y_y 0.04594
+Label_y  	0.01825
+----------------------------------------
+Testing AUC: 	0.67747902871
+September AUC: 	0.625722544523
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02619
+Flow_x  	0.00118
+Call_x  	0.0643
+SMS_x  		0.038
+Result_Quantity_x 0.32829
+Price_x  	0.08597
+Label_x  	0.00225
+Trend_x_x  	0.01274
+ave  		0.04644
+last_change_y_x 0.11535
+Network_y  	0.01114
+Call_y  	0.06737
+Result_Quantity_y 0.10027
+Price_y  	0.0269
+system_y  	0.0
+Trend_x_y  	0.05685
+Label_y  	0.01675
+----------------------------------------
+Testing AUC: 	0.687085545599
+September AUC: 	0.632761368806
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01681
+Flow_x  	0.00953
+Call_x  	0.10307
+SMS_x  		0.04724
+Label_x  	0.07556
+compare1  	0.02472
+compare2  	0.02718
+ave  		0.06074
+system_x  	0.06099
+Network_y  	0.00539
+Flow_y  	0.00171
+Call_y  	0.12812
+SMS_y  		0.06753
+Price_y  	0.16233
+Trend_x_y  	0.10987
+last_change_y_y 0.05567
+Label_y  	0.04353
+----------------------------------------
+Testing AUC: 	0.669692116683
+September AUC: 	0.62090687259
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.00052
+Call_x  	0.05968
+SMS_x  		0.01997
+Result_Quantity_x 0.38258
+Price_x  	0.07481
+Label_x  	0.00802
+Trend_x_x  	0.03701
+compare1  	0.02137
+last_change_y_x 0.04412
+Network_y  	0.0162
+Call_y  	0.0607
+SMS_y  		0.04223
+Price_y  	0.03698
+system_y  	0.00581
+Trend_x_y  	0.09466
+last_change_y_y 0.09128
+Label_y  	0.00404
+----------------------------------------
+Testing AUC: 	0.684894057899
+September AUC: 	0.629361834545
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02444
+Age  		0.06346
+Flow_x  	0.0007
+Call_x  	0.09382
+SMS_x  		0.03795
+Result_Quantity_x 0.24019
+Price_x  	0.07537
+Trend_x_x  	0.03875
+ave  		0.07177
+system_x  	0.00184
+Brand_Counts_x  	0.10267
+Flow_y  	0.0
+Result_Quantity_y 0.06417
+Price_y  	0.03205
+Brand_Counts_y  	0.07593
+last_change_y_y 0.06148
+Label_y  	0.01541
+----------------------------------------
+Testing AUC: 	0.686408445777
+September AUC: 	0.629147684666
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01547
+Flow_x  	0.0
+Call_x  	0.06373
+SMS_x  		0.02418
+Result_Quantity_x 0.3303
+Price_x  	0.10319
+Trend_x_x  	0.01563
+ave  		0.0448
+last_change_y_x 0.12268
+Network_y  	0.0082
+Flow_y  	0.00224
+Call_y  	0.06726
+SMS_y  		0.02832
+Result_Quantity_y 0.1025
+system_y  	0.00079
+Trend_x_y  	0.05451
+Label_y  	0.01621
+----------------------------------------
+Testing AUC: 	0.687037133705
+September AUC: 	0.634239888179
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06342
+Call_x  	0.06463
+SMS_x  		0.03386
+Result_Quantity_x 0.23997
+compare2  	0.04937
+ave  		0.04314
+system_x  	0.00895
+Brand_Counts_x  	0.13366
+Network_y  	0.02953
+Flow_y  	0.00057
+Call_y  	0.06636
+Result_Quantity_y 0.07346
+Brand_Counts_y  	0.06523
+system_y  	0.00184
+Trend_x_y  	0.05932
+last_change_y_y 0.05024
+Label_y  	0.01645
+----------------------------------------
+Testing AUC: 	0.686865912843
+September AUC: 	0.636106960194
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01662
+Flow_x  	0.0
+Call_x  	0.05419
+SMS_x  		0.03913
+Result_Quantity_x 0.25044
+Trend_x_x  	0.11025
+compare1  	0.01919
+system_x  	0.00144
+last_change_y_x 0.06268
+Brand_Counts_x  	0.15496
+Flow_y  	0.00197
+Call_y  	0.05785
+Result_Quantity_y 0.08343
+Price_y  	0.05748
+system_y  	0.00179
+last_change_y_y 0.07028
+Label_y  	0.01829
+----------------------------------------
+Testing AUC: 	0.685182603784
+September AUC: 	0.626863066147
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01277
+Call_x  	0.06846
+SMS_x  		0.03563
+Label_x  	0.02084
+Trend_x_x  	0.02044
+compare1  	0.0077
+compare2  	0.02164
+ave  		0.05878
+system_x  	0.02009
+last_change_y_x 0.05595
+Brand_Counts_x  	0.41658
+Network_y  	0.00615
+Flow_y  	0.00112
+Call_y  	0.06031
+SMS_y  		0.04431
+Price_y  	0.08078
+system_y  	0.01017
+Trend_x_y  	0.05827
+----------------------------------------
+Testing AUC: 	0.686843053768
+September AUC: 	0.633610400738
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06723
+Flow_x  	0.00036
+Call_x  	0.06756
+SMS_x  		0.03578
+Result_Quantity_x 0.24685
+Price_x  	0.07514
+Trend_x_x  	0.0432
+compare1  	0.02429
+ave  		0.05963
+Network_y  	0.02737
+Flow_y  	0.00139
+Call_y  	0.0663
+Result_Quantity_y 0.06953
+Price_y  	0.01453
+Brand_Counts_y  	0.12558
+system_y  	0.00312
+last_change_y_y 0.05366
+Label_y  	0.01847
+----------------------------------------
+Testing AUC: 	0.689150801087
+September AUC: 	0.633404838251
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02668
+Age  		0.06604
+Flow_x  	0.00084
+SMS_x  		0.0357
+Result_Quantity_x 0.29959
+Price_x  	0.09342
+Trend_x_x  	0.0139
+compare1  	0.00786
+compare2  	0.06278
+system_x  	0.00199
+last_change_y_x 0.03542
+Flow_y  	0.0043
+Call_y  	0.08673
+SMS_y  		0.03358
+Brand_Counts_y  	0.10713
+system_y  	0.01172
+Trend_x_y  	0.06921
+last_change_y_y 0.04312
+----------------------------------------
+Testing AUC: 	0.686063454166
+September AUC: 	0.627867960708
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.00797
+Call_x  	0.05797
+Result_Quantity_x 0.2223
+Trend_x_x  	0.02286
+compare1  	0.0244
+compare2  	0.02314
+ave  		0.0514
+system_x  	0.00082
+Brand_Counts_x  	0.18059
+Network_y  	0.03128
+Flow_y  	0.00237
+Call_y  	0.06538
+Result_Quantity_y 0.09848
+Price_y  	0.07561
+system_y  	0.00275
+Trend_x_y  	0.0599
+last_change_y_y 0.05731
+Label_y  	0.0155
+----------------------------------------
+Testing AUC: 	0.68724261312
+September AUC: 	0.63548448934
+----------------------------------------
+Features 	 imortance: 
+Age  		0.072
+Flow_x  	0.00207
+SMS_x  		0.06044
+Result_Quantity_x 0.25252
+Price_x  	0.08037
+Label_x  	0.02155
+compare1  	0.00788
+compare2  	0.03081
+ave  		0.0478
+system_x  	0.00391
+last_change_y_x 0.04214
+Brand_Counts_x  	0.15628
+Network_y  	0.02182
+Flow_y  	0.00913
+SMS_y  		0.06985
+Price_y  	0.02656
+Trend_x_y  	0.06846
+last_change_y_y 0.02638
+----------------------------------------
+Testing AUC: 	0.682293377585
+September AUC: 	0.630075903191
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01982
+Flow_x  	0.0
+Call_x  	0.04957
+SMS_x  		0.02776
+Result_Quantity_x 0.21503
+Price_x  	0.09326
+compare2  	0.04757
+ave  		0.03123
+system_x  	0.00205
+Brand_Counts_x  	0.16844
+Flow_y  	0.00067
+Call_y  	0.06076
+SMS_y  		0.02758
+Result_Quantity_y 0.1036
+Price_y  	0.01954
+system_y  	0.00231
+Trend_x_y  	0.11521
+Label_y  	0.01559
+----------------------------------------
+Testing AUC: 	0.686799436085
+September AUC: 	0.640667438137
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01552
+Flow_x  	0.00265
+Call_x  	0.04369
+SMS_x  		0.04239
+Result_Quantity_x 0.2221
+Price_x  	0.09491
+Label_x  	0.00575
+compare1  	0.01643
+ave  		0.04424
+last_change_y_x 0.04067
+Brand_Counts_x  	0.15295
+Network_y  	0.01096
+Call_y  	0.05384
+Result_Quantity_y 0.08359
+Brand_Counts_y  	0.05347
+system_y  	0.00419
+Trend_x_y  	0.06906
+last_change_y_y 0.04357
+----------------------------------------
+Testing AUC: 	0.68775502109
+September AUC: 	0.635382064707
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02036
+Age  		0.05119
+Call_x  	0.06363
+Result_Quantity_x 0.2177
+Price_x  	0.07641
+Label_x  	0.00463
+Trend_x_x  	0.07976
+compare2  	0.0762
+system_x  	0.00162
+Brand_Counts_x  	0.10743
+Network_y  	0.00495
+Flow_y  	0.00317
+Call_y  	0.07079
+SMS_y  		0.036
+Result_Quantity_y 0.06072
+Brand_Counts_y  	0.04528
+last_change_y_y 0.06628
+Label_y  	0.01385
+----------------------------------------
+Testing AUC: 	0.686244036974
+September AUC: 	0.629388582053
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02848
+Age  		0.05985
+Flow_x  	0.00092
+Result_Quantity_x 0.20478
+Label_x  	0.00379
+Trend_x_x  	0.03577
+compare1  	0.03498
+system_x  	0.00336
+last_change_y_x 0.05372
+Brand_Counts_x  	0.1261
+Call_y  	0.09581
+SMS_y  		0.04671
+Result_Quantity_y 0.06675
+Price_y  	0.07207
+system_y  	0.00259
+Trend_x_y  	0.09285
+last_change_y_y 0.05524
+Label_y  	0.01623
+----------------------------------------
+Testing AUC: 	0.684723927054
+September AUC: 	0.629413185778
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06529
+Flow_x  	0.00272
+Call_x  	0.06228
+Result_Quantity_x 0.18363
+Price_x  	0.07079
+Label_x  	0.01397
+Trend_x_x  	0.01991
+compare1  	0.03251
+ave  		0.05153
+system_x  	0.00291
+Brand_Counts_x  	0.15724
+Network_y  	0.02824
+Flow_y  	0.00547
+Call_y  	0.06775
+SMS_y  		0.04571
+Result_Quantity_y 0.0771
+Price_y  	0.01551
+Trend_x_y  	0.09744
+----------------------------------------
+Testing AUC: 	0.687069066615
+September AUC: 	0.638093471132
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0163
+Flow_x  	0.00339
+Call_x  	0.09358
+SMS_x  		0.04032
+Price_x  	0.09462
+Label_x  	0.00493
+Trend_x_x  	0.05945
+compare2  	0.01937
+ave  		0.04829
+system_x  	0.01413
+last_change_y_x 0.07731
+Brand_Counts_x  	0.23422
+Network_y  	0.00388
+Result_Quantity_y 0.22262
+Price_y  	0.0255
+system_y  	0.00294
+last_change_y_y 0.03295
+Label_y  	0.00621
+----------------------------------------
+Testing AUC: 	0.68663343582
+September AUC: 	0.631538385669
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01943
+Flow_x  	0.00431
+SMS_x  		0.04385
+Result_Quantity_x 0.20987
+Price_x  	0.12069
+Label_x  	0.00821
+Trend_x_x  	0.02135
+compare2  	0.02046
+ave  		0.0383
+last_change_y_x 0.05566
+Brand_Counts_x  	0.18246
+Network_y  	0.00401
+SMS_y  		0.05755
+Result_Quantity_y 0.1002
+system_y  	0.0007
+Trend_x_y  	0.06189
+last_change_y_y 0.03595
+Label_y  	0.01512
+----------------------------------------
+Testing AUC: 	0.680848563334
+September AUC: 	0.628311889156
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01589
+Age  		0.06947
+Flow_x  	0.00276
+SMS_x  		0.04995
+Result_Quantity_x 0.28055
+Price_x  	0.08627
+Label_x  	0.01175
+compare2  	0.05095
+ave  		0.04666
+Network_y  	0.00732
+Flow_y  	0.01119
+SMS_y  		0.05272
+Price_y  	0.02616
+Brand_Counts_y  	0.13064
+system_y  	0.00927
+Trend_x_y  	0.06365
+last_change_y_y 0.06049
+Label_y  	0.02432
+----------------------------------------
+Testing AUC: 	0.681717657805
+September AUC: 	0.628886565368
+----------------------------------------
+Features 	 imortance: 
+Age  		0.0738
+Flow_x  	0.00098
+Call_x  	0.06924
+SMS_x  		0.03163
+Result_Quantity_x 0.2232
+Label_x  	0.00118
+Trend_x_x  	0.0101
+ave  		0.05272
+system_x  	0.00327
+last_change_y_x 0.05867
+Brand_Counts_x  	0.14544
+Call_y  	0.05831
+SMS_y  		0.04009
+Result_Quantity_y 0.084
+Price_y  	0.04456
+Trend_x_y  	0.06603
+last_change_y_y 0.02215
+Label_y  	0.01463
+----------------------------------------
+Testing AUC: 	0.687934713441
+September AUC: 	0.635233828332
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01677
+SMS_x  		0.03201
+Label_x  	0.00732
+compare1  	0.0135
+compare2  	0.04686
+system_x  	0.02421
+last_change_y_x 0.06566
+Brand_Counts_x  	0.18456
+Network_y  	0.00917
+Flow_y  	0.00206
+Call_y  	0.08348
+SMS_y  		0.04799
+Result_Quantity_y 0.2009
+Price_y  	0.07703
+Brand_Counts_y  	0.04876
+system_y  	0.0
+Trend_x_y  	0.08978
+last_change_y_y 0.04995
+----------------------------------------
+Testing AUC: 	0.684761344601
+September AUC: 	0.628754110808
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02229
+Age  		0.05987
+Flow_x  	0.00439
+Call_x  	0.08577
+SMS_x  		0.01625
+Result_Quantity_x 0.18466
+Price_x  	0.07143
+Label_x  	0.01034
+Trend_x_x  	0.0653
+compare1  	0.0228
+compare2  	0.05388
+system_x  	0.00484
+Brand_Counts_x  	0.1215
+Flow_y  	0.00652
+SMS_y  		0.0486
+Result_Quantity_y 0.08208
+Price_y  	0.03139
+Brand_Counts_y  	0.03839
+last_change_y_y 0.0697
+----------------------------------------
+Testing AUC: 	0.685899962893
+September AUC: 	0.628214639198
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02793
+Age  		0.06678
+Flow_x  	0.00119
+SMS_x  		0.02985
+Result_Quantity_x 0.20173
+Price_x  	0.07283
+Label_x  	0.01187
+Trend_x_x  	0.04584
+compare2  	0.01915
+ave  		0.05265
+last_change_y_x 0.0327
+Brand_Counts_x  	0.12815
+Network_y  	0.00377
+Call_y  	0.08443
+SMS_y  		0.03278
+Result_Quantity_y 0.07726
+Price_y  	0.0295
+Brand_Counts_y  	0.03851
+last_change_y_y 0.04307
+----------------------------------------
+Testing AUC: 	0.688617099924
+September AUC: 	0.634556832224
+----------------------------------------
+Features 	 imortance: 
+Age  		0.07352
+Flow_x  	0.0
+SMS_x  		0.03783
+Price_x  	0.11599
+Label_x  	0.00703
+Trend_x_x  	0.01165
+compare1  	0.02903
+compare2  	0.02829
+ave  		0.04394
+system_x  	0.01397
+Network_y  	0.02137
+Flow_y  	0.00374
+Call_y  	0.10403
+Result_Quantity_y 0.22212
+Brand_Counts_y  	0.15185
+system_y  	0.0
+Trend_x_y  	0.05697
+last_change_y_y 0.05682
+Label_y  	0.02187
+----------------------------------------
+Testing AUC: 	0.687605671733
+September AUC: 	0.629024655552
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0268
+Age  		0.06868
+Call_x  	0.11718
+Result_Quantity_x 0.19316
+Price_x  	0.08066
+Label_x  	0.0184
+Trend_x_x  	0.018
+compare1  	0.00929
+compare2  	0.02825
+ave  		0.04456
+system_x  	0.00194
+last_change_y_x 0.04041
+Brand_Counts_x  	0.131
+Flow_y  	0.00324
+Result_Quantity_y 0.07782
+Brand_Counts_y  	0.04653
+system_y  	0.00332
+Trend_x_y  	0.06292
+last_change_y_y 0.02785
+----------------------------------------
+Testing AUC: 	0.686773848221
+September AUC: 	0.635313179387
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02391
+Age  		0.06822
+Flow_x  	0.00119
+Call_x  	0.07488
+Result_Quantity_x 0.26242
+Trend_x_x  	0.01757
+compare1  	0.00957
+compare2  	0.02462
+ave  		0.04113
+system_x  	0.00304
+last_change_y_x 0.03502
+Brand_Counts_x  	0.15839
+Flow_y  	0.00086
+Call_y  	0.06706
+SMS_y  		0.04446
+Price_y  	0.0625
+Trend_x_y  	0.05445
+last_change_y_y 0.02856
+Label_y  	0.02216
+----------------------------------------
+Testing AUC: 	0.688382683364
+September AUC: 	0.635881878425
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01643
+Flow_x  	0.00212
+SMS_x  		0.03163
+Result_Quantity_x 0.26201
+Price_x  	0.08687
+Label_x  	0.00375
+Trend_x_x  	0.1073
+compare1  	0.0082
+compare2  	0.0489
+system_x  	0.00296
+last_change_y_x 0.06546
+Brand_Counts_x  	0.18892
+Network_y  	0.00356
+Flow_y  	0.00906
+Call_y  	0.08721
+SMS_y  		0.03508
+Price_y  	0.02112
+system_y  	0.01042
+Label_y  	0.009
+----------------------------------------
+Testing AUC: 	0.685518543363
+September AUC: 	0.62872405491
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01381
+Flow_x  	0.00064
+Call_x  	0.06882
+SMS_x  		0.01942
+Price_x  	0.11556
+Label_x  	0.00887
+Trend_x_x  	0.05383
+compare1  	0.04008
+ave  		0.06513
+system_x  	0.01891
+Network_y  	0.00795
+Flow_y  	0.00405
+Call_y  	0.0792
+SMS_y  		0.04019
+Result_Quantity_y 0.34241
+Price_y  	0.02836
+system_y  	0.0
+last_change_y_y 0.07952
+Label_y  	0.01325
+----------------------------------------
+Testing AUC: 	0.685719425278
+September AUC: 	0.627698468524
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01742
+Flow_x  	0.0
+Call_x  	0.07295
+SMS_x  		0.03017
+Result_Quantity_x 0.30189
+Price_x  	0.07946
+Label_x  	0.00575
+Trend_x_x  	0.06739
+compare1  	0.0072
+compare2  	0.0487
+last_change_y_x 0.06323
+Network_y  	0.00517
+Call_y  	0.06551
+SMS_y  		0.03464
+Result_Quantity_y 0.09719
+Price_y  	0.03663
+system_y  	0.00315
+last_change_y_y 0.05463
+Label_y  	0.00891
+----------------------------------------
+Testing AUC: 	0.684800014617
+September AUC: 	0.626535020727
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.00921
+Flow_x  	0.00108
+Call_x  	0.08734
+Price_x  	0.12999
+Label_x  	0.00478
+Trend_x_x  	0.02029
+compare1  	0.01964
+compare2  	0.04267
+system_x  	0.00768
+last_change_y_x 0.05899
+Network_y  	0.01491
+Flow_y  	0.00294
+SMS_y  		0.05124
+Result_Quantity_y 0.23579
+Brand_Counts_y  	0.15969
+system_y  	0.00334
+Trend_x_y  	0.07351
+last_change_y_y 0.06735
+Label_y  	0.00957
+----------------------------------------
+Testing AUC: 	0.683773829123
+September AUC: 	0.624404448305
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06358
+SMS_x  		0.04852
+Result_Quantity_x 0.19258
+Price_x  	0.08464
+Label_x  	0.00221
+compare1  	0.0063
+compare2  	0.026
+ave  		0.05402
+last_change_y_x 0.03671
+Brand_Counts_x  	0.11353
+Network_y  	0.0264
+Flow_y  	0.00253
+Call_y  	0.09634
+Result_Quantity_y 0.06763
+Price_y  	0.02129
+Brand_Counts_y  	0.05522
+Trend_x_y  	0.05145
+last_change_y_y 0.03218
+Label_y  	0.01888
+----------------------------------------
+Testing AUC: 	0.688957481709
+September AUC: 	0.637883247375
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02112
+Age  		0.06104
+Call_x  	0.09208
+SMS_x  		0.02702
+Result_Quantity_x 0.19566
+Price_x  	0.0732
+Label_x  	0.01485
+compare1  	0.01865
+compare2  	0.02362
+ave  		0.04668
+system_x  	0.00271
+Brand_Counts_x  	0.13304
+Flow_y  	0.00086
+SMS_y  		0.05225
+Result_Quantity_y 0.07514
+Price_y  	0.01785
+Brand_Counts_y  	0.03814
+Trend_x_y  	0.05419
+last_change_y_y 0.0519
+----------------------------------------
+Testing AUC: 	0.688290716403
+September AUC: 	0.63672158398
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0273
+Age  		0.06832
+Flow_x  	0.00254
+SMS_x  		0.03717
+Result_Quantity_x 0.18443
+Price_x  	0.0692
+Label_x  	0.00191
+compare1  	0.02382
+compare2  	0.0575
+system_x  	0.00269
+Brand_Counts_x  	0.11353
+Call_y  	0.09408
+SMS_y  		0.02515
+Result_Quantity_y 0.08437
+Price_y  	0.02484
+Brand_Counts_y  	0.03422
+Trend_x_y  	0.06017
+last_change_y_y 0.07082
+Label_y  	0.01794
+----------------------------------------
+Testing AUC: 	0.686061364255
+September AUC: 	0.628289127007
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01897
+Flow_x  	0.0021
+Call_x  	0.07877
+SMS_x  		0.03086
+Result_Quantity_x 0.22401
+Price_x  	0.07555
+Label_x  	0.00745
+Trend_x_x  	0.03029
+compare2  	0.03292
+ave  		0.05241
+system_x  	0.00073
+Brand_Counts_x  	0.15716
+SMS_y  		0.04026
+Result_Quantity_y 0.0805
+Price_y  	0.02939
+Brand_Counts_y  	0.05582
+system_y  	0.00283
+Trend_x_y  	0.04486
+last_change_y_y 0.03508
+----------------------------------------
+Testing AUC: 	0.687245286256
+September AUC: 	0.63540063849
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06261
+Flow_x  	0.0
+Call_x  	0.06565
+SMS_x  		0.02113
+Result_Quantity_x 0.29971
+Label_x  	0.00349
+compare1  	0.01196
+compare2  	0.0239
+ave  		0.04989
+last_change_y_x 0.02814
+Brand_Counts_x  	0.1577
+Network_y  	0.0228
+Flow_y  	0.0
+Call_y  	0.06972
+SMS_y  		0.03916
+Price_y  	0.07654
+system_y  	0.00384
+last_change_y_y 0.05314
+Label_y  	0.01062
+----------------------------------------
+Testing AUC: 	0.688344515472
+September AUC: 	0.635234691277
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01225
+Flow_x  	0.00334
+Call_x  	0.06008
+SMS_x  		0.01895
+Result_Quantity_x 0.28079
+Price_x  	0.0808
+Label_x  	0.00601
+Trend_x_x  	0.14252
+compare1  	0.02557
+compare2  	0.04642
+system_x  	0.00319
+Brand_Counts_x  	0.14085
+Network_y  	0.00973
+Flow_y  	0.00724
+Call_y  	0.05652
+SMS_y  		0.03154
+Price_y  	0.02252
+Brand_Counts_y  	0.04111
+Label_y  	0.01056
+----------------------------------------
+Testing AUC: 	0.686484684859
+September AUC: 	0.630677798087
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06278
+Flow_x  	0.00191
+SMS_x  		0.04018
+Result_Quantity_x 0.2102
+Price_x  	0.06445
+Label_x  	0.01421
+Trend_x_x  	0.04939
+compare1  	0.01873
+compare2  	0.0273
+ave  		0.06083
+system_x  	2e-05
+Brand_Counts_x  	0.11996
+Flow_y  	0.00568
+Call_y  	0.09362
+SMS_y  		0.03386
+Result_Quantity_y 0.06525
+Price_y  	0.0335
+Brand_Counts_y  	0.04476
+system_y  	0.00413
+last_change_y_y 0.04923
+----------------------------------------
+Testing AUC: 	0.688279170139
+September AUC: 	0.634504537607
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01949
+Age  		0.07037
+Flow_x  	0.00294
+Call_x  	0.09301
+SMS_x  		0.03773
+Result_Quantity_x 0.24798
+Label_x  	0.01367
+Trend_x_x  	0.02256
+compare2  	0.02465
+ave  		0.04733
+system_x  	0.00613
+last_change_y_x 0.03919
+Brand_Counts_x  	0.15578
+Network_y  	0.00471
+Flow_y  	0.00081
+SMS_y  		0.04878
+Result_Quantity_y 0.06467
+system_y  	0.0024
+Trend_x_y  	0.06461
+last_change_y_y 0.03319
+----------------------------------------
+Testing AUC: 	0.68614094747
+September AUC: 	0.634847298374
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01841
+Age  		0.06061
+Flow_x  	0.00112
+Call_x  	0.06486
+SMS_x  		0.03284
+Result_Quantity_x 0.22903
+Label_x  	0.00136
+Trend_x_x  	0.03902
+ave  		0.06366
+system_x  	0.00189
+last_change_y_x 0.04596
+Brand_Counts_x  	0.15404
+Network_y  	0.00128
+Flow_y  	0.0
+Call_y  	0.06266
+SMS_y  		0.03739
+Result_Quantity_y 0.0794
+Price_y  	0.05584
+last_change_y_y 0.03605
+Label_y  	0.01458
+----------------------------------------
+Testing AUC: 	0.688468288762
+September AUC: 	0.634943880717
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01531
+Age  		0.06594
+Flow_x  	0.00156
+Call_x  	0.05814
+SMS_x  		0.0302
+Price_x  	0.08478
+Trend_x_x  	0.01416
+compare1  	0.03292
+compare2  	0.0229
+ave  		0.04484
+system_x  	0.01544
+Network_y  	0.00294
+Call_y  	0.0787
+Result_Quantity_y 0.20562
+Price_y  	0.03134
+Brand_Counts_y  	0.14823
+system_y  	0.0
+Trend_x_y  	0.057
+last_change_y_y 0.05945
+Label_y  	0.03052
+----------------------------------------
+Testing AUC: 	0.68793968063
+September AUC: 	0.629313634327
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06951
+Flow_x  	0.00149
+Call_x  	0.09237
+SMS_x  		0.03271
+Result_Quantity_x 0.24739
+Price_x  	0.06703
+Label_x  	0.00147
+compare1  	0.00826
+compare2  	0.02423
+ave  		0.04431
+system_x  	0.00375
+last_change_y_x 0.03498
+Brand_Counts_x  	0.12677
+Flow_y  	0.00601
+SMS_y  		0.04369
+Price_y  	0.0251
+Brand_Counts_y  	0.04698
+Trend_x_y  	0.07058
+last_change_y_y 0.03041
+Label_y  	0.02297
+----------------------------------------
+Testing AUC: 	0.687666706701
+September AUC: 	0.634926616887
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02255
+Age  		0.06209
+Flow_x  	0.00114
+Result_Quantity_x 0.20248
+Price_x  	0.0516
+Label_x  	0.0
+Trend_x_x  	0.03084
+compare1  	0.05861
+system_x  	0.00091
+Brand_Counts_x  	0.10527
+Network_y  	0.00496
+Call_y  	0.09737
+SMS_y  		0.04758
+Result_Quantity_y 0.05722
+Price_y  	0.02482
+Brand_Counts_y  	0.02754
+system_y  	0.00289
+Trend_x_y  	0.08813
+last_change_y_y 0.09228
+Label_y  	0.02174
+----------------------------------------
+Testing AUC: 	0.685254117216
+September AUC: 	0.630309529631
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02288
+Age  		0.06527
+Flow_x  	0.00226
+Call_x  	0.06261
+SMS_x  		0.04422
+Result_Quantity_x 0.24697
+Label_x  	0.00165
+Trend_x_x  	0.01037
+compare1  	0.023
+compare2  	0.02248
+ave  		0.05222
+system_x  	0.00794
+Brand_Counts_x  	0.16202
+Flow_y  	0.00124
+Call_y  	0.06424
+Result_Quantity_y 0.08917
+system_y  	0.00249
+Trend_x_y  	0.0527
+last_change_y_y 0.0499
+Label_y  	0.01635
+----------------------------------------
+Testing AUC: 	0.687337226351
+September AUC: 	0.636224282286
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02261
+Age  		0.06584
+Flow_x  	0.00367
+Call_x  	0.04957
+SMS_x  		0.02899
+Trend_x_x  	0.01159
+compare1  	0.01482
+compare2  	0.02927
+ave  		0.05434
+system_x  	0.02924
+last_change_y_x 0.06219
+Brand_Counts_x  	0.17765
+Network_y  	0.00139
+Call_y  	0.07175
+SMS_y  		0.04309
+Result_Quantity_y 0.19959
+Brand_Counts_y  	0.05519
+system_y  	0.00115
+Trend_x_y  	0.0535
+last_change_y_y 0.02456
+----------------------------------------
+Testing AUC: 	0.686867760153
+September AUC: 	0.634562650037
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02276
+Age  		0.05736
+Call_x  	0.07324
+Result_Quantity_x 0.1822
+Price_x  	0.0832
+Label_x  	0.00379
+Trend_x_x  	0.02271
+compare1  	0.01073
+ave  		0.04936
+last_change_y_x 0.03747
+Brand_Counts_x  	0.11478
+Flow_y  	0.0
+Call_y  	0.06252
+SMS_y  		0.04344
+Result_Quantity_y 0.07328
+Brand_Counts_y  	0.05911
+system_y  	0.005
+Trend_x_y  	0.05152
+last_change_y_y 0.02907
+Label_y  	0.01845
+----------------------------------------
+Testing AUC: 	0.688616776464
+September AUC: 	0.635873433724
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02049
+Age  		0.06603
+Call_x  	0.07264
+Price_x  	0.0971
+Label_x  	0.01672
+Trend_x_x  	0.0176
+compare1  	0.01603
+compare2  	0.02925
+ave  		0.04552
+system_x  	0.01159
+last_change_y_x 0.07951
+Flow_y  	0.00329
+Call_y  	0.08363
+SMS_y  		0.04615
+Result_Quantity_y 0.27073
+Price_y  	0.02945
+system_y  	0.0
+Trend_x_y  	0.0522
+last_change_y_y 0.02868
+Label_y  	0.01338
+----------------------------------------
+Testing AUC: 	0.685905085837
+September AUC: 	0.628189869259
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02328
+Age  		0.06209
+Flow_x  	0.00328
+Call_x  	0.07819
+SMS_x  		0.03494
+Result_Quantity_x 0.27727
+Label_x  	0.00489
+Trend_x_x  	0.00552
+compare1  	0.00892
+compare2  	0.02534
+ave  		0.04256
+system_x  	0.00633
+last_change_y_x 0.032
+Brand_Counts_x  	0.12574
+Call_y  	0.06065
+SMS_y  		0.04395
+Brand_Counts_y  	0.06
+Trend_x_y  	0.05818
+last_change_y_y 0.03555
+Label_y  	0.01131
+----------------------------------------
+Testing AUC: 	0.687510125524
+September AUC: 	0.63612389144
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02134
+Age  		0.06011
+Flow_x  	0.001
+Call_x  	0.07528
+SMS_x  		0.02167
+Price_x  	0.07513
+Label_x  	0.00738
+Trend_x_x  	0.01146
+compare1  	0.01672
+ave  		0.04872
+system_x  	0.0236
+last_change_y_x 0.03119
+Brand_Counts_x  	0.36198
+Flow_y  	0.00208
+Call_y  	0.07529
+SMS_y  		0.04044
+Price_y  	0.0336
+Trend_x_y  	0.05364
+last_change_y_y 0.02056
+Label_y  	0.01881
+----------------------------------------
+Testing AUC: 	0.688023126442
+September AUC: 	0.628246115842
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.0
+Call_x  	0.07087
+SMS_x  		0.03293
+Result_Quantity_x 0.2032
+Price_x  	0.05971
+Trend_x_x  	0.0201
+compare1  	0.01208
+ave  		0.0443
+system_x  	0.00351
+last_change_y_x 0.09048
+Brand_Counts_x  	0.13009
+Flow_y  	0.00284
+Call_y  	0.05515
+SMS_y  		0.04715
+Result_Quantity_y 0.06027
+Price_y  	0.02146
+Brand_Counts_y  	0.06225
+system_y  	0.0025
+Trend_x_y  	0.06511
+Label_y  	0.01599
+----------------------------------------
+Testing AUC: 	0.687647754946
+September AUC: 	0.633852909666
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01591
+Age  		0.05827
+Flow_x  	0.00071
+Call_x  	0.0708
+SMS_x  		0.02809
+Price_x  	0.0806
+Label_x  	0.03311
+Trend_x_x  	0.01564
+compare2  	0.05895
+system_x  	0.02135
+last_change_y_x 0.06316
+Network_y  	0.0102
+Flow_y  	0.00271
+Call_y  	0.07264
+SMS_y  		0.02887
+Price_y  	0.03092
+Brand_Counts_y  	0.31199
+system_y  	0.00228
+Trend_x_y  	0.07846
+last_change_y_y 0.01534
+----------------------------------------
+Testing AUC: 	0.684473196336
+September AUC: 	0.622933396187
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01791
+Age  		0.06395
+Flow_x  	0.00229
+Call_x  	0.05731
+Price_x  	0.09309
+Label_x  	0.01969
+Trend_x_x  	0.01578
+compare2  	0.05728
+system_x  	0.00852
+last_change_y_x 0.04156
+Brand_Counts_x  	0.3142
+Network_y  	0.00581
+Flow_y  	0.00174
+Call_y  	0.08595
+SMS_y  		0.03842
+Price_y  	0.0277
+system_y  	0.01382
+Trend_x_y  	0.08996
+last_change_y_y 0.03044
+Label_y  	0.01458
+----------------------------------------
+Testing AUC: 	0.686005417253
+September AUC: 	0.629377403741
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01822
+Age  		0.04831
+Call_x  	0.06086
+SMS_x  		0.02123
+Result_Quantity_x 0.18355
+Price_x  	0.06151
+Label_x  	0.00136
+Trend_x_x  	0.03686
+compare1  	0.01744
+last_change_y_x 0.05936
+Brand_Counts_x  	0.10613
+Flow_y  	0.0
+Call_y  	0.05819
+SMS_y  		0.0337
+Result_Quantity_y 0.06499
+Price_y  	0.02097
+Brand_Counts_y  	0.05176
+system_y  	0.00521
+Trend_x_y  	0.089
+last_change_y_y 0.04617
+Label_y  	0.01518
+----------------------------------------
+Testing AUC: 	0.687101302526
+September AUC: 	0.631841865574
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01346
+Age  		0.06861
+Flow_x  	0.0
+Call_x  	0.06948
+SMS_x  		0.02366
+Price_x  	0.0772
+Label_x  	0.01819
+Trend_x_x  	0.0127
+compare1  	0.01107
+ave  		0.04545
+system_x  	0.0186
+last_change_y_x 0.06258
+Network_y  	0.00625
+Call_y  	0.07825
+SMS_y  		0.03035
+Result_Quantity_y 0.19105
+Price_y  	0.02686
+Brand_Counts_y  	0.1581
+system_y  	0.00084
+Trend_x_y  	0.05582
+last_change_y_y 0.03145
+----------------------------------------
+Testing AUC: 	0.687984560475
+September AUC: 	0.629494720088
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0143
+Call_x  	0.05014
+SMS_x  		0.04228
+Result_Quantity_x 0.20242
+Price_x  	0.08686
+Label_x  	0.00426
+Trend_x_x  	0.02373
+compare1  	0.01729
+compare2  	0.02598
+ave  		0.03974
+system_x  	0.00292
+Brand_Counts_x  	0.18856
+Network_y  	0.0079
+Flow_y  	0.00468
+Call_y  	0.06344
+Result_Quantity_y 0.08164
+Price_y  	0.02117
+system_y  	0.0048
+Trend_x_y  	0.05984
+last_change_y_y 0.04731
+Label_y  	0.01074
+----------------------------------------
+Testing AUC: 	0.688224902825
+September AUC: 	0.635630615814
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02469
+Age  		0.0775
+Flow_x  	0.00203
+SMS_x  		0.02477
+Price_x  	0.09458
+Label_x  	0.01246
+Trend_x_x  	0.01068
+compare1  	0.01128
+ave  		0.05633
+system_x  	0.01664
+last_change_y_x 0.0821
+Network_y  	0.00329
+Flow_y  	0.00312
+Call_y  	0.10486
+SMS_y  		0.03799
+Result_Quantity_y 0.2812
+Price_y  	0.03492
+system_y  	0.0
+Trend_x_y  	0.05619
+last_change_y_y 0.03425
+Label_y  	0.03112
+----------------------------------------
+Testing AUC: 	0.686006694411
+September AUC: 	0.628077237293
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01714
+Flow_x  	0.00466
+Call_x  	0.07813
+SMS_x  		0.0171
+Price_x  	0.09076
+Label_x  	0.00969
+Trend_x_x  	0.02306
+compare1  	0.00686
+compare2  	0.0236
+ave  		0.0444
+system_x  	0.01134
+last_change_y_x 0.05497
+Brand_Counts_x  	0.22814
+Flow_y  	0.00416
+SMS_y  		0.04676
+Result_Quantity_y 0.19376
+Price_y  	0.02234
+Brand_Counts_y  	0.04869
+system_y  	0.00185
+Trend_x_y  	0.04816
+last_change_y_y 0.02444
+----------------------------------------
+Testing AUC: 	0.687284425472
+September AUC: 	0.631437694911
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02454
+Age  		0.06412
+Call_x  	0.0878
+SMS_x  		0.02573
+Result_Quantity_x 0.22788
+Price_x  	0.0697
+Label_x  	0.00133
+Trend_x_x  	0.01844
+compare2  	0.02667
+ave  		0.04772
+system_x  	0.00476
+last_change_y_x 0.0432
+Brand_Counts_x  	0.14959
+Flow_y  	0.00111
+SMS_y  		0.028
+Price_y  	0.01655
+Brand_Counts_y  	0.04574
+system_y  	0.00957
+Trend_x_y  	0.04487
+last_change_y_y 0.0425
+Label_y  	0.02019
+----------------------------------------
+Testing AUC: 	0.688255244777
+September AUC: 	0.634739267901
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01978
+Age  		0.06098
+Call_x  	0.05682
+SMS_x  		0.02532
+Result_Quantity_x 0.21052
+Label_x  	0.0066
+Trend_x_x  	0.01141
+compare1  	0.01862
+compare2  	0.02806
+ave  		0.04983
+system_x  	0.00245
+Brand_Counts_x  	0.12181
+Call_y  	0.0575
+SMS_y  		0.03267
+Result_Quantity_y 0.06989
+Price_y  	0.06196
+Brand_Counts_y  	0.04144
+system_y  	0.00108
+Trend_x_y  	0.06293
+last_change_y_y 0.04526
+Label_y  	0.01506
+----------------------------------------
+Testing AUC: 	0.68844048111
+September AUC: 	0.636832159123
+----------------------------------------
+Features 	 imortance: 
+Age  		0.05983
+Flow_x  	0.0
+Call_x  	0.05987
+SMS_x  		0.03437
+Result_Quantity_x 0.18946
+Price_x  	0.06654
+Trend_x_x  	0.01088
+compare1  	0.00713
+compare2  	0.05265
+system_x  	0.00269
+last_change_y_x 0.0592
+Brand_Counts_x  	0.11234
+Flow_y  	0.00316
+Call_y  	0.07066
+SMS_y  		0.03403
+Result_Quantity_y 0.06668
+Price_y  	0.02113
+system_y  	0.00181
+Trend_x_y  	0.07833
+last_change_y_y 0.05341
+Label_y  	0.01585
+----------------------------------------
+Testing AUC: 	0.687340275867
+September AUC: 	0.633654000959
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02893
+Age  		0.06383
+Call_x  	0.06515
+SMS_x  		0.02607
+Result_Quantity_x 0.21517
+Price_x  	0.07331
+Label_x  	0.01121
+Trend_x_x  	0.0341
+compare1  	0.00614
+compare2  	0.02359
+ave  		0.06326
+system_x  	0.00339
+last_change_y_x 0.02593
+Brand_Counts_x  	0.11446
+Flow_y  	0.0
+Call_y  	0.05569
+SMS_y  		0.03061
+Result_Quantity_y 0.0706
+Price_y  	0.02291
+Brand_Counts_y  	0.031
+last_change_y_y 0.03466
+----------------------------------------
+Testing AUC: 	0.689349615839
+September AUC: 	0.635182437343
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02338
+Age  		0.0641
+Flow_x  	0.0012
+Call_x  	0.06018
+SMS_x  		0.0236
+Price_x  	0.08207
+Trend_x_x  	0.0101
+compare1  	0.00702
+compare2  	0.02034
+ave  		0.04133
+system_x  	0.01356
+last_change_y_x 0.04117
+Brand_Counts_x  	0.1999
+Flow_y  	0.0
+Call_y  	0.06283
+SMS_y  		0.03556
+Result_Quantity_y 0.17198
+Brand_Counts_y  	0.0409
+Trend_x_y  	0.04409
+last_change_y_y 0.03862
+Label_y  	0.01806
+----------------------------------------
+Testing AUC: 	0.689213643474
+September AUC: 	0.635096836797
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02121
+Age  		0.05737
+Flow_x  	0.0
+Call_x  	0.06805
+Result_Quantity_x 0.20302
+Price_x  	0.07259
+Label_x  	0.00235
+Trend_x_x  	0.02456
+compare1  	0.00667
+compare2  	0.0526
+last_change_y_x 0.02847
+Brand_Counts_x  	0.09277
+Flow_y  	0.0
+Call_y  	0.07911
+Result_Quantity_y 0.07874
+Price_y  	0.01617
+Brand_Counts_y  	0.05288
+system_y  	0.00424
+Trend_x_y  	0.07341
+last_change_y_y 0.05654
+Label_y  	0.00926
+----------------------------------------
+Testing AUC: 	0.686751962256
+September AUC: 	0.63150672122
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01487
+Age  		0.06702
+Flow_x  	0.00074
+Call_x  	0.09591
+SMS_x  		0.02914
+Result_Quantity_x 0.21699
+Price_x  	0.07071
+Label_x  	0.01268
+Trend_x_x  	0.02225
+compare2  	0.02568
+ave  		0.0476
+system_x  	0.00352
+last_change_y_x 0.06375
+Network_y  	0.00598
+Flow_y  	0.00167
+SMS_y  		0.04443
+Result_Quantity_y 0.07435
+Price_y  	0.01731
+Brand_Counts_y  	0.12084
+system_y  	0.00114
+Trend_x_y  	0.06342
+----------------------------------------
+Testing AUC: 	0.687420008041
+September AUC: 	0.634840014004
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01983
+Age  		0.0604
+Flow_x  	0.00108
+Call_x  	0.06853
+Result_Quantity_x 0.19195
+Price_x  	0.08505
+Label_x  	0.00486
+Trend_x_x  	0.01935
+compare1  	0.01308
+compare2  	0.05042
+system_x  	0.0015
+last_change_y_x 0.03114
+Brand_Counts_x  	0.14019
+Flow_y  	0.00143
+Call_y  	0.06878
+SMS_y  		0.04019
+Result_Quantity_y 0.07615
+system_y  	0.00201
+Trend_x_y  	0.06168
+last_change_y_y 0.04624
+Label_y  	0.01612
+----------------------------------------
+Testing AUC: 	0.687733699314
+September AUC: 	0.633676636186
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02216
+Age  		0.06184
+Flow_x  	0.00202
+Call_x  	0.06502
+Result_Quantity_x 0.18062
+Price_x  	0.08845
+Label_x  	0.02347
+Trend_x_x  	0.01055
+compare1  	0.00897
+compare2  	0.02772
+ave  		0.04343
+last_change_y_x 0.03071
+Brand_Counts_x  	0.15529
+Network_y  	0.00168
+Flow_y  	0.00362
+Call_y  	0.06405
+SMS_y  		0.0446
+Result_Quantity_y 0.07442
+system_y  	0.00354
+Trend_x_y  	0.05877
+last_change_y_y 0.02905
+----------------------------------------
+Testing AUC: 	0.68867968442
+September AUC: 	0.635890718991
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02193
+Age  		0.06681
+Flow_x  	0.0
+Call_x  	0.06844
+SMS_x  		0.04224
+Result_Quantity_x 0.24638
+Label_x  	0.00226
+Trend_x_x  	0.01132
+compare1  	0.00425
+compare2  	0.02871
+ave  		0.03703
+system_x  	0.0
+last_change_y_x 0.06659
+Brand_Counts_x  	0.12781
+Flow_y  	0.0
+Call_y  	0.06743
+Price_y  	0.07353
+Brand_Counts_y  	0.05306
+system_y  	0.00705
+Trend_x_y  	0.05237
+Label_y  	0.02279
+----------------------------------------
+Testing AUC: 	0.688403791429
+September AUC: 	0.635343587914
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01364
+Flow_x  	0.0
+Call_x  	0.07354
+Result_Quantity_x 0.30134
+Price_x  	0.10286
+Label_x  	0.00891
+Trend_x_x  	0.02387
+compare1  	0.00555
+compare2  	0.02096
+ave  		0.04309
+system_x  	0.00226
+last_change_y_x 0.04365
+Network_y  	0.0079
+Flow_y  	0.00256
+Call_y  	0.05642
+SMS_y  		0.04942
+Price_y  	0.02859
+Brand_Counts_y  	0.10236
+system_y  	0.0077
+Trend_x_y  	0.06965
+last_change_y_y 0.02226
+Label_y  	0.01348
+----------------------------------------
+Testing AUC: 	0.687690906688
+September AUC: 	0.633706843741
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01868
+Flow_x  	0.0
+Call_x  	0.05876
+SMS_x  		0.02411
+Result_Quantity_x 0.18383
+Price_x  	0.07683
+Label_x  	0.00867
+Trend_x_x  	0.0178
+compare1  	0.00799
+compare2  	0.01711
+ave  		0.04985
+last_change_y_x 0.03487
+Brand_Counts_x  	0.16435
+Network_y  	0.005
+Call_y  	0.05231
+SMS_y  		0.03559
+Result_Quantity_y 0.08097
+Price_y  	0.02627
+Brand_Counts_y  	0.04505
+system_y  	0.00273
+Trend_x_y  	0.06041
+last_change_y_y 0.02882
+----------------------------------------
+Testing AUC: 	0.688560243212
+September AUC: 	0.63487465609
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02498
+Age  		0.06694
+Flow_x  	0.00436
+SMS_x  		0.04773
+Result_Quantity_x 0.20217
+Price_x  	0.06825
+Label_x  	0.02169
+Trend_x_x  	0.01605
+compare1  	0.01488
+compare2  	0.03135
+ave  		0.04669
+system_x  	0.0019
+Brand_Counts_x  	0.13491
+Network_y  	0.00405
+Flow_y  	0.00485
+SMS_y  		0.06314
+Result_Quantity_y 0.0967
+Price_y  	0.01493
+Brand_Counts_y  	0.04794
+system_y  	0.00097
+Trend_x_y  	0.05183
+last_change_y_y 0.03368
+----------------------------------------
+Testing AUC: 	0.6816142169
+September AUC: 	0.630060247242
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02006
+Age  		0.06691
+Flow_x  	0.00175
+Call_x  	0.05854
+SMS_x  		0.0235
+Price_x  	0.07818
+Label_x  	0.00839
+Trend_x_x  	0.01626
+compare1  	0.00818
+compare2  	0.02035
+ave  		0.05429
+system_x  	0.01056
+last_change_y_x 0.07204
+Brand_Counts_x  	0.16483
+Network_y  	0.00106
+Call_y  	0.06518
+Result_Quantity_y 0.19373
+Price_y  	0.02519
+Brand_Counts_y  	0.04313
+system_y  	0.00136
+Trend_x_y  	0.05185
+Label_y  	0.01466
+----------------------------------------
+Testing AUC: 	0.688794069471
+September AUC: 	0.63190046477
+----------------------------------------
+Features 	 imortance: 
+Flow_x  	0.0
+Call_x  	0.06299
+Result_Quantity_x 0.19378
+Price_x  	0.09291
+Label_x  	0.00821
+Trend_x_x  	0.01802
+compare1  	0.00605
+compare2  	0.01878
+ave  		0.04634
+system_x  	0.00225
+last_change_y_x 0.04
+Brand_Counts_x  	0.16207
+Network_y  	0.0233
+Flow_y  	0.00266
+Call_y  	0.04354
+SMS_y  		0.04977
+Result_Quantity_y 0.07303
+Brand_Counts_y  	0.05126
+system_y  	0.0031
+Trend_x_y  	0.05663
+last_change_y_y 0.03787
+Label_y  	0.00745
+----------------------------------------
+Testing AUC: 	0.688714749396
+September AUC: 	0.637317647588
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01583
+Age  		0.06272
+Flow_x  	0.00097
+Call_x  	0.09716
+Price_x  	0.07251
+Trend_x_x  	0.01701
+compare1  	0.00766
+compare2  	0.024
+ave  		0.04723
+system_x  	0.01103
+last_change_y_x 0.0433
+Brand_Counts_x  	0.18451
+Network_y  	0.00368
+Flow_y  	0.0
+SMS_y  		0.04539
+Result_Quantity_y 0.17714
+Price_y  	0.02016
+Brand_Counts_y  	0.05251
+system_y  	0.00205
+Trend_x_y  	0.053
+last_change_y_y 0.04537
+Label_y  	0.01678
+----------------------------------------
+Testing AUC: 	0.687865193059
+September AUC: 	0.632429951921
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06548
+Flow_x  	0.00165
+SMS_x  		0.04957
+Result_Quantity_x 0.20763
+Price_x  	0.07371
+Label_x  	0.00384
+Trend_x_x  	0.00999
+compare1  	0.01763
+compare2  	0.02613
+ave  		0.04368
+system_x  	0.0052
+Brand_Counts_x  	0.12514
+Network_y  	0.02643
+Flow_y  	0.00179
+Call_y  	0.08151
+Result_Quantity_y 0.0607
+Price_y  	0.01824
+Brand_Counts_y  	0.0567
+system_y  	0.0
+Trend_x_y  	0.05707
+last_change_y_y 0.04684
+Label_y  	0.02107
+----------------------------------------
+Testing AUC: 	0.688335604277
+September AUC: 	0.63647482606
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0196
+Age  		0.07289
+Flow_x  	0.00173
+Call_x  	0.07004
+SMS_x  		0.05154
+Result_Quantity_x 0.21628
+Trend_x_x  	0.00954
+compare1  	0.01191
+compare2  	0.02641
+ave  		0.03952
+system_x  	0.0087
+last_change_y_x 0.03288
+Brand_Counts_x  	0.13375
+Network_y  	0.00317
+Flow_y  	0.00108
+Call_y  	0.07067
+Result_Quantity_y 0.07038
+Brand_Counts_y  	0.05174
+system_y  	0.00374
+Trend_x_y  	0.05933
+last_change_y_y 0.02783
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.68691077662
+September AUC: 	0.636223865552
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02358
+Age  		0.06653
+Flow_x  	0.0
+Call_x  	0.0716
+Result_Quantity_x 0.18254
+Price_x  	0.09016
+Label_x  	0.00174
+Trend_x_x  	0.0191
+compare1  	0.01748
+compare2  	0.0271
+ave  		0.05194
+system_x  	0.00372
+Brand_Counts_x  	0.13196
+Network_y  	0.00813
+Flow_y  	0.00076
+Call_y  	0.07925
+Result_Quantity_y 0.06859
+Brand_Counts_y  	0.0462
+system_y  	0.00213
+Trend_x_y  	0.05398
+last_change_y_y 0.0376
+Label_y  	0.01592
+----------------------------------------
+Testing AUC: 	0.688325083404
+September AUC: 	0.63695009851
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02222
+Flow_x  	0.00118
+Call_x  	0.086
+SMS_x  		0.02416
+Result_Quantity_x 0.23845
+Price_x  	0.08897
+Label_x  	0.00261
+Trend_x_x  	0.02834
+compare1  	0.00849
+compare2  	0.02021
+ave  		0.04367
+last_change_y_x 0.03926
+Brand_Counts_x  	0.15181
+Network_y  	0.00115
+Flow_y  	0.00176
+SMS_y  		0.04742
+Price_y  	0.02693
+Brand_Counts_y  	0.05386
+system_y  	0.01191
+Trend_x_y  	0.06003
+last_change_y_y 0.03464
+Label_y  	0.00692
+----------------------------------------
+Testing AUC: 	0.687564714271
+September AUC: 	0.635398914379
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01935
+Age  		0.07304
+Flow_x  	0.00051
+Call_x  	0.06074
+Price_x  	0.08544
+Label_x  	0.00943
+Trend_x_x  	0.04876
+compare1  	0.01402
+compare2  	0.02331
+ave  		0.04673
+system_x  	0.01291
+last_change_y_x 0.08361
+Brand_Counts_x  	0.15682
+Network_y  	0.00027
+Flow_y  	0.0
+Call_y  	0.06854
+SMS_y  		0.04221
+Result_Quantity_y 0.17518
+Price_y  	0.03076
+Brand_Counts_y  	0.03994
+system_y  	0.00054
+Label_y  	0.00789
+----------------------------------------
+Testing AUC: 	0.688555452556
+September AUC: 	0.631248701533
+----------------------------------------
+Features 	 imortance: 
+Age  		0.05633
+Flow_x  	0.00073
+Call_x  	0.06919
+SMS_x  		0.02097
+Result_Quantity_x 0.19839
+Price_x  	0.08304
+Label_x  	0.00568
+Trend_x_x  	0.01378
+compare1  	0.00902
+compare2  	0.02515
+ave  		0.04501
+last_change_y_x 0.03239
+Brand_Counts_x  	0.15417
+Network_y  	0.02045
+Flow_y  	0.0
+Call_y  	0.06091
+SMS_y  		0.03734
+Result_Quantity_y 0.06552
+system_y  	0.00313
+Trend_x_y  	0.05069
+last_change_y_y 0.03005
+Label_y  	0.01805
+----------------------------------------
+Testing AUC: 	0.689124389801
+September AUC: 	0.636805450084
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01769
+Age  		0.06683
+Flow_x  	0.0
+Call_x  	0.05875
+SMS_x  		0.04606
+Result_Quantity_x 0.20822
+Label_x  	0.0038
+Trend_x_x  	0.01257
+compare1  	0.01878
+compare2  	0.02742
+ave  		0.04269
+system_x  	0.0052
+Brand_Counts_x  	0.1567
+Network_y  	0.00181
+Flow_y  	0.00057
+Call_y  	0.06095
+Result_Quantity_y 0.08634
+Price_y  	0.05884
+system_y  	0.00213
+Trend_x_y  	0.06051
+last_change_y_y 0.04668
+Label_y  	0.01747
+----------------------------------------
+Testing AUC: 	0.687721164271
+September AUC: 	0.636020595952
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06005
+Flow_x  	0.00031
+Call_x  	0.06131
+SMS_x  		0.02434
+Price_x  	0.10205
+Label_x  	0.01297
+Trend_x_x  	0.04279
+compare1  	0.01166
+compare2  	0.02117
+ave  		0.05085
+system_x  	0.00901
+last_change_y_x 0.04364
+Brand_Counts_x  	0.14239
+Network_y  	0.01514
+Flow_y  	0.0
+Call_y  	0.07209
+SMS_y  		0.03615
+Result_Quantity_y 0.19849
+Brand_Counts_y  	0.04441
+system_y  	0.0017
+last_change_y_y 0.03986
+Label_y  	0.00962
+----------------------------------------
+Testing AUC: 	0.688980283479
+September AUC: 	0.635945387272
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01799
+Age  		0.05851
+Flow_x  	0.0
+Call_x  	0.0647
+SMS_x  		0.02297
+Result_Quantity_x 0.22746
+Label_x  	0.0035
+Trend_x_x  	0.01203
+compare1  	0.00646
+compare2  	0.01748
+ave  		0.0466
+system_x  	0.00059
+last_change_y_x 0.04697
+Flow_y  	0.00144
+Call_y  	0.06641
+SMS_y  		0.0329
+Result_Quantity_y 0.06686
+Price_y  	0.06199
+Brand_Counts_y  	0.13847
+Trend_x_y  	0.05846
+last_change_y_y 0.02909
+Label_y  	0.01913
+----------------------------------------
+Testing AUC: 	0.688276062511
+September AUC: 	0.634624983195
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01873
+Age  		0.06104
+Flow_x  	0.00055
+Call_x  	0.08483
+SMS_x  		0.01717
+Price_x  	0.07579
+Label_x  	0.00046
+Trend_x_x  	0.01912
+compare1  	0.01562
+ave  		0.04947
+system_x  	0.00792
+last_change_y_x 0.05177
+Brand_Counts_x  	0.18066
+Network_y  	0.00152
+Flow_y  	0.00114
+SMS_y  		0.04944
+Result_Quantity_y 0.18331
+Price_y  	0.02469
+Brand_Counts_y  	0.05059
+system_y  	0.00264
+Trend_x_y  	0.05428
+last_change_y_y 0.02839
+Label_y  	0.02087
+----------------------------------------
+Testing AUC: 	0.688150362147
+September AUC: 	0.633017614268
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01168
+Flow_x  	0.00062
+Call_x  	0.06445
+SMS_x  		0.02503
+Price_x  	0.08526
+Label_x  	0.00721
+Trend_x_x  	0.0154
+compare1  	0.01471
+compare2  	0.0159
+ave  		0.04428
+system_x  	0.0155
+last_change_y_x 0.06832
+Network_y  	0.00986
+Flow_y  	0.00223
+Call_y  	0.06445
+SMS_y  		0.04469
+Result_Quantity_y 0.21036
+Price_y  	0.03261
+Brand_Counts_y  	0.17696
+system_y  	0.0
+Trend_x_y  	0.05209
+last_change_y_y 0.02448
+Label_y  	0.0139
+----------------------------------------
+Testing AUC: 	0.687274213209
+September AUC: 	0.629209894432
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01704
+Age  		0.06392
+Call_x  	0.08902
+SMS_x  		0.0267
+Result_Quantity_x 0.19745
+Price_x  	0.06799
+Label_x  	0.00219
+Trend_x_x  	0.0092
+compare2  	0.02841
+ave  		0.04224
+system_x  	0.00331
+last_change_y_x 0.04721
+Brand_Counts_x  	0.12065
+Network_y  	0.00373
+Flow_y  	0.00081
+SMS_y  		0.03756
+Result_Quantity_y 0.06953
+Price_y  	0.0151
+Brand_Counts_y  	0.04552
+system_y  	0.00274
+Trend_x_y  	0.05303
+last_change_y_y 0.03814
+Label_y  	0.01851
+----------------------------------------
+Testing AUC: 	0.687949794911
+September AUC: 	0.636841915839
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06544
+Flow_x  	0.0
+Call_x  	0.0631
+SMS_x  		0.02206
+Result_Quantity_x 0.17593
+Price_x  	0.06933
+Label_x  	0.0029
+Trend_x_x  	0.01176
+compare1  	0.00754
+ave  		0.05055
+system_x  	0.0035
+last_change_y_x 0.04791
+Brand_Counts_x  	0.12794
+Network_y  	0.02933
+Call_y  	0.0594
+SMS_y  		0.03533
+Result_Quantity_y 0.06359
+Price_y  	0.0164
+Brand_Counts_y  	0.04664
+system_y  	0.00348
+Trend_x_y  	0.04798
+last_change_y_y 0.03213
+Label_y  	0.01778
+----------------------------------------
+Testing AUC: 	0.689089167059
+September AUC: 	0.634543691006
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01806
+Age  		0.05667
+Flow_x  	0.00116
+SMS_x  		0.03276
+Price_x  	0.0829
+Label_x  	0.01292
+Trend_x_x  	0.00538
+compare1  	0.01035
+compare2  	0.02634
+ave  		0.04878
+last_change_y_x 0.04369
+Brand_Counts_x  	0.17673
+Network_y  	0.00154
+Flow_y  	0.00161
+Call_y  	0.09184
+SMS_y  		0.03482
+Result_Quantity_y 0.19156
+Price_y  	0.02382
+Brand_Counts_y  	0.04803
+system_y  	0.00065
+Trend_x_y  	0.05187
+last_change_y_y 0.02075
+Label_y  	0.01778
+----------------------------------------
+Testing AUC: 	0.688281940102
+September AUC: 	0.63416808634
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01709
+Age  		0.06095
+Flow_x  	0.00132
+Call_x  	0.06418
+SMS_x  		0.03257
+Result_Quantity_x 0.19154
+Price_x  	0.06525
+Label_x  	0.0043
+Trend_x_x  	0.00479
+compare2  	0.02266
+ave  		0.04592
+system_x  	0.0036
+last_change_y_x 0.0493
+Network_y  	0.00508
+Call_y  	0.06063
+SMS_y  		0.03851
+Result_Quantity_y 0.08033
+Price_y  	0.02532
+Brand_Counts_y  	0.10893
+system_y  	0.00119
+Trend_x_y  	0.0632
+last_change_y_y 0.03153
+Label_y  	0.02179
+----------------------------------------
+Testing AUC: 	0.688437588341
+September AUC: 	0.635640184312
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02187
+Age  		0.06478
+Flow_x  	0.0
+Call_x  	0.05314
+SMS_x  		0.03109
+Result_Quantity_x 0.23326
+Label_x  	0.00318
+Trend_x_x  	0.03685
+compare1  	0.00992
+compare2  	0.02198
+ave  		0.05409
+system_x  	0.00215
+last_change_y_x 0.02447
+Brand_Counts_x  	0.11902
+Network_y  	0.00032
+Flow_y  	0.0
+Call_y  	0.05635
+SMS_y  		0.03755
+Result_Quantity_y 0.06534
+Price_y  	0.06435
+Brand_Counts_y  	0.04784
+last_change_y_y 0.03747
+Label_y  	0.01497
+----------------------------------------
+Testing AUC: 	0.688636642983
+September AUC: 	0.635294710316
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02888
+Age  		0.05407
+Flow_x  	0.00069
+Call_x  	0.06301
+SMS_x  		0.02756
+Result_Quantity_x 0.18815
+Price_x  	0.07383
+Label_x  	0.01352
+Trend_x_x  	0.00945
+compare1  	0.00667
+compare2  	0.02513
+ave  		0.04604
+system_x  	0.00354
+last_change_y_x 0.04284
+Brand_Counts_x  	0.12974
+Flow_y  	0.0
+Call_y  	0.06288
+SMS_y  		0.03664
+Result_Quantity_y 0.0728
+Price_y  	0.01415
+Brand_Counts_y  	0.02886
+Trend_x_y  	0.0542
+last_change_y_y 0.01735
+----------------------------------------
+Testing AUC: 	0.689171370226
+September AUC: 	0.636629067719
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01765
+Age  		0.05508
+Call_x  	0.05747
+SMS_x  		0.02791
+Result_Quantity_x 0.1829
+Price_x  	0.07582
+compare1  	0.00741
+compare2  	0.02352
+ave  		0.05126
+system_x  	0.00191
+last_change_y_x 0.03724
+Brand_Counts_x  	0.11703
+Network_y  	0.00429
+Flow_y  	0.00046
+Call_y  	0.05802
+SMS_y  		0.03426
+Result_Quantity_y 0.06455
+Price_y  	0.01719
+Brand_Counts_y  	0.05212
+system_y  	0.0027
+Trend_x_y  	0.05442
+last_change_y_y 0.0349
+Label_y  	0.02189
+----------------------------------------
+Testing AUC: 	0.688688835804
+September AUC: 	0.637060688056
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02611
+Age  		0.05889
+Call_x  	0.06343
+SMS_x  		0.0261
+Result_Quantity_x 0.17511
+Price_x  	0.08248
+Label_x  	0.01064
+Trend_x_x  	0.01052
+compare1  	0.00608
+compare2  	0.02832
+ave  		0.04617
+system_x  	0.00207
+last_change_y_x 0.04703
+Brand_Counts_x  	0.13612
+Network_y  	0.00287
+Flow_y  	0.0
+Call_y  	0.06315
+SMS_y  		0.03794
+Result_Quantity_y 0.07531
+Brand_Counts_y  	0.02919
+system_y  	0.00179
+Trend_x_y  	0.0472
+last_change_y_y 0.02352
+----------------------------------------
+Testing AUC: 	0.68923412741
+September AUC: 	0.637073178356
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01587
+Flow_x  	0.00109
+Call_x  	0.06235
+SMS_x  		0.0225
+Result_Quantity_x 0.2018
+Price_x  	0.09103
+Label_x  	0.0084
+Trend_x_x  	0.04405
+compare1  	0.00736
+compare2  	0.01525
+ave  		0.05451
+system_x  	0.0
+last_change_y_x 0.04614
+Brand_Counts_x  	0.17891
+Network_y  	0.00174
+Flow_y  	0.00694
+Call_y  	0.04731
+SMS_y  		0.04257
+Result_Quantity_y 0.09185
+Price_y  	0.01817
+system_y  	0.00292
+last_change_y_y 0.03231
+Label_y  	0.00691
+----------------------------------------
+Testing AUC: 	0.689077155577
+September AUC: 	0.635200419933
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0215
+Flow_x  	0.00274
+Call_x  	0.0531
+SMS_x  		0.03783
+Result_Quantity_x 0.2414
+Label_x  	0.00644
+Trend_x_x  	0.0186
+compare1  	0.01425
+compare2  	0.0177
+ave  		0.04413
+system_x  	0.00797
+last_change_y_x 0.04338
+Brand_Counts_x  	0.16453
+Network_y  	0.00577
+Flow_y  	0.0
+Call_y  	0.05068
+SMS_y  		0.04478
+Result_Quantity_y 0.07963
+Brand_Counts_y  	0.05099
+system_y  	0.00152
+Trend_x_y  	0.05982
+last_change_y_y 0.02207
+Label_y  	0.01118
+----------------------------------------
+Testing AUC: 	0.686345502978
+September AUC: 	0.635768941574
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0188
+Age  		0.05596
+Call_x  	0.06859
+SMS_x  		0.02744
+Result_Quantity_x 0.20062
+Label_x  	0.004
+Trend_x_x  	0.01174
+compare1  	0.00404
+compare2  	0.02481
+ave  		0.04908
+system_x  	0.00359
+last_change_y_x 0.03653
+Brand_Counts_x  	0.11038
+Flow_y  	0.0
+Call_y  	0.05434
+SMS_y  		0.04566
+Result_Quantity_y 0.07049
+Price_y  	0.05627
+Brand_Counts_y  	0.05375
+system_y  	0.0008
+Trend_x_y  	0.05711
+last_change_y_y 0.02956
+Label_y  	0.01642
+----------------------------------------
+Testing AUC: 	0.68801825013
+September AUC: 	0.63643277428
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01455
+Age  		0.05978
+Flow_x  	0.00032
+Call_x  	0.08476
+SMS_x  		0.01738
+Result_Quantity_x 0.23625
+Price_x  	0.07434
+Label_x  	0.0026
+Trend_x_x  	0.01587
+compare1  	0.00804
+compare2  	0.05411
+system_x  	0.00264
+last_change_y_x 0.02998
+Brand_Counts_x  	0.11074
+Network_y  	0.0082
+Flow_y  	0.00461
+SMS_y  		0.04767
+Price_y  	0.02976
+Brand_Counts_y  	0.03604
+system_y  	0.0095
+Trend_x_y  	0.06049
+last_change_y_y 0.06958
+Label_y  	0.0228
+----------------------------------------
+Testing AUC: 	0.686368486847
+September AUC: 	0.626095908941
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01964
+Age  		0.0568
+Flow_x  	0.00087
+Call_x  	0.08258
+SMS_x  		0.02308
+Result_Quantity_x 0.22854
+Price_x  	0.06576
+Label_x  	0.00502
+Trend_x_x  	0.01401
+compare1  	0.01452
+ave  		0.05429
+system_x  	0.00162
+last_change_y_x 0.03909
+Network_y  	0.00657
+Flow_y  	0.00057
+SMS_y  		0.04536
+Result_Quantity_y 0.07346
+Price_y  	0.01837
+Brand_Counts_y  	0.13266
+system_y  	0.0018
+Trend_x_y  	0.05968
+last_change_y_y 0.03004
+Label_y  	0.02564
+----------------------------------------
+Testing AUC: 	0.687477001323
+September AUC: 	0.632472630168
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01988
+Age  		0.06243
+Flow_x  	0.0
+Call_x  	0.06903
+SMS_x  		0.02013
+Result_Quantity_x 0.17752
+Price_x  	0.06663
+Label_x  	0.00343
+Trend_x_x  	0.01118
+compare2  	0.0238
+ave  		0.04955
+system_x  	0.0028
+last_change_y_x 0.04122
+Brand_Counts_x  	0.10833
+Network_y  	0.00269
+Call_y  	0.06087
+SMS_y  		0.03016
+Result_Quantity_y 0.0797
+Price_y  	0.01716
+Brand_Counts_y  	0.05216
+system_y  	0.0023
+Trend_x_y  	0.05053
+last_change_y_y 0.02713
+Label_y  	0.02136
+----------------------------------------
+Testing AUC: 	0.688909525631
+September AUC: 	0.637282007623
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02364
+Age  		0.05924
+Flow_x  	0.00073
+Call_x  	0.06185
+SMS_x  		0.02226
+Result_Quantity_x 0.16615
+Price_x  	0.07667
+Trend_x_x  	0.00712
+compare1  	0.00667
+compare2  	0.02885
+ave  		0.04713
+system_x  	0.00212
+last_change_y_x 0.03856
+Brand_Counts_x  	0.11564
+Flow_y  	0.0
+Call_y  	0.06011
+SMS_y  		0.03812
+Result_Quantity_y 0.07201
+Price_y  	0.01586
+Brand_Counts_y  	0.05213
+system_y  	0.00468
+Trend_x_y  	0.0468
+last_change_y_y 0.0361
+Label_y  	0.01755
+----------------------------------------
+Testing AUC: 	0.688716479275
+September AUC: 	0.636653466246
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02232
+Age  		0.05867
+Flow_x  	0.00174
+Call_x  	0.07201
+SMS_x  		0.03028
+Result_Quantity_x 0.18051
+Price_x  	0.06212
+Label_x  	0.00411
+Trend_x_x  	0.01241
+compare1  	0.01506
+compare2  	0.02454
+ave  		0.04474
+system_x  	0.00307
+Brand_Counts_x  	0.12344
+Flow_y  	0.00056
+Call_y  	0.06058
+SMS_y  		0.0371
+Result_Quantity_y 0.06881
+Price_y  	0.01769
+Brand_Counts_y  	0.05241
+system_y  	0.00219
+Trend_x_y  	0.05591
+last_change_y_y 0.03679
+Label_y  	0.01291
+----------------------------------------
+Testing AUC: 	0.689019808452
+September AUC: 	0.636833866769
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01979
+Age  		0.06298
+Flow_x  	0.0
+Call_x  	0.0544
+SMS_x  		0.03795
+Result_Quantity_x 0.20418
+Price_x  	0.08189
+Label_x  	0.00305
+Trend_x_x  	0.03214
+compare1  	0.00649
+compare2  	0.02027
+ave  		0.06789
+system_x  	0.0
+last_change_y_x 0.02589
+Brand_Counts_x  	0.10572
+Network_y  	0.00906
+Flow_y  	0.0025
+Call_y  	0.06401
+Result_Quantity_y 0.06735
+Price_y  	0.0204
+Brand_Counts_y  	0.04555
+system_y  	0.0057
+last_change_y_y 0.04788
+Label_y  	0.01491
+----------------------------------------
+Testing AUC: 	0.689283989403
+September AUC: 	0.636225509892
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01929
+Age  		0.06425
+Flow_x  	0.00095
+Call_x  	0.05683
+SMS_x  		0.03248
+Result_Quantity_x 0.23196
+Label_x  	0.00318
+Trend_x_x  	0.03537
+compare1  	0.00992
+compare2  	0.02198
+ave  		0.05409
+system_x  	0.00215
+last_change_y_x 0.02907
+Brand_Counts_x  	0.11731
+Network_y  	0.00032
+Flow_y  	0.0
+Call_y  	0.0541
+SMS_y  		0.03748
+Result_Quantity_y 0.06565
+Price_y  	0.06588
+Brand_Counts_y  	0.0463
+system_y  	0.0009
+last_change_y_y 0.03557
+Label_y  	0.01496
+----------------------------------------
+Testing AUC: 	0.688599559984
+September AUC: 	0.635276646951
+----------------------------------------
+Features 	 imortance: 
+Age  		0.05288
+Flow_x  	0.0
+Call_x  	0.06758
+SMS_x  		0.0233
+Result_Quantity_x 0.18869
+Price_x  	0.05356
+Label_x  	0.00544
+Trend_x_x  	0.0112
+compare1  	0.00753
+compare2  	0.02856
+ave  		0.0449
+system_x  	0.00249
+last_change_y_x 0.041
+Brand_Counts_x  	0.11742
+Network_y  	0.02748
+Call_y  	0.05814
+SMS_y  		0.03491
+Result_Quantity_y 0.07158
+Price_y  	0.01733
+Brand_Counts_y  	0.04715
+system_y  	0.00413
+Trend_x_y  	0.05146
+last_change_y_y 0.02876
+Label_y  	0.01451
+----------------------------------------
+Testing AUC: 	0.688794382613
+September AUC: 	0.636434153311
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02482
+Age  		0.05889
+Flow_x  	0.00255
+Call_x  	0.06291
+SMS_x  		0.02974
+Result_Quantity_x 0.23905
+Price_x  	0.05971
+Label_x  	0.00424
+Trend_x_x  	0.00449
+compare1  	0.0057
+compare2  	0.02324
+ave  		0.04341
+system_x  	0.00363
+last_change_y_x 0.04019
+Brand_Counts_x  	0.15778
+Network_y  	0.00269
+Flow_y  	0.00299
+Call_y  	0.0657
+SMS_y  		0.03488
+Price_y  	0.02171
+system_y  	0.00989
+Trend_x_y  	0.04506
+last_change_y_y 0.03865
+Label_y  	0.01807
+----------------------------------------
+Testing AUC: 	0.689477689234
+September AUC: 	0.636710143116
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01606
+Age  		0.06064
+Flow_x  	0.00151
+SMS_x  		0.04216
+Result_Quantity_x 0.20925
+Price_x  	0.07097
+Label_x  	0.00088
+Trend_x_x  	0.01263
+compare1  	0.01139
+compare2  	0.01986
+ave  		0.04875
+system_x  	0.00302
+last_change_y_x 0.0355
+Brand_Counts_x  	0.11725
+Network_y  	0.00188
+Call_y  	0.09029
+SMS_y  		0.03151
+Result_Quantity_y 0.06176
+Price_y  	0.02087
+Brand_Counts_y  	0.05177
+system_y  	0.00146
+Trend_x_y  	0.04657
+last_change_y_y 0.02599
+Label_y  	0.01803
+----------------------------------------
+Testing AUC: 	0.68836823391
+September AUC: 	0.637170116987
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01768
+Age  		0.05217
+Flow_x  	0.00121
+Call_x  	0.0597
+SMS_x  		0.02017
+Result_Quantity_x 0.21785
+Price_x  	0.07568
+Label_x  	0.00273
+compare1  	0.00885
+compare2  	0.02095
+ave  		0.04639
+system_x  	0.0
+last_change_y_x 0.03165
+Brand_Counts_x  	0.11424
+Network_y  	0.00142
+Flow_y  	0.00558
+Call_y  	0.07197
+SMS_y  		0.0375
+Result_Quantity_y 0.06719
+Price_y  	0.02726
+Brand_Counts_y  	0.05501
+system_y  	0.00432
+last_change_y_y 0.0495
+Label_y  	0.01096
+----------------------------------------
+Testing AUC: 	0.688610395773
+September AUC: 	0.635243386446
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02365
+Age  		0.05245
+Flow_x  	0.0006
+Call_x  	0.0543
+SMS_x  		0.03079
+Result_Quantity_x 0.1785
+Price_x  	0.0652
+Label_x  	0.0013
+Trend_x_x  	0.01073
+compare1  	0.00801
+compare2  	0.02487
+ave  		0.04427
+system_x  	0.00226
+last_change_y_x 0.04108
+Brand_Counts_x  	0.15096
+Flow_y  	0.00052
+Call_y  	0.06391
+SMS_y  		0.04266
+Result_Quantity_y 0.07589
+Price_y  	0.02234
+system_y  	0.00639
+Trend_x_y  	0.05953
+last_change_y_y 0.02558
+Label_y  	0.0142
+----------------------------------------
+Testing AUC: 	0.688747958388
+September AUC: 	0.636394716953
+----------------------------------------
+Features 	 imortance: 
+Age  		0.06544
+Flow_x  	0.0
+Call_x  	0.0631
+SMS_x  		0.02303
+Result_Quantity_x 0.17593
+Price_x  	0.07079
+Label_x  	0.0029
+Trend_x_x  	0.01176
+compare1  	0.00754
+ave  		0.05055
+system_x  	0.00181
+last_change_y_x 0.04583
+Brand_Counts_x  	0.128
+Network_y  	0.02933
+Flow_y  	0.0
+Call_y  	0.05939
+SMS_y  		0.03435
+Result_Quantity_y 0.06359
+Price_y  	0.01493
+Brand_Counts_y  	0.04659
+system_y  	0.00517
+Trend_x_y  	0.04798
+last_change_y_y 0.03421
+Label_y  	0.01778
+----------------------------------------
+Testing AUC: 	0.68909022959
+September AUC: 	0.634553089295
+----------------------------------------
+Features 	 imortance: 
+Age  		0.05288
+Call_x  	0.06754
+SMS_x  		0.0233
+Result_Quantity_x 0.18869
+Price_x  	0.05356
+Label_x  	0.00544
+Trend_x_x  	0.0112
+compare1  	0.00753
+compare2  	0.02856
+ave  		0.0449
+system_x  	0.00249
+last_change_y_x 0.041
+Brand_Counts_x  	0.11844
+Network_y  	0.02748
+Flow_y  	0.0
+Call_y  	0.05819
+SMS_y  		0.03491
+Result_Quantity_y 0.07158
+Price_y  	0.01733
+Brand_Counts_y  	0.04613
+system_y  	0.00413
+Trend_x_y  	0.05146
+last_change_y_y 0.02876
+Label_y  	0.01451
+----------------------------------------
+Testing AUC: 	0.688795853084
+September AUC: 	0.636433511436
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01302
+Age  		0.06301
+Flow_x  	0.00119
+Call_x  	0.06123
+SMS_x  		0.04131
+Price_x  	0.07353
+Label_x  	0.0022
+Trend_x_x  	0.01302
+compare1  	0.00999
+compare2  	0.02704
+ave  		0.04429
+system_x  	0.01357
+last_change_y_x 0.04055
+Brand_Counts_x  	0.17403
+Network_y  	0.00224
+Flow_y  	0.0011
+Call_y  	0.07149
+Result_Quantity_y 0.16445
+Price_y  	0.02328
+Brand_Counts_y  	0.05415
+system_y  	0.00095
+Trend_x_y  	0.05117
+last_change_y_y 0.03223
+Label_y  	0.02095
+----------------------------------------
+Testing AUC: 	0.689040199394
+September AUC: 	0.634761890529
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.0205
+Age  		0.06082
+Flow_x  	0.0
+Call_x  	0.06957
+SMS_x  		0.02685
+Result_Quantity_x 0.17818
+Price_x  	0.06923
+Label_x  	0.00433
+Trend_x_x  	0.00826
+compare1  	0.00764
+compare2  	0.02466
+ave  		0.0493
+last_change_y_x 0.02796
+Brand_Counts_x  	0.11131
+Flow_y  	0.00084
+Call_y  	0.05723
+SMS_y  		0.03554
+Result_Quantity_y 0.07864
+Price_y  	0.01702
+Brand_Counts_y  	0.03947
+system_y  	0.00202
+Trend_x_y  	0.05522
+last_change_y_y 0.03384
+Label_y  	0.02155
+----------------------------------------
+Testing AUC: 	0.688749644563
+September AUC: 	0.636619168879
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01905
+Flow_x  	0.0
+Call_x  	0.03974
+SMS_x  		0.02642
+Result_Quantity_x 0.18479
+Price_x  	0.07764
+Label_x  	0.00099
+Trend_x_x  	0.01958
+compare1  	0.00645
+compare2  	0.04574
+system_x  	0.00085
+last_change_y_x 0.04131
+Brand_Counts_x  	0.12957
+Network_y  	0.00365
+Flow_y  	0.00119
+Call_y  	0.05603
+SMS_y  		0.04614
+Result_Quantity_y 0.07482
+Price_y  	0.01661
+Brand_Counts_y  	0.08299
+system_y  	0.00159
+Trend_x_y  	0.0669
+last_change_y_y 0.04811
+Label_y  	0.00983
+----------------------------------------
+Testing AUC: 	0.68709473336
+September AUC: 	0.631334591506
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01771
+Age  		0.06175
+Flow_x  	0.00074
+Call_x  	0.05105
+SMS_x  		0.03069
+Price_x  	0.07312
+Label_x  	0.00416
+Trend_x_x  	0.01275
+compare1  	0.0072
+compare2  	0.02751
+ave  		0.04331
+system_x  	0.01371
+last_change_y_x 0.03698
+Brand_Counts_x  	0.16809
+Network_y  	0.0013
+Flow_y  	0.0
+Call_y  	0.07433
+SMS_y  		0.03328
+Result_Quantity_y 0.16258
+Price_y  	0.03239
+Brand_Counts_y  	0.0507
+system_y  	0.00071
+Trend_x_y  	0.05017
+last_change_y_y 0.0221
+Label_y  	0.02367
+----------------------------------------
+Testing AUC: 	0.68886076488
+September AUC: 	0.633669126006
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01444
+Age  		0.0583
+Flow_x  	0.00109
+SMS_x  		0.03476
+Result_Quantity_x 0.21219
+Price_x  	0.06793
+Label_x  	0.00088
+Trend_x_x  	0.01353
+compare1  	0.01208
+compare2  	0.01992
+ave  		0.04593
+system_x  	0.00256
+last_change_y_x 0.03042
+Brand_Counts_x  	0.13063
+Network_y  	0.00075
+Flow_y  	0.0042
+Call_y  	0.08691
+SMS_y  		0.03611
+Result_Quantity_y 0.06469
+Price_y  	0.02482
+Brand_Counts_y  	0.03709
+system_y  	0.00281
+Trend_x_y  	0.05304
+last_change_y_y 0.02741
+Label_y  	0.01751
+----------------------------------------
+Testing AUC: 	0.68815448918
+September AUC: 	0.636153259498
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01988
+Age  		0.06195
+Flow_x  	0.0
+Call_x  	0.06903
+SMS_x  		0.02015
+Result_Quantity_x 0.17543
+Price_x  	0.06663
+Label_x  	0.00343
+Trend_x_x  	0.01118
+compare1  	0.00605
+compare2  	0.0238
+ave  		0.04955
+system_x  	0.0028
+last_change_y_x 0.03517
+Brand_Counts_x  	0.11042
+Network_y  	0.00267
+Call_y  	0.06087
+SMS_y  		0.03016
+Result_Quantity_y 0.0797
+Price_y  	0.01764
+Brand_Counts_y  	0.05216
+system_y  	0.0023
+Trend_x_y  	0.05053
+last_change_y_y 0.02713
+Label_y  	0.02136
+----------------------------------------
+Testing AUC: 	0.688912975494
+September AUC: 	0.637282469859
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01416
+Age  		0.06705
+Flow_x  	0.0
+Call_x  	0.06733
+SMS_x  		0.02394
+Result_Quantity_x 0.17852
+Price_x  	0.08059
+Label_x  	0.00521
+Trend_x_x  	0.01774
+compare1  	0.00605
+compare2  	0.02575
+ave  		0.04585
+system_x  	0.00127
+last_change_y_x 0.04598
+Brand_Counts_x  	0.11426
+Network_y  	0.00622
+Flow_y  	0.00087
+Call_y  	0.06063
+SMS_y  		0.0379
+Result_Quantity_y 0.07475
+Brand_Counts_y  	0.04133
+system_y  	0.00217
+Trend_x_y  	0.04487
+last_change_y_y 0.02182
+Label_y  	0.01575
+----------------------------------------
+Testing AUC: 	0.688658053963
+September AUC: 	0.636555644574
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02219
+Age  		0.05312
+Flow_x  	0.0005
+Call_x  	0.05749
+SMS_x  		0.02113
+Result_Quantity_x 0.18225
+Price_x  	0.07118
+Label_x  	0.00082
+compare1  	0.00741
+compare2  	0.02438
+ave  		0.04734
+system_x  	0.00163
+last_change_y_x 0.04401
+Brand_Counts_x  	0.10932
+Network_y  	0.00444
+Flow_y  	0.00108
+Call_y  	0.06235
+SMS_y  		0.03031
+Result_Quantity_y 0.07093
+Price_y  	0.01902
+Brand_Counts_y  	0.05249
+system_y  	0.00544
+Trend_x_y  	0.05112
+last_change_y_y 0.03892
+Label_y  	0.02113
+----------------------------------------
+Testing AUC: 	0.688511127808
+September AUC: 	0.636489924285
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01695
+Age  		0.05534
+Flow_x  	0.0
+Call_x  	0.06821
+SMS_x  		0.02254
+Result_Quantity_x 0.18511
+Price_x  	0.06837
+Label_x  	0.00076
+Trend_x_x  	0.01113
+compare1  	0.00754
+ave  		0.0483
+system_x  	0.00235
+last_change_y_x 0.03778
+Brand_Counts_x  	0.12201
+Network_y  	0.00393
+Flow_y  	0.0
+Call_y  	0.06156
+SMS_y  		0.03573
+Result_Quantity_y 0.07634
+Price_y  	0.01472
+Brand_Counts_y  	0.03983
+system_y  	0.00426
+Trend_x_y  	0.05426
+last_change_y_y 0.04814
+Label_y  	0.01484
+----------------------------------------
+Testing AUC: 	0.688764215758
+September AUC: 	0.634450872333
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.0391
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.0171
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03181
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.68908631908
+September AUC: 	0.636814307707
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01698
+Age  		0.06329
+Flow_x  	0.0006
+Call_x  	0.08482
+SMS_x  		0.02776
+Result_Quantity_x 0.18748
+Price_x  	0.07321
+Label_x  	0.00141
+Trend_x_x  	0.01536
+compare1  	0.0061
+compare2  	0.02559
+ave  		0.04224
+system_x  	0.00244
+last_change_y_x 0.04222
+Brand_Counts_x  	0.11934
+Network_y  	0.00373
+Flow_y  	0.00081
+SMS_y  		0.03353
+Result_Quantity_y 0.06557
+Price_y  	0.01549
+Brand_Counts_y  	0.05701
+system_y  	0.00441
+Trend_x_y  	0.05086
+last_change_y_y 0.04355
+Label_y  	0.01621
+----------------------------------------
+Testing AUC: 	0.688158971595
+September AUC: 	0.636279021732
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03088
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.6890861919
+September AUC: 	0.636811506359
+----------------------------------------
+Features 	 imortance: 
+Age  		0.05288
+Flow_x  	0.0
+Call_x  	0.06754
+SMS_x  		0.0233
+Result_Quantity_x 0.1867
+Price_x  	0.05356
+Label_x  	0.00544
+Trend_x_x  	0.0112
+compare1  	0.00753
+compare2  	0.02856
+ave  		0.0449
+system_x  	0.00249
+last_change_y_x 0.04115
+Brand_Counts_x  	0.12043
+Network_y  	0.02748
+Flow_y  	0.0
+Call_y  	0.05819
+SMS_y  		0.03489
+Result_Quantity_y 0.07158
+Price_y  	0.01733
+Brand_Counts_y  	0.04613
+system_y  	0.00413
+Trend_x_y  	0.05146
+last_change_y_y 0.02863
+Label_y  	0.01451
+----------------------------------------
+Testing AUC: 	0.688794024852
+September AUC: 	0.636440719952
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02233
+Age  		0.05276
+Flow_x  	0.0006
+Call_x  	0.06184
+SMS_x  		0.02755
+Result_Quantity_x 0.19186
+Price_x  	0.06265
+Label_x  	0.0014
+Trend_x_x  	0.0114
+compare1  	0.00902
+compare2  	0.02486
+ave  		0.03975
+system_x  	0.00178
+last_change_y_x 0.04028
+Brand_Counts_x  	0.15756
+Network_y  	0.00239
+Flow_y  	0.00052
+Call_y  	0.06314
+SMS_y  		0.04316
+Result_Quantity_y 0.06201
+Price_y  	0.02049
+system_y  	0.00574
+Trend_x_y  	0.05006
+last_change_y_y 0.02886
+Label_y  	0.01798
+----------------------------------------
+Testing AUC: 	0.6885997187
+September AUC: 	0.635928678331
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02219
+Age  		0.05277
+Flow_x  	0.0005
+Call_x  	0.05749
+SMS_x  		0.02113
+Result_Quantity_x 0.18223
+Price_x  	0.07154
+Label_x  	0.00082
+compare1  	0.00741
+compare2  	0.02438
+ave  		0.04734
+system_x  	0.00163
+last_change_y_x 0.04509
+Brand_Counts_x  	0.10934
+Network_y  	0.00444
+Flow_y  	0.00108
+Call_y  	0.06233
+SMS_y  		0.03032
+Result_Quantity_y 0.07092
+Price_y  	0.01902
+Brand_Counts_y  	0.05249
+system_y  	0.00545
+Trend_x_y  	0.05113
+last_change_y_y 0.03783
+Label_y  	0.02113
+----------------------------------------
+Testing AUC: 	0.68851286218
+September AUC: 	0.636496810266
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01695
+Age  		0.05535
+Flow_x  	0.0
+Call_x  	0.06821
+SMS_x  		0.02254
+Result_Quantity_x 0.18511
+Price_x  	0.06837
+Label_x  	0.00076
+Trend_x_x  	0.01113
+compare1  	0.00754
+ave  		0.0483
+system_x  	0.00235
+last_change_y_x 0.03578
+Brand_Counts_x  	0.12195
+Network_y  	0.00393
+Flow_y  	0.0
+Call_y  	0.06156
+SMS_y  		0.03571
+Result_Quantity_y 0.0764
+Price_y  	0.0147
+Brand_Counts_y  	0.03983
+system_y  	0.00426
+Trend_x_y  	0.05426
+last_change_y_y 0.05017
+Label_y  	0.01484
+----------------------------------------
+Testing AUC: 	0.68876387465
+September AUC: 	0.634447994152
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.01988
+Age  		0.06195
+Flow_x  	0.0
+Call_x  	0.06903
+SMS_x  		0.02013
+Result_Quantity_x 0.17752
+Price_x  	0.06663
+Label_x  	0.00343
+Trend_x_x  	0.01118
+compare1  	0.00605
+compare2  	0.0238
+ave  		0.04955
+system_x  	0.0028
+last_change_y_x 0.03519
+Brand_Counts_x  	0.10831
+Network_y  	0.00267
+Call_y  	0.06087
+SMS_y  		0.03018
+Result_Quantity_y 0.0797
+Price_y  	0.01764
+Brand_Counts_y  	0.05216
+system_y  	0.0023
+Trend_x_y  	0.05053
+last_change_y_y 0.02713
+Label_y  	0.02136
+----------------------------------------
+Testing AUC: 	0.688913348773
+September AUC: 	0.637283014288
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02219
+Age  		0.05312
+Flow_x  	0.0005
+Call_x  	0.05751
+SMS_x  		0.02113
+Result_Quantity_x 0.18223
+Price_x  	0.07118
+Label_x  	0.00082
+compare1  	0.00741
+compare2  	0.02438
+ave  		0.04734
+system_x  	0.00163
+last_change_y_x 0.04863
+Brand_Counts_x  	0.10932
+Network_y  	0.00444
+Flow_y  	0.00108
+Call_y  	0.06233
+SMS_y  		0.0303
+Result_Quantity_y 0.07094
+Price_y  	0.01902
+Brand_Counts_y  	0.05251
+system_y  	0.00544
+Trend_x_y  	0.05112
+last_change_y_y 0.03429
+Label_y  	0.02113
+----------------------------------------
+Testing AUC: 	0.68850870692
+September AUC: 	0.636492454578
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19265
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00128
+last_change_y_x 0.03305
+Brand_Counts_x  	0.11158
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.0171
+Brand_Counts_y  	0.03969
+system_y  	0.00384
+Trend_x_y  	0.051
+last_change_y_y 0.03181
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689087727237
+September AUC: 	0.636817305105
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19265
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03305
+Brand_Counts_x  	0.11158
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03182
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689089478134
+September AUC: 	0.636814153782
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19265
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03086
+Brand_Counts_x  	0.11158
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03971
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689085810295
+September AUC: 	0.636811506359
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01293
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03303
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.05101
+last_change_y_y 0.03181
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689088184667
+September AUC: 	0.63681302303
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03086
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03401
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689087665173
+September AUC: 	0.636806798505
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01293
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00128
+last_change_y_x 0.03086
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00384
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689087387076
+September AUC: 	0.636814255892
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19265
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03303
+Brand_Counts_x  	0.11158
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03183
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689086148913
+September AUC: 	0.636814912942
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03305
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.0171
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03181
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689086315627
+September AUC: 	0.636814307707
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03303
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03183
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689086141196
+September AUC: 	0.636814918147
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03088
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.0171
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.68908618073
+September AUC: 	0.636811499402
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19265
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03088
+Brand_Counts_x  	0.11158
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689086188448
+September AUC: 	0.636811506359
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00128
+last_change_y_x 0.03086
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07775
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00384
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689090097101
+September AUC: 	0.636814468871
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19265
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00284
+last_change_y_x 0.03086
+Brand_Counts_x  	0.1116
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00228
+Trend_x_y  	0.051
+last_change_y_y 0.03399
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689088788742
+September AUC: 	0.636811169395
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06723
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00128
+last_change_y_x 0.03305
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05302
+SMS_y  		0.02907
+Result_Quantity_y 0.07774
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00384
+Trend_x_y  	0.051
+last_change_y_y 0.03181
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689090886224
+September AUC: 	0.636817223171
+----------------------------------------
+Features 	 imortance: 
+Network_x  	0.02002
+Age  		0.06044
+Flow_x  	0.0
+Call_x  	0.06727
+SMS_x  		0.01656
+Result_Quantity_x 0.19119
+Price_x  	0.06902
+Label_x  	0.00343
+Trend_x_x  	0.01292
+compare1  	0.00605
+compare2  	0.02752
+ave  		0.05003
+system_x  	0.00128
+last_change_y_x 0.03303
+Brand_Counts_x  	0.11303
+Network_y  	0.00545
+Flow_y  	0.00223
+Call_y  	0.05298
+SMS_y  		0.02907
+Result_Quantity_y 0.07775
+Price_y  	0.01709
+Brand_Counts_y  	0.03969
+system_y  	0.00384
+Trend_x_y  	0.051
+last_change_y_y 0.03181
+Label_y  	0.01728
+----------------------------------------
+Testing AUC: 	0.689087271603
+September AUC: 	0.63681743785
